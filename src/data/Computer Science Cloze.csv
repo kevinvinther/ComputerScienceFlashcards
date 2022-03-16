@@ -1,5 +1,3 @@
 guid,text,extra,tags
-"psLZ#_^,`B","<p>06 Control Structures &gt; Commands &gt; There are two types of iteration: {{c1::bounded}} and {{c1::unbounded}}. {{c1::Bounded}} is for numerically controlled cycles (for, do), and {{c1::unbounded}} is for logically controlled cycles (while, repeat).</p>",,"obsidian, programming-languages"
-xY8Z;{WA$|,"<p>07 Control Abstraction &gt; Review from last &gt; Commands are more in {{c1::imperative}} languages, while expressions are more in {{c1::functional}} languages</p>",,"obsidian, programming-languages"
-Aogqu3;@vw,"<p>08 Types &gt; Types &gt; {{c3::, true}}</p>",,"obsidian, programming-languages"
-"w>[+,j:&dk","<p>07 Control Abstraction &gt; Control Abstraction &gt; What is call by result? :: Opposite of value. The value of the result is returned and modified, but is not a reference. foo(result y) {{c1::y + 1}}, then y would be y + 1 from here on.</p>",,"obsidian, programming-languages"
+"psLZ#_^,`B","<p>There are two types of iteration: {{c1::bounded}} and {{c1::unbounded}}. {{c1::Bounded}} is for numerically controlled cycles (for, do), and {{c1::unbounded}} is for logically controlled cycles (while, repeat).</p>",,"CS::programming-languages, CS::PLChapter6"
+xY8Z;{WA$|,"<p>Commands are more in {{c1::imperative}} languages, while expressions are more in {{c1::functional}} languages</p>",,"CS::programming-languages, CS::PLChapter7"
