@@ -20,11 +20,11 @@
 - generate_csvs:
     notes: deck_notes
     file_mappings:
-    - file: src/data/Obsidian-basic.csv
-      note_model: Obsidian-basic
-    - file: src/data/Obsidian-cloze.csv
-      note_model: Obsidian-cloze
+    - file: src/data/Computer Science Basic.csv
+      note_model: Computer Science Basic
+    - file: src/data/Computer Science Cloze.csv
+      note_model: Computer Science Cloze
     note_model_mappings:
     - note_models:
-      - Obsidian-basic
-      - Obsidian-cloze
+      - Computer Science Basic
+      - Computer Science Cloze
