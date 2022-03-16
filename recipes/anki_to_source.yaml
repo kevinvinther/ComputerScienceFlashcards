@@ -1,0 +1,30 @@
+- build_parts:
+  - headers_from_crowd_anki:
+      part_id: deck_headers
+      source: build/Computer_Science
+  - notes_from_crowd_anki:
+      part_id: deck_notes
+      source: build/Computer_Science
+  - note_models_all_from_crowd_anki:
+      source: build/Computer_Science
+  - media_group_from_crowd_anki:
+      part_id: deck_media
+      source: build/Computer_Science
+      recursive: true
+- save_media_groups_to_folder:
+    parts:
+    - deck_media
+    folder: src/media/
+    clear_folder: true
+    recursive: true
+- generate_csvs:
+    notes: deck_notes
+    file_mappings:
+    - file: src/data/Obsidian-basic.csv
+      note_model: Obsidian-basic
+    - file: src/data/Obsidian-cloze.csv
+      note_model: Obsidian-cloze
+    note_model_mappings:
+    - note_models:
+      - Obsidian-basic
+      - Obsidian-cloze
