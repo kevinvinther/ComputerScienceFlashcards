@@ -1,16 +1,16 @@
 - generate_guids_in_csvs:
     source:
-    - src/data/Obsidian-basic.csv
-    - src/data/Obsidian-cloze.csv
+    - src/data/Computer Science Basic.csv
+    - src/data/Computer Science Cloze.csv
     columns:
     - guid
 - build_parts:
   - note_models_from_yaml_part:
-      part_id: Obsidian-basic
-      file: src/note_models/Obsidian-basic/Obsidian-basic.yaml
+      part_id: Computer Science Basic
+      file: src/note_models/Computer Science Basic/Computer Science Basic.yaml
   - note_models_from_yaml_part:
-      part_id: Obsidian-cloze
-      file: src/note_models/Obsidian-cloze/Obsidian-cloze.yaml
+      part_id: Computer Science Cloze
+      file: src/note_models/Computer Science Cloze/Computer Science Cloze.yaml
   - headers_from_yaml_part:
       part_id: deck_headers
       file: src/headers/header1.yaml
@@ -18,14 +18,14 @@
       part_id: deck_notes
       save_to_file: null
       file_mappings:
-      - file: src/data/Obsidian-basic.csv
-        note_model: Obsidian-basic
-      - file: src/data/Obsidian-cloze.csv
-        note_model: Obsidian-cloze
+      - file: src/data/Computer Science Basic.csv
+        note_model: Computer Science Basic
+      - file: src/data/Computer Science Cloze.csv
+        note_model: Computer Science Cloze
       note_model_mappings:
       - note_models:
-        - Obsidian-basic
-        - Obsidian-cloze
+        - Computer Science Basic
+        - Computer Science Cloze
   - media_group_from_folder:
       part_id: deck_media
       source: src/media/
@@ -36,8 +36,8 @@
       part_id: deck_notes
     note_models:
       parts:
-      - part_id: Obsidian-basic
-      - part_id: Obsidian-cloze
+      - part_id: Computer Science Basic
+      - part_id: Computer Science Cloze
     headers: deck_headers
     media:
       parts:
