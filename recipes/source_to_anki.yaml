@@ -1,7 +1,11 @@
 - generate_guids_in_csvs:
     source:
-    - src/data/Computer Science Basic.csv
-    - src/data/Computer Science Cloze.csv
+    - src/data/Programming Languages Basic.csv
+    - src/data/Programming Languages Cloze.csv
+    - src/data/Operating Systems Basic.csv
+    - src/data/Operating Systems Cloze.csv
+    # - src/data/Computer Science Basic.csv
+    # - src/data/Computer Science Cloze.csv
     columns:
     - guid
 - build_parts:
@@ -18,9 +22,13 @@
       part_id: deck_notes
       save_to_file: null
       file_mappings:
-      - file: src/data/Computer Science Basic.csv
+      - file: src/data/Programming Languages Basic.csv
         note_model: Computer Science Basic
-      - file: src/data/Computer Science Cloze.csv
+      - file: src/data/Programming Languages Cloze.csv
+        note_model: Computer Science Cloze
+      - file: src/data/Operating Systems Basic.csv
+        note_model: Computer Science Basic
+      - file: src/data/Operating Systems Cloze.csv
         note_model: Computer Science Cloze
       note_model_mappings:
       - note_models:
