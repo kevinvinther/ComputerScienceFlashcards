@@ -73,10 +73,10 @@ JRe=Kt?h+N,<p>Are enumerations ordered or unordered?</p>,<p>Ordered</p>,"CS::PLC
 eDSq5#Z=9J,<p>What are the pros of call by reference?</p>,<p>You don't have to copy anything</p>,"CS::PLChapter08, CS::programming-languages"
 "obxz6,YR$5",What did algol60 introduce?,"<ul>
 <li>Block Structure</li><li>Recursion</li><li>a <i>formal definition</i></li>
-</ul>",CS::PLChapter13
+</ul>","CS::PLChapter13, CS::programming-languages"
 zg];0.j!gP,What did fortran introduce?,"<ul>
 <li> Variables</li><li>Loops</li><li>Procedures</li><li>Statement labels</li><li>Much more</li>
-</ul>",CS::PLChapter13
+</ul>","CS::PLChapter13, CS::programming-languages"
 mNO0({flwI,What is Java originally designed for?&nbsp;,"Internet programming, but is a general-purpose language.&nbsp;","CS::PLChapter13, CS::programming-languages"
 Dm`ArQ_wNS,What is the difference between C (1972) and C++ (1980)?&nbsp;,C++ is an <i>object-oriented</i>&nbsp;extension of the imperative language <i>C. </i>Designed in 1980.,"CS::PLChapter13, CS::programming-languages"
 "uBdQ>)^j,R","What programming style (Imperative, Functional, Declarative, Functional Logic) is Prolog?&nbsp;",Declarative,"CS::PLChapter13, CS::programming-languages"
