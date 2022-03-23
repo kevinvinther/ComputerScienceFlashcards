@@ -18,6 +18,8 @@
   - headers_from_yaml_part:
       part_id: deck_headers
       file: src/headers/header1.yaml
+      override:
+        deck_description_html_file: src/headers/desc.html
   - notes_from_csvs:
       part_id: deck_notes
       save_to_file: null
