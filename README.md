@@ -8,6 +8,7 @@
 5. (From here on using BrainBrew) go to the ComputerScienceFlashcards folder
 6. Run `brainbrew run recipes/source_to_anki.yaml`
 7. Press Files on the Anki toolbar, then CrowdAnki: Import from disk, find `ComputerScienceFlashcards/build` and choose import. 
+8. In the event that any or all cards are blank with the exception of the tags, delete the cards (ctrl+del in browser), close and reopen anki and import the deck again.
 
 
 ## How to update
