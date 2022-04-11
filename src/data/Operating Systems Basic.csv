@@ -51,9 +51,9 @@ g/80]Hz$fn,What is the difference between kernel modules and applications?,Two m
 "L.#,O!n0)@","What is the consequence of a fault in a kernel module, and how is it different from a fault in a normal application?","In a normal program a debugger can catch faults, while with kernel modules the kernel, or maybe even the entire system fails completely. ","CS::OSMisc, CS::operating-systems"
 D)O|qHnwmd,Do kernel modules run in user space?,"No, they run in kernel space. Normal applications run in user space.","CS::OSMisc, CS::operating-systems"
 ioL!}0-RY%,What is the difference between <i>insmod</i> and <i>modprobe</i>?,"Modprobe loads any other modules required by the module you want to load, <b>but</b> only look sin the standard installed modules directory.","CS::OSMisc, CS::operating-systems"
-t6iWR>Vay:,Do usb mice and sound cards use character devices or block devices?,Character devices.,
-"bU%]|X<n?,",What does the major number in <i>/dev</i> signify?,A unique way oif identifying a driver which can be associated with a particular device device.,
-h>I1gtKEy$,What does the minor number in <i>/dev</i> signify?,The minor number corresponds to the number of instances of the device.,
-"r(&x],K*(j",What is a race condition?,Race conditions are a result of uncontrolled access to shared data.,
-F:F^O#vFWh,What is locking or mutual exclusion?,A technique for access management that makes sure only one thread of execution can manipulate a shared resource at any time. ,
-DRvqLGP%!o,What is a spinlock?,"A lock that forces a process that is trying to access the lock to wait in a loop while repeatedly checking if the lock is available, until the lock is available.",
+t6iWR>Vay:,Do usb mice and sound cards use character devices or block devices?,Character devices.,"CS::OSMisc, CS::operating-systems"
+"bU%]|X<n?,",What does the major number in <i>/dev</i> signify?,A unique way oif identifying a driver which can be associated with a particular device device.,"CS::OSMisc, CS::operating-systems"
+h>I1gtKEy$,What does the minor number in <i>/dev</i> signify?,The minor number corresponds to the number of instances of the device. A minor number starts at 0 and goes to the number of instaces minus one. Each instance will have its own minor number. ,"CS::OSMisc, CS::operating-systems"
+"r(&x],K*(j",What is a race condition?,Race conditions are a result of uncontrolled access to shared data.,"CS::OSMisc, CS::operating-systems"
+F:F^O#vFWh,What is locking or mutual exclusion?,A technique for access management that makes sure only one thread of execution can manipulate a shared resource at any time. ,"CS::OSMisc, CS::operating-systems"
+DRvqLGP%!o,What is a spinlock?,"A lock that forces a process that is trying to access the lock to wait in a loop while repeatedly checking if the lock is available, until the lock is available.","CS::OSMisc, CS::operating-systems"
