@@ -1,3 +1,4 @@
 guid,text,extra,tags
 "psLZ#_^,`B","<p>There are two types of iteration: {{c1::bounded}} and {{c1::unbounded}}. {{c1::Bounded}} is for numerically controlled cycles (for, do), and {{c1::unbounded}} is for logically controlled cycles (while, repeat).</p>",,"CS::PLChapter06, CS::programming-languages"
 xY8Z;{WA$|,"<p>Commands are more in {{c1::imperative}} languages, while expressions are more in {{c1::functional}} languages</p>",,"CS::PLChapter07, CS::programming-languages"
+Jz6HVi8lX|,"All common programming languages using static scope, also use {{c1::deep}} binding",,"CS::PLChapter07, CS::programming-languages"
