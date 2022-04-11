@@ -127,6 +127,7 @@ zF&cy?J|C:, What can be used to terminate a process in Linux and UNIX systems?,e
 Infxujp{5<, Why may mobile operating systems have to terminate existing processes to reclaim system resources?,resource constraints such as limited memory,"CS::OSChapter03, CS::operating-systems"
 GR0sS(PuHC, What does IPC stand for?,interprocess communication,"CS::OSChapter03, CS::operating-systems"
 w}_@:>S||$, Ordinary pipes on Windows systems are termed what?,anonymous pipes,"CS::OSChapter03, CS::operating-systems"
-C2@)WM3=/k,What is a pipe?,"a pipe is a technique for passing information from one program process to another. Unlike other forms of interprocess communication (IPC), a pipe is one-way communication only.","CS::OSChapter03, CS::operating-systems"
+C2@)WM3=/k,What is a pipe?,a pipe is a technique for passing information from one program process to another. Ordinary pipes (not named) are unidirectional,"CS::OSChapter03, CS::operating-systems"
 ww[#0:W7_E, What character can be used to construct a pipe on the command line?,|,"CS::OSChapter03, CS::operating-systems"
 wXR:8]@=-), What allows two processes on different machines to communicate over a network?,Sockets,"CS::OSChapter03, CS::operating-systems"
+Q/y6#i>Z{3,What are named pipes?,"Named pipes (aka FIFO) is an extension to ordinary pipes. A named pipe can last longer  than the lifetime of the process, and appears as a file and generally processes attach to it for interprocess communication.","CS::OSChapter03, CS::operating-systems"
