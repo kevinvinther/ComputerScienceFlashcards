@@ -58,34 +58,75 @@ h>I1gtKEy$,What does the minor number in <i>/dev</i> signify?,The minor number c
 F:F^O#vFWh,What is locking or mutual exclusion?,A technique for access management that makes sure only one thread of execution can manipulate a shared resource at any time. ,"CS::OSMisc, CS::operating-systems"
 DRvqLGP%!o,What is a spinlock?,"A lock that forces a process that is trying to access the lock to wait in a loop while repeatedly checking if the lock is available, until the lock is available.","CS::OSMisc, CS::operating-systems"
 Bts;8yoot},What are <i>shells</i>?,Flavors of the CLI,"CS::OSChapter02, CS::operating-systems"
-HD2]j2plO{,What does the CLI or command interpreter do?,Fetches a command from the user and executes it. Can be both built-in commands bu talso names of programs. ,
-k?.<I/ntv|,What are system calls?,Programming interface to the services provided by the OS,
-"Li,LhE*R)A",How are system calls usually accessed by programs?,Via a higher-level API rather than a direct system call use. ,
-d?G^d]kgVe,How do modern systems avoid linking libraries into executables?,"Using dynamically linked libraries (DLLs in windows), which are loaded as needed",
-L~eFEiBA*g,What is a hybrid kernel?,A kernel architecture based on combining aspects of microkernel and monolithic kernel architectures,
-oyWVdLTZ`d,What is tracing? ,"A method of collecting data for a specific event, such as steps involved in a system call invocation",
-"j,d(@<5)H(",What is CLI an abbreviation for?,Command line interface,
-c/d3H75.n%, How are packets of information in predefined formats moved between processes by the operating system?,message passing,
-y(c(B>ByxP, Operating systems have CPU-scheduling routines that take into account what?,the speed of the CPU,
-tt^}]<[uQ7, When did graphic user interfaces first appear?,early 1970s,
-E}-]j;lZA>, What was the name of the interface that appeared with macOS in the 1980s?,Aqua,
-jY)C<>Vk3w, What was Microsoft's first version of Windows based on?,MS-DOS operating system,
-Q&5gd@4B)i, How do users interact with the touch screen?,by making gestures,
-ygLYV]3V-A, What is the main reason for choosing a GUI interface?,personal preference,
-zl4~&!Zb4L, How many system calls do systems execute per second?,thousands,
-oQoB$X>G_e, What does an API specify?,a set of functions that are available to an application programmer,
-"fT[M,+II$U", How does a programmer access a (system) API?,via a library of code provided by the operating system,
-&<K{/9|7X,What are the three main methods of passing parameters in an operating system?,"1) Pass the parameters in registers (this may prove insufficient when there are more parameters than registers). (2) Store the parameters in a block, or table, in memory, and pass the address of block as a parameter in a register. This approach is used by Linux and Solaris. (3) Push the parameters onto a stack; to be popped off by the OS.",
-w{`vnOTevy, What method of passing parameters is used if there are more than five parameters?,the block method,
-J*K)2PuM#u,"Which is easier to implement, message passing or shared memory?",message passing,
-sLKU>V(<(^," What allows maximum speed and convenience of communication, message passing or shared memory?",Shared memory,
-O[`s|_5I)M, What does the compiler generate in a machine- and operating-system specific language?,binaries,
-uR<<Az5/gW, What language is the kernel of Android written mostly in?,C,
-fK|TWA6U0], What languages are often used for higher level routines?,C and C++,
-Gaaw7kr(H4, What language are most Android system libraries written in?,Java,
-izt/vp0/nO, What is UNIX structured similarly to?,monolithic structure,
-Hf1a3>zSG/, What is the Linux operating system based on?,UNIX,
-IBMF2Czr)=, The Linux kernel is monolithic in that it runs entirely in what mode?,kernel,
-IEJ1ySrSPh, How can a system be made modular?,Using the layered approach,
-A<cl>D.M%Q, What is a layered approach?,the operating system is broken into a number of layers (levels).,
-CgP&T#)0)_, What was the original UNIX system's structure?,monolithic,
+HD2]j2plO{,What does the CLI or command interpreter do?,Fetches a command from the user and executes it. Can be both built-in commands bu talso names of programs. ,"CS::OSChapter02, CS::operating-systems"
+k?.<I/ntv|,What are system calls?,Programming interface to the services provided by the OS,"CS::OSChapter02, CS::operating-systems"
+"Li,LhE*R)A",How are system calls usually accessed by programs?,Via a higher-level API rather than a direct system call use. ,"CS::OSChapter02, CS::operating-systems"
+d?G^d]kgVe,How do modern systems avoid linking libraries into executables?,"Using dynamically linked libraries (DLLs in windows), which are loaded as needed","CS::OSChapter02, CS::operating-systems"
+L~eFEiBA*g,What is a hybrid kernel?,A kernel architecture based on combining aspects of microkernel and monolithic kernel architectures,"CS::OSChapter02, CS::operating-systems"
+oyWVdLTZ`d,What is tracing? ,"A method of collecting data for a specific event, such as steps involved in a system call invocation","CS::OSChapter02, CS::operating-systems"
+"j,d(@<5)H(",What is CLI an abbreviation for?,Command line interface,"CS::OSChapter02, CS::operating-systems"
+c/d3H75.n%, How are packets of information in predefined formats moved between processes by the operating system?,message passing,"CS::OSChapter02, CS::operating-systems"
+y(c(B>ByxP, Operating systems have CPU-scheduling routines that take into account what?,the speed of the CPU,"CS::OSChapter02, CS::operating-systems"
+tt^}]<[uQ7, When did graphic user interfaces first appear?,early 1970s,"CS::OSChapter02, CS::operating-systems"
+E}-]j;lZA>, What was the name of the interface that appeared with macOS in the 1980s?,Aqua,"CS::OSChapter02, CS::operating-systems"
+jY)C<>Vk3w, What was Microsoft's first version of Windows based on?,MS-DOS operating system,"CS::OSChapter02, CS::operating-systems"
+Q&5gd@4B)i, How do users interact with the touch screen?,by making gestures,"CS::OSChapter02, CS::operating-systems"
+ygLYV]3V-A, What is the main reason for choosing a GUI interface?,personal preference,"CS::OSChapter02, CS::operating-systems"
+zl4~&!Zb4L, How many system calls do systems execute per second?,thousands,"CS::OSChapter02, CS::operating-systems"
+oQoB$X>G_e, What does an API specify?,a set of functions that are available to an application programmer,"CS::OSChapter02, CS::operating-systems"
+"fT[M,+II$U", How does a programmer access a (system) API?,via a library of code provided by the operating system,"CS::OSChapter02, CS::operating-systems"
+&<K{/9|7X,What are the three main methods of passing parameters in an operating system?,"1) Pass the parameters in registers (this may prove insufficient when there are more parameters than registers). (2) Store the parameters in a block, or table, in memory, and pass the address of block as a parameter in a register. This approach is used by Linux and Solaris. (3) Push the parameters onto a stack; to be popped off by the OS.","CS::OSChapter02, CS::operating-systems"
+w{`vnOTevy, What method of passing parameters is used if there are more than five parameters?,the block method,"CS::OSChapter02, CS::operating-systems"
+J*K)2PuM#u,"Which is easier to implement, message passing or shared memory?",message passing,"CS::OSChapter02, CS::operating-systems"
+sLKU>V(<(^," What allows maximum speed and convenience of communication, message passing or shared memory?",Shared memory,"CS::OSChapter02, CS::operating-systems"
+O[`s|_5I)M, What does the compiler generate in a machine- and operating-system specific language?,binaries,"CS::OSChapter02, CS::operating-systems"
+uR<<Az5/gW, What language is the kernel of Android written mostly in?,C,"CS::OSChapter02, CS::operating-systems"
+fK|TWA6U0], What languages are often used for higher level routines?,C and C++,"CS::OSChapter02, CS::operating-systems"
+Gaaw7kr(H4, What language are most Android system libraries written in?,Java,"CS::OSChapter02, CS::operating-systems"
+izt/vp0/nO, What is UNIX structured similarly to?,monolithic structure,"CS::OSChapter02, CS::operating-systems"
+Hf1a3>zSG/, What is the Linux operating system based on?,UNIX,"CS::OSChapter02, CS::operating-systems"
+IBMF2Czr)=, The Linux kernel is monolithic in that it runs entirely in what mode?,kernel,"CS::OSChapter02, CS::operating-systems"
+IEJ1ySrSPh, How can a system be made modular?,Using the layered approach,"CS::OSChapter02, CS::operating-systems"
+A<cl>D.M%Q, What is a layered approach?,the operating system is broken into a number of layers (levels).,"CS::OSChapter02, CS::operating-systems"
+CgP&T#)0)_, What was the original UNIX system's structure?,monolithic,"CS::OSChapter02, CS::operating-systems"
+PGySl~%sy`, What does macOS refer to as kernel extensions?,kexts,"CS::OSChapter02, CS::operating-systems"
+J~xYr-Xvmt, AOT compilation allows more efficient what?,application execution,"CS::OSChapter02, CS::operating-systems"
+"KOkN~qcB?,", What does glibc stand for?,GNU C library,"CS::OSChapter02, CS::operating-systems"
+m`SQso_f#0, What is the name of the small boot loader located in nonvolatile firmware?,BIOS,"CS::OSChapter02, CS::operating-systems"
+"b`?,u.ghzc", What has replaced the BIOS-based boot process with?,UEFI (Unified Extensible Firmware Interface).,"CS::OSChapter02, CS::operating-systems"
+HRk>3oeYt0, GRUB is an open-source bootstrap program for what two systems?,Linux and UNIX,"CS::OSChapter02, CS::operating-systems"
+my{w;zMB8*, What does vmstat report?,memory-usage statistics,"CS::OSChapter02, CS::operating-systems"
+uN}5!r]Nbx, What are three ways to interact with an operating system?,"(1) command interpreters, (2) graphical user interfaces, and (3) touchscreen interfaces","CS::OSChapter02, CS::operating-systems"
+NxW8{4?5F/, What is a loader?,Program that loads the executable file into memory,"CS::OSChapter02, CS::operating-systems"
+pb%ePea01R, What is a primary benefit of a layered operating system?,efficiency,"CS::OSChapter02, CS::operating-systems"
+LZjGv]?!jc, What is ABI?,application binary interface,"CS::OSChapter02, CS::operating-systems"
+b`lt!`+9yy, What is the main advantage of the microkernel approach to system design?,efficiency,"CS::OSChapter02, CS::operating-systems"
+O]R~@+b]y*,What is a process?,A program in execution.,"CS::OSChapter03, CS::operating-systems"
+bWr7B4}}|9,What is the difference between a program and a process?,"A program is a passive entity stored on a disk, a process is active.","CS::OSChapter03, CS::operating-systems"
+Q(B:qz.v.L,How many processes for one program?,"At least one, but there can be several","CS::OSChapter03, CS::operating-systems"
+JYjL3~s}b),What are the process states?,New → ready → running/waiting → terminated,"CS::OSChapter03, CS::operating-systems"
+FTIt+s|!O-,What is PCB an abbreviation of?,Process Control Block,"CS::OSChapter03, CS::operating-systems"
+bTy;b[/p]C,When does a context switch occur?,When the CPU switches from one process to another,"CS::OSChapter03, CS::operating-systems"
+n&dY7krIOH,What must the system do when the CPU switches form one process to another? (In relation to states),"When CPU switches to another process, the system must save the state of the old process and load the saved state for the new process via a context switch","CS::OSChapter03, CS::operating-systems"
+LpEPq~MDmn,What does the long-term scheduler (or job scheduler) do?,Select which processes should be brought into the ready queue,"CS::OSChapter03, CS::operating-systems"
+gPo-VJ8@$|,What does the short-term scheduler (or CPU scheduler) do?,Select which process should be executed next and allocates CPU. This is sometimes the only scheduler in a system.,"CS::OSChapter03, CS::operating-systems"
+hTI>`/*4uu,"Which is invoked more often, short-term scheduler or long-term, and what does this mean?","Short-term. This means that short-term must be fast, while the long-term may be slow.","CS::OSChapter03, CS::operating-systems"
+Mk]a-MLh%>,What are processes generally identified and managed via?,A process identifier (pid),"CS::OSChapter03, CS::operating-systems"
+F8}3~e*ufU,What is the system call to create a new process in UNIX?,fork(),"CS::OSChapter03, CS::operating-systems"
+"H(FMO,CkLO",What is cascading termination?,"If a parent process is terminated, all related processes are terminated abnormally.","CS::OSChapter03, CS::operating-systems"
+goZNd)eUIM,What is an orphan process?,"An orphan process is a computer process whose parent process has finished or terminated, though it remains running itself.","CS::OSChapter03, CS::operating-systems"
+"M2<dA<,1m~",What is a zombie process?,"When no parent is waiting for the child to close, the process is a zombie.","CS::OSChapter03, CS::operating-systems"
+]Dy)RU]sl, What is the name of the state of the process that has finished execution?,Terminated,"CS::OSChapter03, CS::operating-systems"
+z9GqJ(JeDj, How many registers are there?,"The registers vary in number and type, depending on the computer architecture. They include accumulators, index registers, stack pointers, and general-purpose registers","CS::OSChapter03, CS::operating-systems"
+J@1VqQd~7;, What kind of system allows multiple threads to run in parallel?,multicore,"CS::OSChapter03, CS::operating-systems"
+A}WwA)o.D~, How often does the CPU scheduler execute?,at least once every 100 milliseconds,"CS::OSChapter03, CS::operating-systems"
+I#i~2egeIj, What does Linux prefer to use instead of the term process?,task,"CS::OSChapter03, CS::operating-systems"
+JI/znLQCX+, What creates a child process?,a parent,"CS::OSChapter03, CS::operating-systems"
+q?yBIjWP1~,What is the system call the parent uses to wait for the child to complete? (in UNIX),wait(),"CS::OSChapter03, CS::operating-systems"
+zF&cy?J|C:, What can be used to terminate a process in Linux and UNIX systems?,exit() system call,"CS::OSChapter03, CS::operating-systems"
+Infxujp{5<, Why may mobile operating systems have to terminate existing processes to reclaim system resources?,resource constraints such as limited memory,"CS::OSChapter03, CS::operating-systems"
+GR0sS(PuHC, What does IPC stand for?,interprocess communication,"CS::OSChapter03, CS::operating-systems"
+w}_@:>S||$, Ordinary pipes on Windows systems are termed what?,anonymous pipes,"CS::OSChapter03, CS::operating-systems"
+C2@)WM3=/k,What is a pipe?,"a pipe is a technique for passing information from one program process to another. Unlike other forms of interprocess communication (IPC), a pipe is one-way communication only.","CS::OSChapter03, CS::operating-systems"
+ww[#0:W7_E, What character can be used to construct a pipe on the command line?,|,"CS::OSChapter03, CS::operating-systems"
+wXR:8]@=-), What allows two processes on different machines to communicate over a network?,Sockets,"CS::OSChapter03, CS::operating-systems"

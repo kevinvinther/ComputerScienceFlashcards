@@ -1,1 +1,3 @@
 guid,text,extra,tags
+HJ>A]/})oZ,"As a process executes, it changes {{c1::state}}",,"CS::OSChapter03, CS::operating-systems"
+sBYtqX7wtD,"{{c1::Parent}} processes create {{c2::children}} processes, which in turn create other processes, forming a {{c3::tree}} of processes",,"CS::OSChapter03, CS::operating-systems"
