@@ -1,4 +1,5 @@
 guid,text,extra,tags
 HJ>A]/})oZ,"As a process executes, it changes {{c1::state}}",,"CS::OSChapter03, CS::operating-systems"
 sBYtqX7wtD,"{{c1::Parent}} processes create {{c2::children}} processes, which in turn create other processes, forming a {{c3::tree}} of processes",,"CS::OSChapter03, CS::operating-systems"
-,"The {{c1::CPU scheduler}} selects from among the processes in ready queue, and allocates a CPU core to one of them",,"CS::OSChapter05, CS::operating-systems"
+r:dI0(eY|D,"The {{c1::CPU scheduler}} selects from among the processes in ready queue, and allocates a CPU core to one of them",,"CS::OSChapter05, CS::operating-systems"
+tcd!`y@}qH,Preemptive scheduling algorithms can result in {{c1::race}} conditions.,,"CS::OSChapter05, CS::operating-systems"
