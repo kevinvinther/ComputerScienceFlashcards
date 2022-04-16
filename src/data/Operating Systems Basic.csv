@@ -140,3 +140,4 @@ sv.hzax.=],What are <b>signals</b> used for in UNIX systems?,To notify a process
 "lRClH,uy29",Can you have concurrency without parallelism?,Yes,"CS::OSChapter04, CS::operating-systems"
 Q59@I)4Oky, What was designed to provide the illusion of parallelism by rapidly switching between processes?,CPU schedulers,"CS::OSChapter04, CS::operating-systems"
 b/D[N{]m(Q, What does TLS stand for?,thread-local storage,"CS::OSChapter04, CS::operating-systems"
+,When does the CPU scheduling decisions take place?,"When the CPU switches from running to waiting state, from running to ready state, from waiting to ready or terminates","CS::OSChapter05, CS::operating-systems"
