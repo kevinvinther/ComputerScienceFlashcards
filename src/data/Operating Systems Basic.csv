@@ -170,3 +170,24 @@ vm$3Ugx;*t,What is SMP?,symmetric multiprocessing,"CS::OSChapter05, CS::operatin
 pmP<AovKud, What could be used to protect the common ready queue from a race condition?,locking,"CS::OSChapter05, CS::operating-systems"
 Cfo>GY^_*z, What is a cache miss?,accessing data that are not in cache memory,"CS::OSChapter05, CS::operating-systems"
 Q+DSV<X!gS, What does NUMA stand for?,non-uniform memory access,"CS::OSChapter05, CS::operating-systems"
+kv-0-[]LRE,What is a critical section?,"A section of the code that is critical, where only one process may be in the section at a time.","CS::OSChapter06, CS::operating-systems"
+PRqFDbbr[Z,What is the entry section?,"The section before the critical section, where each process must ask permission to enter critical section",
+|]Q*)~^sk,What is the exit section and remainder section?,The exit section is the section immediately following the critical section. The remainder section is the section following the exit section.,
+huLnreWFBt,What is a preemptive kernel?,"Preemptive Kernel, as name suggests, is a type of kernel that always executes the highest priority task that are ready to run. It cannot use-non-reentrant functions unless and until functions are mutual exclusive.",
+mCaWOaI>8:,What is a non-preemptive kernel?,"Non-Preemptive Kernel, as name suggests, is a type of kernel that is free from race conditions on kernel data structures as only one process is active in kernel at a time. It is considered as a serious drawback for real time applications as it does not allow preemption of process running in kernel mode.",
+"d5qBmN*,LB",What is memory model?,The memory guarantees a computer architecture makes to application programs,
+OTzWCt[FjB,What does it mean when a memory model is strongly ordered?,A memory modification of one processor is immediately visible to all other processors,
+"E,:%gJ/=8b",What does it mean when a memory model is weakly ordered?,A memory modification of one processor may not be immediately visible to all other processors,
+w9<d7K[w9H,What is a memory barrier?,An instruction that forces any change in memory to be made visible to all other processors,
+gF4DUt:#V%,What is special about atomic variables?,They provide atomic (uninterruptible) updates on basic data types such as integers and booleans. ,
+g~SCsVnN*S,What problem do mutex locks solve?,Critical section problem,
+b!|s7^{Gq+,What is a counting semaphore?,An integer value that can range over an unrestricted domain,
+jKWgJSTbkU,What is a binary semaphore?,An integer value that can range between only 0 and 1,
+CQ8St(vby<,A binary semaphore is the same as what other locking mechanism?,mutex locks,
+k9-_6h;p6#,What is a deadlock?,A deadlock is when two or more processes are waiting indefinitely for an event that can be caused by only one of the waiting processes. ,
+o}Jx(fA)~t,," If two processes were to open files simultaneously, the separate updates to this list could result in what?",a race condition
+x*UGBUw8:p,, Peterson's solution provides a good algorithmic description of solving what problem?,critical-section problem
+iA)-TwtpeD,, On what system are spinlocks preferred?,multiprocessor
+vj<CU{F*+H,, Who introduced semaphores?,Edsger Dijkstra
+t2:I(dxu7g,, What refers to a set of properties that a system must satisfy to ensure that processes make progress during their execution life cycle?,Liveness
+ICkME@2Ud~,,"Which is preferable, mutex locks or binary semaphores?",Mutex locks
