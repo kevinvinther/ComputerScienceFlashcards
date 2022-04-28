@@ -1,5 +1,5 @@
 guid,front,back,tags
-r*n18DO{-E,<p>What is an OS?</p>,<p>A program that acts as an intermediary between user and hardware</p>,"CS::OSChapter01, CS::operating-systems"
+r*n18DO{-E,<p>What is an operating system?</p>,<p>A program that acts as an intermediary between user and hardware</p>,"CS::OSChapter01, CS::operating-systems"
 m88Gl)xaCE, What are the main differences among the various storage systems?,"speed, size, and volatility","CS::OSChapter01, CS::operating-systems"
 qdAiBhDM0K, How many interrupts are generated per block?,one,"CS::OSChapter01, CS::operating-systems"
 fVE_(i}c$i, What does a cluster consist of?,several computer systems connected via a network,"CS::OSChapter01, CS::operating-systems"
@@ -247,12 +247,35 @@ MbkKmVWI]+, What is the advantage of dynamic loading?,a routine is loaded only w
 "G~]1vx,`~3", When is dynamic loading useful?,when large amounts of code are needed to handle infrequently occurring cases,"CS::OSChapter09, CS::operating-systems"
 n[r.ck^qDh, What does paging allow a process's physical address space to be?,noncontiguous,"CS::OSChapter09, CS::operating-systems"
 I}Qt62a0]G,What is virtual memory?,Separation of user logical memory from physical memory,"CS::OSChapter10, CS::operating-systems"
-uatU$m/u)r,What is virtual address space?,Logical view of how process is stored in memory,
-zR!Imd1d0n,What is demand paging?,"Demand paging is a method of virtual memory management. In a system that uses demand paging, the operating system copies a disk page into physical memory only if an attempt is made to access it and that page is not already in memory.",
-i-O/OdM4e,What is a swapper that deals with pages called?,A pager,
-ht0+p&L>3$,What does it mean for a program to be memory-resident?,A memory-resident program has the ability to stay in the computer's memory after execution and to continuously run.,
-kO7AAYoK-_,How is the valid-invalid bit on each page table entry initially set?,"Initially it is set to I (invalid, not in memory)",
-fu?=V60)qf,What does it mean when a page table entry is valid?,"The program is in-memory, or memory resident.",
-k+Z*;/x{`Z,What happens if the valid-invalid bit is invalid when the MMU is translating?,A page fault occurs,
-KXMFw:%#on,What is pure demand paging?,When no pages are loaded into the memory initially.,
-BT^z4PNd6l,What does Copy-on-Write allow?,"Copy-on-Write (COW) allows both parent and child processes to initially share the same pages in memory. If either process modifies a shared page, then the page is copied.",
+uatU$m/u)r,What is virtual address space?,Logical view of how process is stored in memory,"CS::OSChapter10, CS::operating-systems"
+zR!Imd1d0n,What is demand paging?,"Demand paging is a method of virtual memory management. In a system that uses demand paging, the operating system copies a disk page into physical memory only if an attempt is made to access it and that page is not already in memory.","CS::OSChapter10, CS::operating-systems"
+i-O/OdM4e,What is a swapper that deals with pages called?,A pager,"CS::OSChapter10, CS::operating-systems"
+ht0+p&L>3$,What does it mean for a program to be memory-resident?,A memory-resident program has the ability to stay in the computer's memory after execution and to continuously run.,"CS::OSChapter10, CS::operating-systems"
+kO7AAYoK-_,How is the valid-invalid bit on each page table entry initially set?,"Initially it is set to I (invalid, not in memory)","CS::OSChapter10, CS::operating-systems"
+fu?=V60)qf,What does it mean when a page table entry is valid?,"The program is in-memory, or memory resident.","CS::OSChapter10, CS::operating-systems"
+k+Z*;/x{`Z,What happens if the valid-invalid bit is invalid when the MMU is translating?,A page fault occurs,"CS::OSChapter10, CS::operating-systems"
+KXMFw:%#on,What is pure demand paging?,When no pages are loaded into the memory initially.,"CS::OSChapter10, CS::operating-systems"
+BT^z4PNd6l,What does Copy-on-Write allow?,"Copy-on-Write (COW) allows both parent and child processes to initially share the same pages in memory. If either process modifies a shared page, then the page is copied.","CS::OSChapter10, CS::operating-systems"
+Grwj)S@Zu],Why are page replacement algorithms needed?,Because we need to know which pages should be replaced when a new page comes in.,"CS::OSChapter10, CS::operating-systems"
+D]0hGbb-R,What is a victim frame?,A frame which will be replaced by a frame replacement algorithm.,"CS::OSChapter10, CS::operating-systems"
+zgYLuZ*0)W,What is a page fault?,An exception that the memory management unit raises when a process accesses a memory page that has not yet been brought into main memory.,"CS::OSChapter10, CS::operating-systems"
+yjwFU]?C%+,What is slab allocation?,A memory management mechanism intended for efficient memory allocation of objects. ,"CS::OSChapter10, CS::operating-systems"
+"q8@eNF|,tP",What is the buddy system?,A memory allocation algorithm that divides memory into partitions to try to satisfy a memory request as suitably as possible.,"CS::OSChapter10, CS::operating-systems"
+xoXg`>=BLu,How does the buddy system allocate memory?,"Using power-of-2 allocator, which satisfies requests in units sized as power of 2, and requests are rounded up to next highest power of 2.","CS::OSChapter10, CS::operating-systems"
+l*rXE{Q=kY, What did SLUB replace as the default allocator for the Linux kernel?,SLAB,"CS::OSChapter10, CS::operating-systems"
+M-nWhIrxo+,What does the open-file table do?,Tracks open files,"CS::OSChapter13, CS::operating-systems"
+y_]PHSIQ/e,What is the file pointer?,"The pointer to last read/write location, per process that has the file open","CS::OSChapter13, CS::operating-systems"
+Pb0-afuR#Q,What is the file-open count?,Counter of number of times a file is open – to allow removal of data from open-file table when last processes closes it.,"CS::OSChapter13, CS::operating-systems"
+vt-9tzJJo},What is file locking?,"a mechanism that restricts access to a computer file, or to a region of a file, by allowing only one user or process to modify or delete it at a specific time and to prevent reading of the file while it's being modified or deleted. ","CS::OSChapter13, CS::operating-systems"
+MDSk/SCDTE,What is the difference between sequential access and direct access?,"With sequential access you read and write the next byte, while in direct access you can read/write byte number <i>n</i>. For direct access the file is fixed length.","CS::OSChapter13, CS::operating-systems"
+Im?)cD}h~_,What are partitions also known as?,"Minidisks, slices","CS::OSChapter13, CS::operating-systems"
+yE#C.pICoi,What is a single-level directory?,A single directory for all users. This presents us with a naming and grouping problem.,"CS::OSChapter13, CS::operating-systems"
+q=cNgT#E?),What is a two-level directory?,Separate directory for each user,"CS::OSChapter13, CS::operating-systems"
+d57Lh7Lk+M,What are tree-structured directories?,Directories grouped into trees,"CS::OSChapter13, CS::operating-systems"
+KkI!Xbb(rw,What is a link in a directory file system?,Another name (pointer) to an existing file,"CS::OSChapter13, CS::operating-systems"
+c-zX|Zq6.v,What is an unmounted file system mounted at?,A mount point,"CS::OSChapter13, CS::operating-systems"
+gEE:4wLS9=,"NFS, a common distributed file sharing method, is short for what?",Network File System,"CS::OSChapter13, CS::operating-systems"
+D<rz3dBm`t, Repositioning within a file is also known as what?,a file seek,"CS::OSChapter13, CS::operating-systems"
+Jt41w/5~Z>, What are useful for files that are shared by several processes?,File locks,"CS::OSChapter13, CS::operating-systems"
+jhwYp?Mr)G, The simplest directory structure is what?,single-level directory,"CS::OSChapter13, CS::operating-systems"
+lc`bg&ol#@, What can be of two types of path names?,absolute and relative,"CS::OSChapter13, CS::operating-systems"
