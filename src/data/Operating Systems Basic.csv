@@ -279,3 +279,9 @@ D<rz3dBm`t, Repositioning within a file is also known as what?,a file seek,"CS::
 Jt41w/5~Z>, What are useful for files that are shared by several processes?,File locks,"CS::OSChapter13, CS::operating-systems"
 jhwYp?Mr)G, The simplest directory structure is what?,single-level directory,"CS::OSChapter13, CS::operating-systems"
 lc`bg&ol#@, What can be of two types of path names?,absolute and relative,"CS::OSChapter13, CS::operating-systems"
+,What does consistency checking do?,"Compares data in directory structure with data blocks on disk, and tries to fix inconsistencies","CS::OSChapter14, CS::operating-systems"
+,What is a device driver?,A device driver is a special kind of software program that controls a specific hardware device attached to a computer. ,"CS::OSChapter14, CS::operating-systems"
+, What are the most common strategies used to select a free hole from the set of available holes?,First fit and best fit,"CS::OSChapter14, CS::operating-systems"
+, What is the general term for nonvolatile storage?,NVS,"CS::OSChapter11, CS::operating-systems"
+," CDs, DVDs, and Blu-ray discs are what type of storage media?",removable,
+, What does NVM stand for?,Nonvolatile memory,
