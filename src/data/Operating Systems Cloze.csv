@@ -13,5 +13,6 @@ rTab!L{5$],"The directory is organized logically to obtain <br/> {{c1::Efficienc
 d`L?*|95cZ,A file system must be {{c1::mounted}} before it can be accessed.,"CS::OSChapter13, CS::operating-systems",
 xKZ=:c_7{E,File system resides on {{c1::secondary}} storage (disks),"CS::OSChapter14, CS::operating-systems",
 m/FSHye@}6,{{c1::Device drivers}} manage I/O devices at the I/O control layer,"CS::OSChapter14, CS::operating-systems",
-M@u(m>?q:`,A {{c1::unified buffer cache}} uses the same page cache to cache both memory-mapped pages and ordinary file system I/O to avoid {{c2::double caching}},,
-P/Yx8uFpw,{{c1::Contiguous allocation}} requires that each file occupy a  set of contiguous blocks on the device,,
+M@u(m>?q:`,A {{c1::unified buffer cache}} uses the same page cache to cache both memory-mapped pages and ordinary file system I/O to avoid {{c2::double caching}},"CS::OSChapter14, CS::operating-systems",
+P/Yx8uFpw,{{c1::Contiguous allocation}} requires that each file occupy a  set of contiguous blocks on the device,"CS::OSChapter14, CS::operating-systems",
+ri<pY_rec8,{{c1::Blocking}}  I/O – process suspended until I/O completed. <br/> {{c1::Nonblocking}} – I/O call returns as much as available <br/> {{c1::Asynchronous}} – process runs while I/O executes,"CS::OSChapter12, CS::operating-systems",

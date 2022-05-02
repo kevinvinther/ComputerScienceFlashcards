@@ -306,3 +306,8 @@ l[IK=?I315,Is NVM best at random or sequential I/O?,Random. ,"CS::OSChapter11, C
 H[H%ZqJe9M,Why does NVM performance decrease with age?,Because of many erase cycles,"CS::OSChapter11, CS::operating-systems"
 "ynS-fq?,O[",When is the root partition mounted?,At boot time.,"CS::OSChapter11, CS::operating-systems"
 DV{26-i8Jl,What is network-attached storage?,Storage made available over a network rather than over a local connection,"CS::OSChapter11, CS::operating-systems"
+"r,o6D:Du)z",What is Fibre Channel (FC)?,"A complex controller, usually seperate circuit board plugging into bus","CS::OSChapter12, CS::operating-systems"
+Cd${gSoYoK,What does Vectored I/O allow a system call to do?,Vectored I/O allows one system call to perform multiple I/O operations,"CS::OSChapter12, CS::operating-systems"
+g`y?I{#7M/,What does the root partition contain?,The OS,"CS::OSChapter15, CS::operating-systems"
+l54c#WU7)v,What is NFS short for?,The Sun Network File System,"CS::OSChapter15, CS::operating-systems"
+Cke/b.ojsR,What is NFS?,An implementation and a specification of a software system for accessing remote files across LANs or WANs,"CS::OSChapter15, CS::operating-systems"
