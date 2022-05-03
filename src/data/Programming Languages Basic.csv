@@ -239,3 +239,4 @@ M4y4]esQAO,What is runtime polymorphism also known as?,Overriding ,"CS::PLChapte
 JDk#dkbiMd,What is compile-time polymorphism also known as?,Overloading,"CS::PLChapter10, CS::programming-languages"
 bYW?ckr)8~,What does it mean that a method is virtual?,When a method is virtual is allows for overriding. A virtual function is also inheritable.,"CS::PLChapter10, CS::programming-languages"
 GA|My}=1b`,Does Java allow for virtual methods?,By default all non-static functions in Java are virtual.,"CS::PLChapter10, CS::programming-languages"
+,What is the difference between shadowing and overriding?,Shadowing redefines an entire method or function. Overriding redefines only the implementation of a method or function.,"CS::PLChapter10, CS::programming-languages"
