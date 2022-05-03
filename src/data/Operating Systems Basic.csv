@@ -311,3 +311,9 @@ Cd${gSoYoK,What does Vectored I/O allow a system call to do?,Vectored I/O allows
 g`y?I{#7M/,What does the root partition contain?,The OS,"CS::OSChapter15, CS::operating-systems"
 l54c#WU7)v,What is NFS short for?,The Sun Network File System,"CS::OSChapter15, CS::operating-systems"
 Cke/b.ojsR,What is NFS?,An implementation and a specification of a software system for accessing remote files across LANs or WANs,"CS::OSChapter15, CS::operating-systems"
+J|zAGLH242,What is ransomware?,"A logical bomb that locks up data via encryption, demanding payment to unlock it","CS::OSChapter16, CS::operating-systems"
+w98K:Dclj&,When can a code-injection attack occur?,When system code has bugs allowing executable code to be added or modified,
+rKqA>]h&RS,What is the term for people who can run pre-written exploit code to attack a given system?,Script kiddies,
+vo3/<)qp*B,What is the purpose of a Virus dropper?,It inserts a virus onto the system (usually a trojan horse),
+o{Z5}5]R7k,How do keys work in symmetric encryption?,The same key is used to encrypt and decrypt,
+Keq@b4a`yq,How do keys work in asymmetric encryption?,A public key and a private key are used together to encrypt,

@@ -16,3 +16,6 @@ m/FSHye@}6,{{c1::Device drivers}} manage I/O devices at the I/O control layer,"C
 M@u(m>?q:`,A {{c1::unified buffer cache}} uses the same page cache to cache both memory-mapped pages and ordinary file system I/O to avoid {{c2::double caching}},"CS::OSChapter14, CS::operating-systems",
 P/Yx8uFpw,{{c1::Contiguous allocation}} requires that each file occupy a  set of contiguous blocks on the device,"CS::OSChapter14, CS::operating-systems",
 ri<pY_rec8,{{c1::Blocking}}  I/O – process suspended until I/O completed. <br/> {{c1::Nonblocking}} – I/O call returns as much as available <br/> {{c1::Asynchronous}} – process runs while I/O executes,"CS::OSChapter12, CS::operating-systems",
+K/LtS[e5UR,A system is {{c1::secure}} if its resources are used and accessed as intended under all circumstances.,"CS::OSChapter16, CS::operating-systems",
+b*MZCT{g^w,A {{c1::threat}} is a potential security violation,"CS::OSChapter16, CS::operating-systems",
+"yTnN,Llo;@",An {{c1::attack}} is an attempt to breach security,"CS::OSChapter16, CS::operating-systems",
