@@ -312,13 +312,13 @@ g`y?I{#7M/,What does the root partition contain?,The OS,"CS::OSChapter15, CS::op
 l54c#WU7)v,What is NFS short for?,The Sun Network File System,"CS::OSChapter15, CS::operating-systems"
 Cke/b.ojsR,What is NFS?,An implementation and a specification of a software system for accessing remote files across LANs or WANs,"CS::OSChapter15, CS::operating-systems"
 J|zAGLH242,What is ransomware?,"A logical bomb that locks up data via encryption, demanding payment to unlock it","CS::OSChapter16, CS::operating-systems"
-w98K:Dclj&,When can a code-injection attack occur?,When system code has bugs allowing executable code to be added or modified,
-rKqA>]h&RS,What is the term for people who can run pre-written exploit code to attack a given system?,Script kiddies,
-vo3/<)qp*B,What is the purpose of a Virus dropper?,It inserts a virus onto the system (usually a trojan horse),
-o{Z5}5]R7k,How do keys work in symmetric encryption?,The same key is used to encrypt and decrypt,
-Keq@b4a`yq,How do keys work in asymmetric encryption?,A public key and a private key are used together to encrypt,
-,What is a Trojan Horse?,"A code segment that misuses its environment (e.g. spyware, pop-up browser windows, covert channels)",
-,What does a virus dropper do?,Inserts virus onto the system (usually a Trojan horse),
-,What is a digital signature?,a mathematical scheme for verifying the authenticity of digital messages or documents,
-,What are digital certificates used for?,A proof of who or what owns a public key.,
-,Who are certificate authorities?,"Trusted parties that stores, signs, and issues digital certificates",
+w98K:Dclj&,When can a code-injection attack occur?,When system code has bugs allowing executable code to be added or modified,"CS::OSChapter16, CS::operating-systems"
+rKqA>]h&RS,What is the term for people who can run pre-written exploit code to attack a given system?,Script kiddies,"CS::OSChapter16, CS::operating-systems"
+vo3/<)qp*B,What is the purpose of a Virus dropper?,It inserts a virus onto the system (usually a trojan horse),"CS::OSChapter16, CS::operating-systems"
+o{Z5}5]R7k,How do keys work in symmetric encryption?,The same key is used to encrypt and decrypt,"CS::OSChapter16, CS::operating-systems"
+Keq@b4a`yq,How do keys work in asymmetric encryption?,A public key and a private key are used together to encrypt,"CS::OSChapter16, CS::operating-systems"
+p20}-XDwm(,What is a Trojan Horse?,"A code segment that misuses its environment (e.g. spyware, pop-up browser windows, covert channels)","CS::OSChapter16, CS::operating-systems"
+I3{xAVkj}},What does a virus dropper do?,Inserts virus onto the system (usually a Trojan horse),"CS::OSChapter16, CS::operating-systems"
+DotMeC!%G|,What is a digital signature?,a mathematical scheme for verifying the authenticity of digital messages or documents,"CS::OSChapter16, CS::operating-systems"
+Lf~p7]wC3#,What are digital certificates used for?,A proof of who or what owns a public key.,"CS::OSChapter16, CS::operating-systems"
+GR^HU//%K^,Who are certificate authorities?,"Trusted parties that stores, signs, and issues digital certificates","CS::OSChapter16, CS::operating-systems"
