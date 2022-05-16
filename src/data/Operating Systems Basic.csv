@@ -15,7 +15,7 @@ GE>c0cI0Tq, Emulation involves simulating what in software?,computer hardware,"C
 "x,hxAJbAS@",How fast is emulation?,"Very slow, usually","CS::OSChapter01, CS::operating-systems"
 G:>t&J>TyO, What is a network operating system?,an operating system that provides features such as file sharing across the network,"CS::OSChapter01, CS::operating-systems"
 w;/xFBNE+:, What is a balanced binary search tree known as?,red-black tree,"CS::OSChapter01, CS::operating-systems"
-PnkA6X-PwF, What does Linux use as part of its CPU-scheduling algorithm?,a balanced binary search tree,"CS::OSChapter01, CS::operating-systems"
+PnkA6X-PwF, What kind of tree does Linux use as part of its CPU-scheduling algorithm?,a balanced binary search tree,"CS::OSChapter01, CS::operating-systems"
 yzsS@`wtc}, What do many homes use to protect their networks from security breaches?,firewall,"CS::OSChapter01, CS::operating-systems"
 leu2I7v>FS, What is a bottleneck in a client-server system?,the server,"CS::OSChapter01, CS::operating-systems"
 x<}q&?;&u., Embedded systems almost always run what type of operating-system?,real-time operating systems,"CS::OSChapter01, CS::operating-systems"
