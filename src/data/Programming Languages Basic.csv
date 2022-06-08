@@ -253,10 +253,10 @@ wFod:|50i`,What is ADT short for?,Abstract Data Type,"CS::PLChapter09, CS::progr
 d@16kG[eXJ,An ADT without what is completely useless?,constructors,"CS::PLChapter09, CS::programming-languages"
 "MwDNu:R,?6",In what language does object-orientation have its roots?,Simula (during the 60s) and Smalltalk (in the 70s),"CS::PLChapter10, CS::programming-languages"
 ^0OE&$E~T,“the internal representation of an object is generally hidden from view outside of the object's definition” describes what in OOP?,Information hiding,"CS::PLChapter09, CS::programming-languages"
-CnD9vo#~{:,Following is a description of what? “A capsule containing both data and the operations that manipulate it and which provides an interface for the outside world through which the ______ is accessible.”,An object,
-v<Ag:#hx^V,What are operations in an object called?,"Methods (or functional fields, or member functions)",
-mRe60ML4]=,What are data items held in an object called?,Instance variables (or data members or fields),
-b[<Aur?`RV,What is a class?,A model for a set of objects,
-MZ)#-1Jee,What is a class in simula?,A procedure which returns a pointer to an activation record containing local variables and function definitions,
-C<a0]*KnTt,What are object-oriented languages that lack lcasses based on?,Delegation (or prototypes),
-s`H(yGq1(J,"In every class there are at least two views, which?","Private and public. With a private view, everything is visible, with a public with only the public parts are visible.",
+CnD9vo#~{:,Following is a description of what? “A capsule containing both data and the operations that manipulate it and which provides an interface for the outside world through which the ______ is accessible.”,An object,CS::programming-languages
+v<Ag:#hx^V,What are operations in an object called?,"Methods (or functional fields, or member functions)",CS::programming-languages
+mRe60ML4]=,What are data items held in an object called?,Instance variables (or data members or fields),CS::programming-languages
+b[<Aur?`RV,What is a class?,A model for a set of objects,CS::programming-languages
+MZ)#-1Jee,What is a class in simula?,A procedure which returns a pointer to an activation record containing local variables and function definitions,CS::programming-languages
+C<a0]*KnTt,What are object-oriented languages that lack lcasses based on?,Delegation (or prototypes),CS::programming-languages
+s`H(yGq1(J,"In every class there are at least two views, which?","Private and public. With a private view, everything is visible, with a public with only the public parts are visible.",CS::programming-languages
