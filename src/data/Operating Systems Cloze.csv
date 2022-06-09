@@ -1,23 +1,23 @@
 guid,text,extra,tags
-HJ>A]/})oZ,"As a process executes, it changes {{c1::state}}",,"CS::OSChapter03, CS::operating-systems"
-sBYtqX7wtD,"{{c1::Parent}} processes create {{c2::children}} processes, which in turn create other processes, forming a {{c3::tree}} of processes",,"CS::OSChapter03, CS::operating-systems"
-r:dI0(eY|D,"The {{c1::CPU scheduler}} selects from among the processes in ready queue, and allocates a CPU core to one of them",,"CS::OSChapter05, CS::operating-systems"
-tcd!`y@}qH,Preemptive scheduling algorithms can result in {{c1::race}} conditions.,,"CS::OSChapter05, CS::operating-systems"
-vwbjY<v?}.,"Deadlock can arise if four conditions hold simultaneously.<br/>{{c1::<b>Mutual Exclusion</b>}}: only one process at a time can use a resource.<br/>{{c2::<b>Hold and wait</b>}}: a process holding at least one resource is waiting to acquire additional resources held by other processes <br/> {{c3::<b>No preemption</b>}}: a resource can be released only voluntarily by the process holdign it, after that process has completed its task<br/>{{c4::<b>Circular wait</b>}}: There exists a set {P0, P1, … Pn} of waiting processes such that P0 is waiting for a resource that is held by P1, P1 is waiting for a resource that is held by P2, .., Pn-1 is waiting for a resource that is held by Pn and Pn is waiting for a resource that is held by P0",,"CS::OSChapter08, CS::operating-systems"
-i2ln}VOh4?,A program must be brought from {{c1::disk}} into  {{c2::memory}} and placed within a {{c3::process}} for it to be run,,"CS::OSChapter09, CS::operating-systems"
-r#f&jxT+Ci,How to satisfy a request of size <b>n</b> from a list of free holes? {{c1::first-fit}}: Allocate the <b>first</b> holy that is big enough.<br/>{{c2::best-fit}}: allocate the <b>smallest</b> hole that is big enough<br/>{{c3::Worst-fit}}: allocate the <b>largest</b> hole,,"CS::OSChapter09, CS::operating-systems"
-OkqqaD5_b$,Paging divides physical memory into fixed-size blocks called {{c1::frames}}.,,"CS::OSChapter10, CS::operating-systems"
-"q,oPE2:;^f",Disks can be subdivided into {{c1::partitions}},,"CS::OSChapter13, CS::operating-systems"
-J~(W@R9mJ^,"Disk or partition can be used raw – without a file system, or {{c1::formatted}} with a file system",,"CS::OSChapter13, CS::operating-systems"
-rTab!L{5$],"The directory is organized logically to obtain <br/> {{c1::Efficiency}} – locating a file quickly <br/> {{c2::Naming}} – convenient to users <br/> {{c3::Grouping}} – Logical {{c3::grouping}} of files by properties (e.g., all java programs, all games, ...)",,"CS::OSChapter13, CS::operating-systems"
-d`L?*|95cZ,A file system must be {{c1::mounted}} before it can be accessed.,,"CS::OSChapter13, CS::operating-systems"
-xKZ=:c_7{E,File system resides on {{c1::secondary}} storage (disks),,"CS::OSChapter14, CS::operating-systems"
-m/FSHye@}6,{{c1::Device drivers}} manage I/O devices at the I/O control layer,,"CS::OSChapter14, CS::operating-systems"
-M@u(m>?q:`,A {{c1::unified buffer cache}} uses the same page cache to cache both memory-mapped pages and ordinary file system I/O to avoid {{c2::double caching}},,"CS::OSChapter14, CS::operating-systems"
-P/Yx8uFpw,{{c1::Contiguous allocation}} requires that each file occupy a  set of contiguous blocks on the device,,"CS::OSChapter14, CS::operating-systems"
-ri<pY_rec8,{{c1::Blocking}}  I/O – process suspended until I/O completed. <br/> {{c1::Nonblocking}} – I/O call returns as much as available <br/> {{c1::Asynchronous}} – process runs while I/O executes,,"CS::OSChapter12, CS::operating-systems"
-K/LtS[e5UR,A system is {{c1::secure}} if its resources are used and accessed as intended under all circumstances.,,"CS::OSChapter16, CS::operating-systems"
-b*MZCT{g^w,A {{c1::threat}} is a potential security violation,,"CS::OSChapter16, CS::operating-systems"
-"yTnN,Llo;@",An {{c1::attack}} is an attempt to breach security,,"CS::OSChapter16, CS::operating-systems"
-nUL*Y]Mvsw,"Some examples of operating system services are (but not limited to): {{c1::User Interface}}, {{c2::Program Execution}}, I/O Operations, File-system manipulation, {{c3::Communications}} and Error Detection ",,"CS::OSChapter01, CS::operating-systems"
-M2zGSiwsK/,"There are multiple types of system calls, including (but not limited to): {{c1::Process Control}}, File Management, {{c2::Device management}}, {{c3::Information maintenance}} (get time/date/data, set time/date/data)",,
+nUL*Y]Mvsw,"Some examples of operating system services are (but not limited to): {{c1::User Interface}}, {{c2::Program Execution}}, I/O Operations, File-system manipulation, {{c3::Communications}} and Error Detection ","CS::OSChapter01, CS::operating-systems",
+HJ>A]/})oZ,"As a process executes, it changes {{c1::state}}","CS::OSChapter03, CS::operating-systems",
+sBYtqX7wtD,"{{c1::Parent}} processes create {{c2::children}} processes, which in turn create other processes, forming a {{c3::tree}} of processes","CS::OSChapter03, CS::operating-systems",
+r:dI0(eY|D,"The {{c1::CPU scheduler}} selects from among the processes in ready queue, and allocates a CPU core to one of them","CS::OSChapter05, CS::operating-systems",
+tcd!`y@}qH,Preemptive scheduling algorithms can result in {{c1::race}} conditions.,"CS::OSChapter05, CS::operating-systems",
+vwbjY<v?}.,"Deadlock can arise if four conditions hold simultaneously.<br/>{{c1::<b>Mutual Exclusion</b>}}: only one process at a time can use a resource.<br/>{{c2::<b>Hold and wait</b>}}: a process holding at least one resource is waiting to acquire additional resources held by other processes <br/> {{c3::<b>No preemption</b>}}: a resource can be released only voluntarily by the process holdign it, after that process has completed its task<br/>{{c4::<b>Circular wait</b>}}: There exists a set {P0, P1, … Pn} of waiting processes such that P0 is waiting for a resource that is held by P1, P1 is waiting for a resource that is held by P2, .., Pn-1 is waiting for a resource that is held by Pn and Pn is waiting for a resource that is held by P0","CS::OSChapter08, CS::operating-systems",
+i2ln}VOh4?,A program must be brought from {{c1::disk}} into  {{c2::memory}} and placed within a {{c3::process}} for it to be run,"CS::OSChapter09, CS::operating-systems",
+r#f&jxT+Ci,How to satisfy a request of size <b>n</b> from a list of free holes? {{c1::first-fit}}: Allocate the <b>first</b> holy that is big enough.<br/>{{c2::best-fit}}: allocate the <b>smallest</b> hole that is big enough<br/>{{c3::Worst-fit}}: allocate the <b>largest</b> hole,"CS::OSChapter09, CS::operating-systems",
+OkqqaD5_b$,Paging divides physical memory into fixed-size blocks called {{c1::frames}}.,"CS::OSChapter10, CS::operating-systems",
+ri<pY_rec8,{{c1::Blocking}}  I/O – process suspended until I/O completed. <br/> {{c1::Nonblocking}} – I/O call returns as much as available <br/> {{c1::Asynchronous}} – process runs while I/O executes,"CS::OSChapter12, CS::operating-systems",
+d`L?*|95cZ,A file system must be {{c1::mounted}} before it can be accessed.,"CS::OSChapter13, CS::operating-systems",
+J~(W@R9mJ^,"Disk or partition can be used raw – without a file system, or {{c1::formatted}} with a file system","CS::OSChapter13, CS::operating-systems",
+"q,oPE2:;^f",Disks can be subdivided into {{c1::partitions}},"CS::OSChapter13, CS::operating-systems",
+rTab!L{5$],"The directory is organized logically to obtain <br/> {{c1::Efficiency}} – locating a file quickly <br/> {{c2::Naming}} – convenient to users <br/> {{c3::Grouping}} – Logical {{c3::grouping}} of files by properties (e.g., all java programs, all games, ...)","CS::OSChapter13, CS::operating-systems",
+xKZ=:c_7{E,File system resides on {{c1::secondary}} storage (disks),"CS::OSChapter14, CS::operating-systems",
+m/FSHye@}6,{{c1::Device drivers}} manage I/O devices at the I/O control layer,"CS::OSChapter14, CS::operating-systems",
+M@u(m>?q:`,A {{c1::unified buffer cache}} uses the same page cache to cache both memory-mapped pages and ordinary file system I/O to avoid {{c2::double caching}},"CS::OSChapter14, CS::operating-systems",
+P/Yx8uFpw,{{c1::Contiguous allocation}} requires that each file occupy a  set of contiguous blocks on the device,"CS::OSChapter14, CS::operating-systems",
+K/LtS[e5UR,A system is {{c1::secure}} if its resources are used and accessed as intended under all circumstances.,"CS::OSChapter16, CS::operating-systems",
+b*MZCT{g^w,A {{c1::threat}} is a potential security violation,"CS::OSChapter16, CS::operating-systems",
+"yTnN,Llo;@",An {{c1::attack}} is an attempt to breach security,"CS::OSChapter16, CS::operating-systems",
+M2zGSiwsK/,"There are multiple types of system calls, including (but not limited to): {{c1::Process Control}}, File Management, {{c2::Device management}}, {{c3::Information maintenance}} (get time/date/data, set time/date/data)","CS::OSChapter04, CS::operating-systems",
