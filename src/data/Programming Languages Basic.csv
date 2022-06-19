@@ -284,11 +284,11 @@ zr~.NU(PSs,"At a physical level, what is the difference between data and instruc
 d5N$xl]xW#,How is it possible to implement \(\mathscr{M}_\mathscr{L}\) in hardware?,"Using physical devices such as memory, arithmetic and logic circuits, buses etc., to implement a physical machine whose machine language coincides with \(\mathscr{L}\). To do this, it is sufficient to implement in the hardware the data structures and algorithms constituting the abstract machine.","CS::PLChapter01, CS::programming-languages"
 K>^sf&3u$T,What advantage does the implementation of machine \(\mathscr{M}_\mathscr{L}\)  in hardware have?,That the execution of programs in \(\mathscr{L}\) will be fast because they will be directly executed by hardware.,"CS::PLChapter01, CS::programming-languages"
 Mb]3*8lc|o,"When implementing \(\mathscr{M}_\mathscr{L}\) in hardware, what kind of langauges are used?","Low-level languages, because their constructs are very close to the operations that can be naturally defined using just physical devices.","CS::PLChapter01, CS::programming-languages"
-d.3O&f$d3r,What are the three ways to implement an dabstract machine \(\mathscr{M}_\mathscr{L}\)?,Implementation in <i>hardware</i><br/>Simulation using <i>software</i><br/>Simulation (emulation) using <i>firmware</i><br/>,"CS::PLChapter01, CS::programming-languages"
+d.3O&f$d3r,What are the three ways to implement an abstract machine \(\mathscr{M}_\mathscr{L}\)?,Implementation in <i>hardware</i><br/>Simulation using <i>software</i><br/>Simulation (emulation) using <i>firmware</i><br/>,"CS::PLChapter01, CS::programming-languages"
 FC#e#Ku[}h,What is a partial function?,A function that is a correspondence between the two sets A and B but can be undefined for some elements of A.,"CS::PLChapter01, CS::programming-languages"
 m^Hhrjm$SC,What are the pros and cons of implementing \(\mathscr{M}_\mathscr{L}\) in hardware?,It provides the greatest speed but no flexibility.,"CS::PLChapter01, CS::programming-languages"
 sRp-ArP1~*,What are the pros and cons of implementing \(\mathscr{M}_\mathscr{L}\) in software?,It affords the highest flexibility and least speed,"CS::PLChapter01, CS::programming-languages"
-j;x0ER.B.o,What are the pros and cons of implementing \(\mathscr{M}_\mathscr{L}\) in firmware?,It acts as an intermediate between implmentation in software and hardware.,"CS::PLChapter01, CS::programming-languages"
+j;x0ER.B.o,What are the pros and cons of implementing \(\mathscr{M}_\mathscr{L}\) in firmware?,"It acts as an intermediate between implmentation in software and hardware. Therefore neither the greatest speed, nor the greatest flexibility, but neither the slowest speed nor the worst flexibility.","CS::PLChapter01, CS::programming-languages"
 Rf8MR9>IXO,What does \(\mathscr{P}^\mathscr{L} : \mathscr{D} \to \mathscr{D}\) indicate?,"A program written in \(\mathscr{L}\). (this can be seen as a partial function, where \(\mathscr{D}\) indicates both input and output data.","CS::PLChapter01, CS::programming-languages"
 lXt[8%DYva,What is \(\mathscr{I}^{\mathscr{L}o}_\mathscr{L}\)?,An interpreter implemented in \(\mathscr{L}o\) which interprets all of \(\mathscr{L}\)’s instructions.,"CS::PLChapter01, CS::programming-languages"
 dKKJ@nUz*w,What is an interpreter for language \(\mathscr{L}\)?,"An interpreter for \(\mathscr{L}\) written in language \(\mathscr{L}o\), is a program which implements a partial function: <br/> \(\mathscr{I}^{\mathscr{L}o}_\mathscr{L}:(\mathscr{P}rog \times \mathscr{D}) \to \mathscr{D}\) such that \(\mathscr{I}^{\mathscr{L}o}_\mathscr{L}:(\mathscr{P}^\mathscr{L}, Input) = \mathscr{P}^\mathscr{L} (input)\)  ","CS::PLChapter01, CS::programming-languages"
@@ -298,3 +298,59 @@ j)C(=t^z:T,What is the main advantage of the interpreted implementation?,"It’s
 wP+j%a9y8c,Describe the functioning of the interpreter for a generic abstract machine.,The interpreter in a generic abstract machine executes the instructions contained in programs.,"CS::PLEPChapter01, CS::programming-languages"
 l!uIhtXi8s,"Describe the differences between the interpretative and compiled implementations of a programming language, emphasising the advantages and disadvantages.","The compiled approach is faster, while less flexible. The interpreted approach is more flexiblle, while slower. The compiled approach translates a program at compile-time to machine language, while an intepreter translates it in runtime. This means that concepts like for loops will be much slower in interpreters, since they have to interpret the entire loop, while a compiler might have a quicker way.","CS::PLEPChapter01, CS::programming-languages"
 C(doKJ]rFu,"Assume you have available an already-implemented abstract machine, C, how could you use it to implement an abstract machine for another language, L?",You can use the abstract machine and it’s language \(\mathscr{M}c_{\mathscr{L}c}\) to implement \(\mathscr{M}L_{\mathscr{L}L}\),"CS::PLEPChapter01, CS::programming-languages"
+E&YX&8KEfa,Which three areas did Morris identify at which a description of a language can occur?,"<i>grammar, semantics</i> and <i>pragmatics</i>.","CS::PLChapter02, CS::programming-languages"
+M/CV1X-6em,Grammar is the part of the description of the language which answers what question?,Which phrases are correct,"CS::PLChapter02, CS::programming-languages"
+on4Y!WD]@H,What does syntax describe?,Which sequences of words constitute legal phrases,"CS::PLChapter02, CS::programming-languages"
+LFt0Ov&TWD,Semantics is the part of the description of the language which seeks to answer which question?,What does a correct phrase mean,"CS::PLChapter02, CS::programming-languages"
+zRuO<pSBLs,Pragmatics is the part of a language description which asks itself what?,How do we use a meaningful sentence,"CS::PLChapter02, CS::programming-languages"
+"rT^,Q@0{3*","The three classical levels of language description are <i> grammar, semantics </i> and <i> pragmatics</i>, what is a fourth one we can add in the case of programming languages?",Implementation,"CS::PLChapter02, CS::programming-languages"
+f}oC;|7hi/,When is a grammar ambiguous?,If there exists at least one string of \( \mathscr{L}(G)\) which admits more than one derivation tree,"CS::PLChapter02, CS::programming-languages"
+maC635&4D!,When does a string of characters admit a derivation tree?,If it is the result of a left-to-right traversal of the derivation tree.,"CS::PLChapter02, CS::programming-languages"
+"eU0(|.6_,S",Is object language the same as machine code?,"Not necessarily, it is merely a language twoards which the translation is directed.","CS::PLChapter02, CS::programming-languages"
+o7lz3`|+f0,How many tokens will the lexical analyser of C or Java produce with the following string? \(x = 1 + foo++;\),"7: the identifier x, the assignment operator =, the number 1, the addition operator +, the identifier foo, the auto increment operator ++ and finally the command termination token ;","CS::PLChapter02, CS::programming-languages"
+F&_kx1MR}q,Does the lexical analyser check for any kind of errors?,"No, it simply scans the input text from left to right, taking a single pass to recognise tokens.","CS::PLChapter02, CS::programming-languages"
+OOSQFH;W};,What is another name for the syntactic analyser?,The parser,"CS::PLChapter02, CS::programming-languages"
+Q0fM4x89wU,What is the goal of the syntactic analyser?,To construct a derivation tree for the list of tokens produced by the lexical analyser,"CS::PLChapter02, CS::programming-languages"
+wk5aGq<(#},Which two main families do formal methods for semantics divide into?,Denotational and operational (*algebraic and axiomatic),"CS::PLChapter02, CS::programming-languages"
+zQ_lyx>.-n,Is the name and the object it denotes the same thing?,"No, a name is just a character string, while its denotation can be a complex object such as a variable, a function, a type, and so on.","CS::PLChapter04, CS::programming-languages"
+OuW`IAQ@n},Can an object have more than one name?,"Yes, this is called aliasing",
+"r<0%/XBvw,",What is a procedure?,"A name associated with a set of commands, together with certain visibility rules which make available to the programmer its sole interface. (e.g. Functions, methods and subprograms)",
+GBMpQokGu7,What are objects to which a name can be given called?,Denotable objects,
+z6mNu/b).q,What is the definition of an environment?,"The set of associations between names and denotable objects which exist at runtime at a specific point in the program and at a specific time during execution, is called the <i> (referencing) environment </i>",
+"hagWvdI,vy",What is a declaration?,A construct that allows the introduction of an association in the environment.,
+o4P`^Y?OF=,What is it called when a single object is visible using different names in the same environment?,Aliasing,
+j5L.4q<L+j,What is a block?,"A textual region of the program, identified by a start sign and an end sign, which can contain declarations local to that region (that is, which appear within the region).",
+r:Y>S5g|5N,What is a <b>block associated with a procedure</b>?,"A block associated with declarations local to a procedure. It corresponds textually to the body of the procedure itself, extended with the declarations of formal parameters.",
+eJ%1m+RQ6Y,What is an <b>in-line block</b>?,A lbock which does not correspond to a declaration of procedure and which can appear (in general) in any position where a command can appear,
+"m?V5,D]QW-","A declaration local to a block is visible in that block and in all blocks listed within it, unless there is a new declaration of the same name in that same block. What then happens?",The block which contains the redefinition of the new declaration hides the previous one.,
+Pk$$n-2yHJ,What are the three components  the environment associated with a block is formed of?,"Local Environment, non-local environment and global environment.",
+n)pYWyL7Y|,What is the local environment?,"The environment composed of the set of associations for names declared locally to the block. In case of the block being a procedure, the local environment contains also the associations for the formal parameters, given that they can be seen, as far as the environment is concerned, as locally declared variables.",
+Jr8.IoF{kD,What is the non-local environment?,"This is the environment formed from the associations for names, which are visible from inside a block but which have not been declared locally.",
+D6*rR7*[;o,What is the global environment?,This is the environment formed from associations created when the program’s execution began. It contains the associations for names which can be used in all blocks forming the program.,
+GwrT/JcTkf,"Which head more efficient execution, dynamic or static scope?",Static scope,
+NV/A}m1Mm),What is the definition of dynamic scope?,"According to the rule of dynamic scope, the valid association for a name X, at any point P of a program, is the most recent (in the temporal sense) association creatyed for X which is still active when control flow arrives at P.",
+cx7/9a]6d),What is the dynamic scope rule also called?,The rule of the most recent association,
+QxKsffwvfr,"Using the dynamic scope, what is the value of x when write is called? <br/> <pre> {const x = 0;
+void fie(){
+write(x);
+}
+void foo(){
+const x = 1;
+{const x = 2;
+}
+foo();
+}
+foo();
+}</pre>","1. Even if 2 is the most recent one created, it is no longer active when procedure fie is exeuted and is therefore not considered.",
+z9I6m~&{$y,"Using static scope, what is printed? <br/> <pre> {int x = 0;
+void fie(int n){
+x = n+1;
+}
+fie(3);
+write(x);
+{int x = 0;
+fie(3);
+write(x);
+}
+write(x);
+}</pre>",4 0 4,
