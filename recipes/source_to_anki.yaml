@@ -4,6 +4,8 @@
     - src/data/Programming Languages Cloze.csv
     - src/data/Operating Systems Basic.csv
     - src/data/Operating Systems Cloze.csv
+    - src/data/Haskell Basic.csv
+    - src/data/Haskell Cloze.csv
     # - src/data/Computer Science Basic.csv
     # - src/data/Computer Science Cloze.csv
     columns:
@@ -31,6 +33,10 @@
       - file: src/data/Operating Systems Basic.csv
         note_model: Computer Science Basic
       - file: src/data/Operating Systems Cloze.csv
+        note_model: Computer Science Cloze
+      - file: src/data/Haskell Basic.csv
+        note_model: Computer Science Basic
+      - file: src/data/Haskell Cloze.csv
         note_model: Computer Science Cloze
       note_model_mappings:
       - note_models:

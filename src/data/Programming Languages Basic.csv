@@ -39,7 +39,7 @@ GuSsUi-xp5,<p>What is the difference in an activation record for a procedure and
 "i{aOcT,2.s","<p>A block A is entered, then a block B is entered, with the LIFO scheme, which block do we leave first?</p>",<p>B</p>,"CS::PLChapter05, CS::programming-languages"
 yt_ZUEgTbV,<p>What is the LIFO scheme?</p>,<p>Last in first out.</p>,"CS::PLChapter05, CS::programming-languages"
 yH+JoVdK?7,<p>Is memory management a function of a compiler or interpreter associated with an abstract machine?</p>,<p>Interpreter</p>,"CS::PLChapter05, CS::programming-languages"
-f)_PT=tSxj,<p>When is static memory management performed and by what?</p>,<p>By the compiler before execution starts</p>,"CS::PLChapter05, CS::programming-languages"
+f)_PT=tSxj,<p>When is static memory management performed and by what?</p>,Performed by the compiler before the exeuction starts.,"CS::PLChapter05, CS::programming-languages"
 q}vW9FOnW;,<p>How is the runtime management of the system stack implemented?</p>,<p>By code fragments which the compiler or interpreter inserts immediately before and after the call to a procedure or before the start and after the end of a block</p>,"CS::PLChapter05, CS::programming-languages"
 nbwM0t;*wm,"<p>What is the memory space allocated on the stack, dedicated to an in-line block or to an activation of a procedure called?</p>",<p>The activation record or frame.</p>,"CS::PLChapter05, CS::programming-languages"
 if#lE)EV##,<p>What does the structure of a generic activation record for an in-line block hold?</p>,"<p>Dynamic chain pointer, local variables and intermediate results</p>","CS::PLChapter05, CS::programming-languages"
@@ -313,23 +313,23 @@ OOSQFH;W};,What is another name for the syntactic analyser?,The parser,"CS::PLCh
 Q0fM4x89wU,What is the goal of the syntactic analyser?,To construct a derivation tree for the list of tokens produced by the lexical analyser,"CS::PLChapter02, CS::programming-languages"
 wk5aGq<(#},Which two main families do formal methods for semantics divide into?,Denotational and operational (*algebraic and axiomatic),"CS::PLChapter02, CS::programming-languages"
 zQ_lyx>.-n,Is the name and the object it denotes the same thing?,"No, a name is just a character string, while its denotation can be a complex object such as a variable, a function, a type, and so on.","CS::PLChapter04, CS::programming-languages"
-OuW`IAQ@n},Can an object have more than one name?,"Yes, this is called aliasing",
-"r<0%/XBvw,",What is a procedure?,"A name associated with a set of commands, together with certain visibility rules which make available to the programmer its sole interface. (e.g. Functions, methods and subprograms)",
-GBMpQokGu7,What are objects to which a name can be given called?,Denotable objects,
-z6mNu/b).q,What is the definition of an environment?,"The set of associations between names and denotable objects which exist at runtime at a specific point in the program and at a specific time during execution, is called the <i> (referencing) environment </i>",
-"hagWvdI,vy",What is a declaration?,A construct that allows the introduction of an association in the environment.,
-o4P`^Y?OF=,What is it called when a single object is visible using different names in the same environment?,Aliasing,
-j5L.4q<L+j,What is a block?,"A textual region of the program, identified by a start sign and an end sign, which can contain declarations local to that region (that is, which appear within the region).",
-r:Y>S5g|5N,What is a <b>block associated with a procedure</b>?,"A block associated with declarations local to a procedure. It corresponds textually to the body of the procedure itself, extended with the declarations of formal parameters.",
-eJ%1m+RQ6Y,What is an <b>in-line block</b>?,A lbock which does not correspond to a declaration of procedure and which can appear (in general) in any position where a command can appear,
-"m?V5,D]QW-","A declaration local to a block is visible in that block and in all blocks listed within it, unless there is a new declaration of the same name in that same block. What then happens?",The block which contains the redefinition of the new declaration hides the previous one.,
-Pk$$n-2yHJ,What are the three components  the environment associated with a block is formed of?,"Local Environment, non-local environment and global environment.",
-n)pYWyL7Y|,What is the local environment?,"The environment composed of the set of associations for names declared locally to the block. In case of the block being a procedure, the local environment contains also the associations for the formal parameters, given that they can be seen, as far as the environment is concerned, as locally declared variables.",
-Jr8.IoF{kD,What is the non-local environment?,"This is the environment formed from the associations for names, which are visible from inside a block but which have not been declared locally.",
-D6*rR7*[;o,What is the global environment?,This is the environment formed from associations created when the program’s execution began. It contains the associations for names which can be used in all blocks forming the program.,
-GwrT/JcTkf,"Which head more efficient execution, dynamic or static scope?",Static scope,
-NV/A}m1Mm),What is the definition of dynamic scope?,"According to the rule of dynamic scope, the valid association for a name X, at any point P of a program, is the most recent (in the temporal sense) association creatyed for X which is still active when control flow arrives at P.",
-cx7/9a]6d),What is the dynamic scope rule also called?,The rule of the most recent association,
+OuW`IAQ@n},Can an object have more than one name?,"Yes, this is called aliasing","CS::PLChapter04, CS::programming-languages"
+"r<0%/XBvw,",What is a procedure?,"A name associated with a set of commands, together with certain visibility rules which make available to the programmer its sole interface. (e.g. Functions, methods and subprograms)","CS::PLChapter04, CS::programming-languages"
+GBMpQokGu7,What are objects to which a name can be given called?,Denotable objects,"CS::PLChapter04, CS::programming-languages"
+z6mNu/b).q,What is the definition of an environment?,"The set of associations between names and denotable objects which exist at runtime at a specific point in the program and at a specific time during execution, is called the <i> (referencing) environment </i>","CS::PLChapter04, CS::programming-languages"
+"hagWvdI,vy",What is a declaration?,A construct that allows the introduction of an association in the environment.,"CS::PLChapter04, CS::programming-languages"
+o4P`^Y?OF=,What is it called when a single object is visible using different names in the same environment?,Aliasing,"CS::PLChapter04, CS::programming-languages"
+j5L.4q<L+j,What is a block?,"A textual region of the program, identified by a start sign and an end sign, which can contain declarations local to that region (that is, which appear within the region).","CS::PLChapter04, CS::programming-languages"
+r:Y>S5g|5N,What is a <b>block associated with a procedure</b>?,"A block associated with declarations local to a procedure. It corresponds textually to the body of the procedure itself, extended with the declarations of formal parameters.","CS::PLChapter04, CS::programming-languages"
+eJ%1m+RQ6Y,What is an <b>in-line block</b>?,A lbock which does not correspond to a declaration of procedure and which can appear (in general) in any position where a command can appear,"CS::PLChapter04, CS::programming-languages"
+"m?V5,D]QW-","A declaration local to a block is visible in that block and in all blocks listed within it, unless there is a new declaration of the same name in that same block. What then happens?",The block which contains the redefinition of the new declaration hides the previous one.,"CS::PLChapter04, CS::programming-languages"
+Pk$$n-2yHJ,What are the three components  the environment associated with a block is formed of?,"Local Environment, non-local environment and global environment.","CS::PLChapter04, CS::programming-languages"
+n)pYWyL7Y|,What is the local environment?,"The environment composed of the set of associations for names declared locally to the block. In case of the block being a procedure, the local environment contains also the associations for the formal parameters, given that they can be seen, as far as the environment is concerned, as locally declared variables.","CS::PLChapter04, CS::programming-languages"
+Jr8.IoF{kD,What is the non-local environment?,"This is the environment formed from the associations for names, which are visible from inside a block but which have not been declared locally.","CS::PLChapter04, CS::programming-languages"
+D6*rR7*[;o,What is the global environment?,This is the environment formed from associations created when the program’s execution began. It contains the associations for names which can be used in all blocks forming the program.,"CS::PLChapter04, CS::programming-languages"
+GwrT/JcTkf,"Which head more efficient execution, dynamic or static scope?",Static scope,"CS::PLChapter04, CS::programming-languages"
+NV/A}m1Mm),What is the definition of dynamic scope?,"According to the rule of dynamic scope, the valid association for a name X, at any point P of a program, is the most recent (in the temporal sense) association creatyed for X which is still active when control flow arrives at P.","CS::PLChapter04, CS::programming-languages"
+cx7/9a]6d),What is the dynamic scope rule also called?,The rule of the most recent association,"CS::PLChapter04, CS::programming-languages"
 QxKsffwvfr,"Using the dynamic scope, what is the value of x when write is called? <br/> <pre> {const x = 0;
 void fie(){
 write(x);
@@ -341,7 +341,7 @@ const x = 1;
 foo();
 }
 foo();
-}</pre>","1. Even if 2 is the most recent one created, it is no longer active when procedure fie is exeuted and is therefore not considered.",
+}</pre>","1. Even if 2 is the most recent one created, it is no longer active when procedure fie is exeuted and is therefore not considered.","CS::PLChapter04, CS::programming-languages"
 z9I6m~&{$y,"Using static scope, what is printed? <br/> <pre> {int x = 0;
 void fie(int n){
 x = n+1;
@@ -353,4 +353,21 @@ fie(3);
 write(x);
 }
 write(x);
-}</pre>",4 0 4,
+}</pre>",4 0 4,"CS::PLChapter04, CS::programming-languages"
+FNQJly%@j{,What part of an abstract machine deals with memory management?,The interpreter.,"CS::PLChapter05, CS::programming-languages"
+j;`[tmy7.X,Are global variables dynamic or static memory?,"Static memory, they can be stored in a memory area that is fixed before execution begins because they are visible throughout the program","CS::PLChapter05, CS::programming-languages"
+uzUPv1BnD8,Which scheme is used when blocks are enteredd and left?,"LIFO. This makes sense, as when block A is enttered, and then block B is entered, we first need to leave block B before blcok A.","CS::PLChapter05, CS::programming-languages"
+).7{+Okbc,"If the average number of simultaneously active calls to the same procedure is less than the number of procedures declared in the program, will you want to use dynamic or static memory?","Dynamic, as using a stack will save space, for there will be no need to allocate a memory area for each declared procedure, as must be done in the case of entirely static management.","CS::PLChapter05, CS::programming-languages"
+kwpkVCn@09,What are intermediate results in activation records for in-line blocks?,"Intermediate results that will not have an explicit name when doing calculations, e.g. (a+x) / (x+y) will have (a+x) and (x+y) as two different intermediate results. On many architectures they can be stored in registers","CS::PLChapter05, CS::programming-languages"
+H[!Be6lE8;,What are local variables in activation records for in-line blocks?,Variables declared inside blocks. These must be stored in a memory space whose size will depend on the number and type of the variables.,"CS::PLChapter05, CS::programming-languages"
+o.J{VxXd7k,What is the dynamic chain pointer in in-line blocks?,The field that stores a pointer to the previous activation record on the stack (or to the last activation record created).,"CS::PLChapter05, CS::programming-languages"
+Dm&+/o~*Xf,What is the purpose of the static chain pointer in an activation record for procedures?,It stores the information needed to implement the static scope rules.,"CS::PLChapter05, CS::programming-languages"
+A3r=^EPHz`,What is the purpose of the return address in an activation record for procedures?,This contains the address of the first instruction to execute after the call to the current procedure/function has terminated execution.,"CS::PLChapter05, CS::programming-languages"
+devG8frAF},What is the purpose of the returned result in an activation record for procedures?,This is present only in fuctions. Contains the address of the memory location where the subprogram stores the value to be returned by the function when it terminates. This memory location is inside the caller’s activation record.,"CS::PLChapter05, CS::programming-languages"
+EfsU8kwP;Y,What is the purpose of parameters in an activation record for procedures?,The values of actual parameters used to call the procedure or function are stored here.,"CS::PLChapter05, CS::programming-languages"
+k#jhi>sny*,When is an activation record pushed to the stack?,When a block is entered or a procedure is called. It is later removed from the sttack when the block is exited or when the procedure terminates.,"CS::PLChapter05, CS::programming-languages"
+Rc0i>{4pXD,What are the purposes of the code pieces <i>calling sequence</i> for the caller and <i> prologue </i> and <i>epilogue</i> for the callee? ,"The calling sequence is a piece of code inserted into the caller of a function/procedure to be executed immediately before the procedure call. This piece of code is used for stack management. <br/> The prologue is executed immediately after the call, and the epilogue is executed when the procedure ends execution. They manage the different operations needed to handle activation records and correctly implement a procedure call.","CS::PLChapter05, CS::programming-languages"
+AGCxj^W^ES,"Languages which include explicit commands for memory allocation such as C and Pascal don’t use a stack, but instead use what?",A heap. This is simply an array of memory in which blocks of memory can be allocated and deallocate relatively freely.,"CS::PLChapter05, CS::programming-languages"
+iZl%oVp8O^,"In the case in which a language does not allow runtime allocation of variable-length memory spaces, what kind of blocks do we use?",Fixed-length blocks.,"CS::PLChapter05, CS::programming-languages"
+dWv^K-LKZ.,"When the heap is divided into fixed-length blocks, what structure is used for the blocks?",A listt structure called the free list.,"CS::PLChapter05, CS::programming-languages"
+z=RCPRy9rH,When are variable-length blocks used in the heap?,"In the case in which the language allows the runtime allocation of variable-length memory spaces, fo rexample to store an array of variable dimension","CS::PLChapter05, CS::programming-languages"
