@@ -274,7 +274,7 @@ mvaA`dgI@F,What are high-level languages?,Those which support the use of constru
 e^y$@Is}^W,Why are algorithms usually written in high-level language rather than low-level ones?,"The low-level algorithms take too many of the physical machines quirks into account, meaning that it is much easier to understand with a high-level language. ","CS::PLChapter01, CS::programming-languages"
 t[/}eKqp=2,Are abstract machines always physical machines?,"No, abstract machines can be anything from physical machine to the World Wide Web.","CS::PLChapter01, CS::programming-languages"
 sM[$ngW[6I,"In a physical machine, the language \(\mathscr{L}H\) which the physical machine executes is composed of what?",Relatively simple instructions,"CS::PLChapter01, CS::programming-languages"
-c>^kM2Ezz`,"In a physical machine, what is the difference between <pre> ADD R5, R0 </pre> and <pre> ADD R5, R0 </pre>?","Without the paranthesis it indicates the contents will be summed and the result stored in R5, while with paranthesis the contents of the memory cells whose addresses are contained in R0 and R5 is computed and the result stored in the cell whose address is in R5.","CS::PLChapter01, CS::programming-languages"
+c>^kM2Ezz`,"In a physical machine, what is the difference between <pre> ADD R5, R0 </pre> and <pre> ADD (R5), (R0) </pre>?","Without the paranthesis it indicates the contents will be summed and the result stored in R5, while with paranthesis the contents of the memory cells whose addresses are contained in R0 and R5 is computed and the result stored in the cell whose address is in R5.","CS::PLChapter01, CS::programming-languages"
 JnXao:d0.Q,What is CISC short for?,"Complex Insturction Set Computer, processors which have many machine instructions","CS::PLChapter01, CS::programming-languages"
 wl5p}g4d)c,What is RISC short for?,"Reduced Instruction Set Computers, architectures in which there tend to be fewer instructions which are, in particular, simple enough to be executed in a few (possibly one) clock cycles and in pipelined fashion.","CS::PLChapter01, CS::programming-languages"
 "w9K2},jtXy",Where are the operations for processing primitive data and the usual arithmetic and logical operations implemented?,In the ALU (Arithmetic and Logic Unit),"CS::PLChapter01, CS::programming-languages"
@@ -426,3 +426,70 @@ EJpDkua]Kw,What is structured programming?,"Structured programming is a programm
 huA.2&ZcZc,"When using dynamic scope, do you use shallow or deep binding?","You don’t need to use a specific one, you can use both.","CS::PLChapter07, CS::programming-languages"
 ij&Du0Q4(y,"When using static scope, do you use shallow or deep binding? ",Deep binding,"CS::PLChapter07, CS::programming-languages"
 m1r2}LEK!U,What is the simplest and intuitive way in which an abstract machienc an implement exceptions?,"Using a stack of activation records. When a block is entered at runtime, a pointer to the corresponding handler (together with the type of exception to which it refers) is inserted into the activation record (of the current procedure or of the current anonymous block). When a normal exit is made from a protected block (that is, because control transfers from it in the usual way and not through raising an exception), the reference to the handler is removed from the stack. Finally when an exception is raise, the abstract machine look sfor a handler for this exeption in the current activation record. If one is not found, it uses the information in the record to reset the state of the machine, removes the record from the stack and rethrows the exception.","CS::PLChapter07, CS::programming-languages"
+zv-/_6fa@F,What is a data type?,"A data type is a homogeneous collection of values, effectively presented, equipped with a set of operations which manipulate these values.","CS::PLChapter08, CS::programming-languages"
+M41R$BoGk),Why are real number not effectively presentable?,"Because there are real numbers with inifnite decimal expansion, which cannot be obtained by means of any algorithm.","CS::PLChapter08, CS::programming-languages"
+wVU8VPOF?g,What do most languages require of the type of <i>exp</i> in the following code segment? <pre>x := exp</pre>,"That the type of exp coincides (or better, is compatible) with the (declared) type of x.","CS::PLChapter08, CS::programming-languages"
+kl3#)I+DyF,What does tail recursion fix over normal recursion?,The problem of the normal recursion using too much memory (as well as some efficiency),"CS::PLMisc, CS::programming-languages"
+cb<{Mm*t^X,"What does this describe? <br> A type system is this when no program, during its execution, can generate an usignalled error derived from a type violation.","Type safe, meaning no program can violate the distinctions between types defined in that language.","CS::PLChapter08, CS::programming-languages"
+BQL#L:4q_#,"Which of the following are a function in imperative languages? Storable, expressable, denotable.","For imperative languages it is only denotable. However, for functional languages functional values can both be denotable and expressible, and in some languages even storable. ","CS::PLChapter08, CS::programming-languages"
+J~zrMdmBl-,"A problem with static type checking is that static types can decree as erroneous, programs that, in reality do not cause a runtime type error, why is this?","A condition that will never be met might assign a type to something that it can not hold, for example <pre>
+int x; 
+if (0==1) x = “pippo”; 
+else x = 3 + 4;</pre>
+here the command x = “pippo” would never be executed, but the static type checker would likely still cause an error.","CS::PLChapter08, CS::programming-languages"
+unaNR*rr<z,What are the most common sets of character codes for <i>character</i> types?,ASCII and UNICODE. The representation in store will consist of a single byte with ASCII and two bytes with UNICODE.,"CS::PLChapter08, CS::programming-languages"
+ErZp!a5ON_,Why do we have no interest in explicitly saying what void returns?,"It will return something unique each time, that is of no use. ","CS::PLChapter08, CS::programming-languages"
+Qja(e*d3zw,What is the purpose of <pre>void</pre>?,It is used to denote the type of operations that modify the state but return no value.,"CS::PLChapter08, CS::programming-languages"
+tiU<Wj^;47,What was the first language to introduce intervals as well as enumerations?,Pascal,"CS::PLChapter08, CS::programming-languages"
+HN^S8;R;Yn,Are records (or structures) homogenous or heterogeneous?,Heterogeneous,"CS::PLChapter08, CS::programming-languages"
+y0+Ypzw/+e,Can records be nested?,"In many languages, yes.","CS::PLChapter08, CS::programming-languages"
+"w5r2_L`,qn",What is the difference between structs and unions in C?,Unions share the same memory location.,"CS::PLChapter08, CS::programming-languages"
+QgwA~13y4T,What is the size of a union in c? ,It is equal to the type with the largest size.,"CS::PLChapter08, CS::programming-languages"
+Gfk[eP{%7/,Are arrays homogenous or heterogeneous?,Homogenous,"CS::PLChapter08, CS::programming-languages"
+y#>v0P(:=z,What is the most simple operation permitted on an array?,Element selection,"CS::PLChapter08, CS::programming-languages"
+Lv$fzs`:3?,Which programming langauges allow the definition of set types?,Pascal and its descendants,"CS::PLChapter08, CS::programming-languages"
+ebO+n2`BRU,Some languages permit the direct manipulation of l-values. What is the corresponding type called?,A pointer type,"CS::PLChapter08, CS::programming-languages"
+t&:Js>j5rm,Are poitners necessary in a language with refernce model for variables?,"No, every variable is always a reference.","CS::PLChapter08, CS::programming-languages"
+Cs)N+]_S]~,What is explicit deallocation?,When the language makes available a mechanism with which the programmer can release the memory referred to by a pointer. ,"CS::PLChapter08, CS::programming-languages"
+NwpUPia59D,"If the definition of a type is opaque, do we have structural equivalence or equivalence by name?",Equivalence by name,"CS::PLChapter08, CS::programming-languages"
+OZG^g=pX<S,"If the definition of a type is transparent, do we have structural equivalence or equivalence by name?",Structural Equivalence,"CS::PLChapter08, CS::programming-languages"
+syM~$pHfjg,What is the definition of equivalence by name?,Two types are equivalent by name only if they have the same name (so a type is equivalent only to itself),"CS::PLChapter08, CS::programming-languages"
+"qE,I7{:_PC","Pascal adopts the rule of <i>weak</i> (or lax) equivalence by name, what does this mean?","The simple renaming of a type does not generate a new type, but only a type alias for the same one.","CS::PLChapter08, CS::programming-languages"
+xt>PVpoCc~,"Using <i>weak</i> equivalence by name, which types are equivalent and which are distinct? <pre> 
+type T1 = 1..10;
+type T2 = 1..10;
+type T3 = int; 
+type T4 = int;
+</pre>",T1 and T2 are distinct but T3 and T4 are equivalent. This is because T3 and T4 are seen as aliases for int.,"CS::PLChapter08, CS::programming-languages"
+iC?O2(M!}3,"Using <i>non-weak</i> equivalence by name, which types are equivalent and which are distinct?  <pre> 
+type T1 = 1..10;
+type T2 = 1..10;
+type T3 = int; 
+type T4 = int;
+</pre>",They are all distinct.,"CS::PLChapter08, CS::programming-languages"
+hUIL!_<4eJ,What does it mean if a language uses opaque type definitions?,Each new definition introduces a new type which is different from every preceding one.,"CS::PLChapter08, CS::programming-languages"
+o+ksY9BNU3,"In a language with transparent declarations, when are two types equivalent?","if they have the same structure, that is if, substituting names for the relevant definitions, identical types are obtained.","CS::PLChapter08, CS::programming-languages"
+cX:n*^?r=(,"Using structual equivalence, which types are equivalent here? <pre>
+type T1 = int; 
+type T2 = char; 
+type T3 = struct {
+                           T1 a; 
+                           T2 b;
+                    }
+type T4 = struct {
+                           int a; 
+                           char b; 
+                     }
+                   </pre>",T3 and T4 are structurally equivalent.,"CS::PLChapter08, CS::programming-languages"
+JD%|Bj8bi=,What is the definition of compatibility?,"We say that type T is compatible with type S, if a value of type T is permitted in any context in which a value of type S would be admissible.","CS::PLChapter08, CS::programming-languages"
+H`)6+&80oc,"In a language which admits structural equivalence, are two types that are structurally equivalent compatible?","Yes, but not equal.","CS::PLChapter08, CS::programming-languages"
+nnKi;LPh$],What is implicit conversion (also called coercion or forced conversion)?,This is the case in which the abstract machine inserts a conversion when there is no such indication in the high-level language.,"CS::PLChapter08, CS::programming-languages"
+fG9VoeX/sR,What is explicit conversion (or cast)?,This is when the conversion is indicated in the text of the program.,"CS::PLChapter08, CS::programming-languages"
+IO#d8J`Hy4,What is the definition of type coercions?,"In the precense of compatibility between the types T and S, the language allows a value of tyep T to occur where a value of type S is expected. When this happens, the compiler and/or abstract machines inserts a type conversion between T and S.","CS::PLChapter08, CS::programming-languages"
+cD&+{l&/^M,"What does this describe? <br/> These are annotations in the language, which specify that a value of one type must be converted to that of another type.",Explicit Conversions,"CS::PLChapter08, CS::programming-languages"
+ev<<_La227,What can universal polymorphism be divided into?,Parametric polymorphism and subtyping or inclusion polymorphism.,"CS::PLChapter08, CS::programming-languages"
+HfMyO%?TsI,"If we have defined the name + to be two functions, one which accepts integers, and another which accepts floats, what type of polymorphism would that be?","Overloading, or ad hoc polymorphism. It chooses which function depending on the context.","CS::PLChapter08, CS::programming-languages"
+Q&P<n5`)>?,What type of polymorphism is <i>null</i>?,"Universal parametric polymorphism, it has an infinite number of different types.","CS::PLChapter08, CS::programming-languages"
+uad)=KEd~v,What type of polymorphism is <pre>void sort(<T> A[])</pre>?,"Universal parametric polymorphism, it has an infinite number of different types.","CS::PLChapter08, CS::programming-languages"
+dSmruZN8nB,In what kind of polymorphism is explicit and implicit polymorphism present?,Universal parametric polymorphism.,"CS::PLChapter08, CS::programming-languages"
+DTN;.I+#X`,Where is subtype polymorphism typically present?,In object-oriented programming languages.,"CS::PLChapter08, CS::programming-languages"
