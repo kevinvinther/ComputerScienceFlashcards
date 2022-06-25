@@ -42,3 +42,9 @@ j!HhRQb6WN,What is the difference between [Char] and String?,They’re synonymou
 nC}[#w(w/W,What is a type variable?,A variable which can be of any type. Much like generics in other languages.,"CS::HSChapter3, CS::haskell, CS::programming-languages"
 t-`m+TLE1k,What are functions that use type variables called?,Polymorphic functions.,"CS::HSChapter3, CS::haskell, CS::programming-languages"
 Kkf*B}#Vr),What does it mean if a type is a member of the <pre>Eq</pre> class?,It can be equated,"CS::HSChapter3, CS::haskell, CS::programming-languages"
+N7Bc/|CgiM,What does it mean that functions in Haskell are curried?,"Functions in Haskell actually only take one parameter. This means that when a function uses more than one parameter, it basically creates a new function for each argument that takes a new argument.","CS::HSChapter5, CS::haskell, CS::programming-languages"
+"crDXcL,^-M",How do we indicate that we want a function as a parameter in the type declaration?,"We use parantheses. E.g. 
+<pre>
+applyTwice :: (a -> a) -> a -> a   
+applyTwice f x = f (f x) 
+</pre>","CS::HSChapter5, CS::haskell, CS::programming-languages"
