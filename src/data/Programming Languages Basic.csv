@@ -544,3 +544,30 @@ n`$Fl&FmtN,What is the A-list variant for dynamic scope?,"A list where the assoc
 O&&g.io4%@,What is the access time of Central Referncing Table (CRT)?,Constant,"CS::PLChapter05, CS::programming-languages"
 q>gK/{Kyz6,What is the difference between call by name and call by need?,"Call by need is a variant of call by name (if the function argument is evaluated, that value is stored for subsequent use)","CS::PLChapter07, CS::programming-languages"
 pe;(SVU&gH,What parameter passing method does haskell use?,Call by need.,"CS::PLChapter07, CS::programming-languages"
+yg$toW-5<>,What is used for implementation of deep binding with dynamic scope?,Closures,"CS::PLChapter07, CS::programming-languages"
+Q)]u/eZ#HZ,What is used for implementation of shallow binding with dynamic scope?,It does not require further implementation,"CS::PLChapter07, CS::programming-languages"
+y<x`sX|t:O,What is used for implementation of deep binding with static scope?,It is implemented with closures,"CS::PLChapter07, CS::programming-languages"
+t8uqzHW?o8,Is there any difference between shallow and deep binding using static scope?,"At first glance it might seem not, but that is not the case. With more than one block declaring the non-local name can be available; e.g. when recursion is present. ","CS::PLChapter07, CS::programming-languages"
+Jeb2*W{^$z,"In a simple implementation of exceptions, what happens if the first handler on the stack is not the right one, when an exception is raised?","The first handler on the stadck is removed, and the exception is raised again and repeated.","CS::PLChapter07, CS::programming-languages"
+E;aF|#psk+,"If a user can freely allocate memory, but not deallocate memory, what do we use to ensure memory stability?",Garbae collection,"CS::PLChapter08, CS::programming-languages"
+PR8E+hp3)|,What is cherney’s algorithm?,A stop and copy method.,"CS::PLChapter08, CS::programming-languages"
+v:y3<[q]0_,What is the basic idea of Abstract Data Types?,To seperate the interface from the implementation.,"CS::PLChapter09, CS::programming-languages"
+"c,WL4fd#hU",Enapsulation is the mechanism for seperating what two views?,"The view of the dsigner, a concept has a “detailed” view, and the view of the customer, where the concept has an “abstract” view.","CS::PLChapter09, CS::programming-languages"
+M7txuBcH&n,What is the difference between subtyping and inheritance?,"Subtyping refers to the compatibility of interfaces, while iheritance refers to the reuse of implementations.","CS::PLChapter10, CS::programming-languages"
+iNb4Dc[uE!,What methods are not virtual in java?,Private and final methods,"CS::PLChapter10, CS::programming-languages"
+jWILse[O;E,"What is this describing? “______ cannot be instantiated, only subclassed”",Abstract classes,"CS::PLChapter10, CS::programming-languages"
+"zjr]|,]|27",What is dynamic lookup?,"The code you run depends no the method, arguments and object.","CS::PLChapter10, CS::programming-languages"
+"dCIdMB5,FA",What is late binding? ,"Which f to use? 
+<pre>
+class A{
+  int a = 0; 
+  void f() {g();}
+  void g() {a=1;}
+}
+class B extending A{
+  int b = 0; 
+  void g(){b=2;}
+}
+B b = new B();
+b.f() //?????
+</pre>","CS::PLChapter10, CS::programming-languages"
