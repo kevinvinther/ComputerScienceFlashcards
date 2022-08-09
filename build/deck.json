@@ -1,0 +1,424 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "166016b4-17ea-11ed-ba04-40b076444a23",
+    "deck_config_uuid": "539b82a0-a514-11ec-b44f-acde48001122",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "539b82a0-a514-11ec-b44f-acde48001122",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Computer Science",
+            "new": {
+                "bury": true,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 0,
+                "perDay": 10,
+                "separate": true
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "replayq": true,
+            "rev": {
+                "bury": true,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 100
+            },
+            "reviewOrder": 0,
+            "timer": 1
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [
+        "paste-8e998cac5d6e4b989e6bc335e69a1bbb42cb18e7.jpg"
+    ],
+    "name": "Computer Science",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n.tag {\n  color: white;\n  background-color: #9F2BFF;\n  font-size: 11px;\n  font-weight: bold;\n  padding: 4px;\n  border-radius: 10px;\n  vertical-align: middle;\n}\n\npre {\n  font-family: monospace;\n  font-size: 12px;\n  text-align: left;\n  color: black;\n  background-color: #F0F0F0;\n  border: 1px solid #CCC;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Computer Science Basic",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}\n",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Front",
+                    "ord": 0,
+                    "qfmt": "{{Front}}\n<br /> <br />\n<sub class=\"tag\">{{ Tags }}</sub>",
+                    "scratchPad": 0
+                }
+            ],
+            "type": 0,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "539d3988-a514-11ec-b44f-acde48001122",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n.tag {\n  color: white;\n  background-color: #9F2BFF;\n  font-size: 11px;\n  font-weight: bold;\n  padding: 4px;\n  border-radius: 10px;\n  vertical-align: middle;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Text",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Computer Science Cloze",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{cloze:Text}}\n\n<br>\n\n{{Extra}}\n",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Cloze",
+                    "ord": 0,
+                    "qfmt": "{{cloze:Text}}\n<br /> <br />\n<sub class=\"tag\">{{ Tags }}</sub>",
+                    "scratchPad": 0
+                }
+            ],
+            "type": 1,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What does Dr. Winston W. Royce mean are the two essential steps common to all computer program developments, regardless of size or complexity?",
+                "An analysis step following second by a coding step.<br><img src=\"paste-8e998cac5d6e4b989e6bc335e69a1bbb42cb18e7.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "g[VD%QJ6{M",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM571::Lecture1",
+                "CS::software-engineering"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is a linear-sequential life cycle model also reffered to as?&nbsp",
+                "The waterfall model"
+            ],
+            "flags": 0,
+            "guid": "wpQp#.PLVK",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM571::Lecture1",
+                "CS::software-engineering"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What was the first process model to be introduced?",
+                "The waterfall model"
+            ],
+            "flags": 0,
+            "guid": "ArWN_SVBpE",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM571::Lecture1",
+                "CS::software-engineering"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "In a waterfall model, what must happen before the next phase can begin?",
+                "The previous phase must be completed fully."
+            ],
+            "flags": 0,
+            "guid": "t=NWMhXNGY",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM571::Lecture1",
+                "CS::software-engineering"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What type of projects is the waterfall model used for?",
+                "Projects which are small and there are no uncertain requirements"
+            ],
+            "flags": 0,
+            "guid": "Ee[hksm2YU",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM571::Lecture1",
+                "CS::software-engineering"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "In the waterfall model, what is considered at the end of each phase?&nbsp;",
+                "A review to determine whether the project is on the right path and whether or not to continue or discard the project."
+            ],
+            "flags": 0,
+            "guid": "G{!>up`77~",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM571::Lecture1",
+                "CS::software-engineering"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "In the waterfall model, do phases overlap?",
+                "No, they do not overlap."
+            ],
+            "flags": 0,
+            "guid": "nx*>8jHcXz",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM571::Lecture1",
+                "CS::software-engineering"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "In the waterfall model, when does software testing start?",
+                "After the development is complete."
+            ],
+            "flags": 0,
+            "guid": "iJ)Q!jO3cn",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM571::Lecture1",
+                "CS::software-engineering"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "When did the waterfall model stop being used (primarily)?",
+                "It stopped in the year 2000. Even after the Agile manifesto was published in 2001, Waterfall model continued to be used by many organizations till the last decade.&nbsp;"
+            ],
+            "flags": 0,
+            "guid": "HJN)hK*+([",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM571::Lecture1",
+                "CS::software-engineering"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "In the olden days, application developed in Waterfall Model would usually take how long to develop?",
+                "A year or longer"
+            ],
+            "flags": 0,
+            "guid": "bgO!.Qey_!",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM571::Lecture1",
+                "CS::software-engineering"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Using the waterfall method, why is it very expensive if a failure occurs?",
+                "Because we need to update everything from document till the logic."
+            ],
+            "flags": 0,
+            "guid": "qt@th}`2S8",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM571::Lecture1",
+                "CS::software-engineering"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What does the V-model mean?",
+                "Verification and validation model."
+            ],
+            "flags": 0,
+            "guid": "EalkxFvrEX",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM571::Lecture1",
+                "CS::software-engineering"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "In the V-model what must happen in the previous phase before the next phase begins?",
+                "The previous phase must be completed."
+            ],
+            "flags": 0,
+            "guid": "r7)6u4AD.[",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM571::Lecture1",
+                "CS::software-engineering"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "These days most projects follow&nbsp;{{c1::Agile Methodology::method}}, some form of&nbsp;{{c2::Iterative model::model}} or one of the other models depending on their project specific requirement.&nbsp;",
+                "Up untill the year 2000 the waterfall model was used significantly."
+            ],
+            "flags": 0,
+            "guid": "$KKJNAwK)",
+            "note_model_uuid": "539d3988-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM571::Lecture1",
+                "CS::software-engineering"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Just like the waterfall model, the V-shaped life cycle is a&nbsp;{{c1::sequential}} path of exeuction of processes.",
+                "Also like the waterfall model, each phase must be completed before the next phase begins."
+            ],
+            "flags": 0,
+            "guid": "CB2?nAsbYE",
+            "note_model_uuid": "539d3988-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM571::Lecture1",
+                "CS::software-engineering"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "In the V-model, testing of the product is planned&nbsp;{{c1::in parallel}} with a corresponding phase of development.",
+                "For example Business Requirement Specifications -&gt"
+            ],
+            "flags": 0,
+            "guid": "kn]PDV+6U=",
+            "note_model_uuid": "539d3988-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "Acceptance",
+                "testing"
+            ]
+        }
+    ]
+}
