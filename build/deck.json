@@ -419,6 +419,160 @@
                 "Acceptance",
                 "testing"
             ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The following is the definition of which rule? \nSuppose that a procedure can be broken down into a sequence of two tasks. If there are \\(n_1\\) ways to do the first task and for each of these ways of doing the first task, there are \\(n_2\\) ways to do the second task, then there are \\(n_1n_2\\)  ways to do the procedure. ",
+                "The Product Rule"
+            ],
+            "flags": 0,
+            "guid": "gYY?+6dLpm",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM551::Rosen::Chapter6::1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The following is the definition of which rule?  \nIf a task can be done either in one of \\(n_1\\) ways or in one of \\(n_2\\) ways, where none of the set of \\(n_1\\) ways is the same as any of the set of \\(n_2\\) ways, then there are \\(n_1 + n_2\\) ways to do the task.",
+                "The Sum Rule"
+            ],
+            "flags": 0,
+            "guid": "c]ivo]sYYN",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM551::Rosen::Chapter6::1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The following is the definition of which rule?   \nIf a task can be done in either  \\(n_1\\) ways or \\(n_2\\) ways, then the number of ways to do the task is \\(n_1+n_2\\) minus the number of ways to do the task that are common to the two different ways.",
+                "The Substraction Rule"
+            ],
+            "flags": 0,
+            "guid": "EHqr0&RDpn",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM551::Rosen::Chapter6::1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Which rule is also known as the principle of inclusion-exclusion?",
+                "The Substraction Rule"
+            ],
+            "flags": 0,
+            "guid": "tDGa4bO6qI",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM551::Rosen::Chapter6::1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The following is the definition of what rule?\nThere are \\(n/d\\) ways to do a task if it can be done using a procedure that can be carried out in \\(n\\) ways, and for every way \\(w\\), exactly \\(d\\) of the \\(n\\) ways correspond to way \\(w\\)",
+                "The Division Rule"
+            ],
+            "flags": 0,
+            "guid": "G`lP^MRiC)",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM551::Rosen::Chapter6::1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What does a tree (from tree diagrams) consist of?",
+                "A root, a number of banrches leaving the root, and possible additional branches leaving the endpoints of other branches."
+            ],
+            "flags": 0,
+            "guid": "h8kY7-30>r",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM551::Rosen::Chapter6::1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The following is the definition of which principle?\nIf \\(k\\) is a positive integer and \\(k + 1\\) or more objects are placed into \\(k\\) boxes, then there is a tleast one box containing two or more objects.",
+                "The Pigeonhole Principle"
+            ],
+            "flags": 0,
+            "guid": "BCY+@a#2X|",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM551::Rosen::Chapter6::2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Which principle is also called the Dirichlet drawer principle?",
+                "The Pigeonhole Principle"
+            ],
+            "flags": 0,
+            "guid": "O8(4C%QlC+",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM551::Rosen::Chapter6::2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The following is the definition of which principle?\nIf \\(N\\) objects are placed into \\(k\\) boxes, then there is at least one box containing at least \\([N/k]\\) objects.",
+                "The Generalized Pigeonhole Principle"
+            ],
+            "flags": 0,
+            "guid": "fIAGGGh_X6",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM551::Rosen::Chapter6::2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "When is a sequence called strictly increasing?",
+                "If each term is larger than the one that precedes it"
+            ],
+            "flags": 0,
+            "guid": "Cqa%dB@4qU",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM551::Rosen::Chapter6::2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "When is a sequence called strictly decreasing?",
+                "If each term is smaller than the one that precedes it."
+            ],
+            "flags": 0,
+            "guid": "GMn)WmQ$P;",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM551::Rosen::Chapter6::2"
+            ]
         }
     ]
 }
