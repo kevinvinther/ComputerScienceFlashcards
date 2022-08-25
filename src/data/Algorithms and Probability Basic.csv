@@ -1,18 +1,23 @@
 guid,front,back,tags
-gYY?+6dLpm,"The following is the definition of which rule? 
+gYY?+6dLpm,"The following is the definition of which rule? <br/>
 Suppose that a procedure can be broken down into a sequence of two tasks. If there are \(n_1\) ways to do the first task and for each of these ways of doing the first task, there are \(n_2\) ways to do the second task, then there are \(n_1n_2\)  ways to do the procedure. ",The Product Rule,CS::DM551::Rosen::Chapter6::1
-c]ivo]sYYN,"The following is the definition of which rule?  
+c]ivo]sYYN,"The following is the definition of which rule?  <br/>
 If a task can be done either in one of \(n_1\) ways or in one of \(n_2\) ways, where none of the set of \(n_1\) ways is the same as any of the set of \(n_2\) ways, then there are \(n_1 + n_2\) ways to do the task.",The Sum Rule,CS::DM551::Rosen::Chapter6::1
-EHqr0&RDpn,"The following is the definition of which rule?   
+EHqr0&RDpn,"The following is the definition of which rule?   <br/>
 If a task can be done in either  \(n_1\) ways or \(n_2\) ways, then the number of ways to do the task is \(n_1+n_2\) minus the number of ways to do the task that are common to the two different ways.",The Substraction Rule,CS::DM551::Rosen::Chapter6::1
 tDGa4bO6qI,Which rule is also known as the principle of inclusion-exclusion?,The Substraction Rule,CS::DM551::Rosen::Chapter6::1
-G`lP^MRiC),"The following is the definition of what rule?
+G`lP^MRiC),"The following is the definition of what rule?<br/>
 There are \(n/d\) ways to do a task if it can be done using a procedure that can be carried out in \(n\) ways, and for every way \(w\), exactly \(d\) of the \(n\) ways correspond to way \(w\)",The Division Rule,CS::DM551::Rosen::Chapter6::1
 h8kY7-30>r,What does a tree (from tree diagrams) consist of?,"A root, a number of banrches leaving the root, and possible additional branches leaving the endpoints of other branches.",CS::DM551::Rosen::Chapter6::1
-BCY+@a#2X|,"The following is the definition of which principle?
+BCY+@a#2X|,"The following is the definition of which principle?<br/>
 If \(k\) is a positive integer and \(k + 1\) or more objects are placed into \(k\) boxes, then there is a tleast one box containing two or more objects.",The Pigeonhole Principle,CS::DM551::Rosen::Chapter6::2
 O8(4C%QlC+,Which principle is also called the Dirichlet drawer principle?,The Pigeonhole Principle,CS::DM551::Rosen::Chapter6::2
-fIAGGGh_X6,"The following is the definition of which principle?
+fIAGGGh_X6,"The following is the definition of which principle?<br/>
 If \(N\) objects are placed into \(k\) boxes, then there is at least one box containing at least \([N/k]\) objects.",The Generalized Pigeonhole Principle,CS::DM551::Rosen::Chapter6::2
 Cqa%dB@4qU,When is a sequence called strictly increasing?,If each term is larger than the one that precedes it,CS::DM551::Rosen::Chapter6::2
-GMn)WmQ$P;,When is a sequence called strictly decreasing?,If each term is smaller than the one that precedes it.,CS::DM551::Rosen::Chapter6::2
+GMn)WmQ$P,When is a sequence called strictly decreasing?,If each term is smaller than the one that precedes it.,CS::DM551::Rosen::Chapter6::2
+gX&uwX=_97,"What is <i>P(n,r)</i>",The number of <i>r</i>-permutations of a set with <i>n</i> elements,CS::DM551::Rosen::Chapter6::3
+M]zM&QY+p7,"What is the equation of <i>P(n,r)</i> if <i>n</i> and <i>r</i> are integers with \(0 \leq r \leq n\)?","\(P(n,r) = \frac{n!}{(n-r)!}\)",CS::DM551::Rosen::Chapter6::3
+w]uB.jxD1R,What is an <b>r-combination</b> of elements of a set?,"An unordered selection of <i>r</i> elements from the set. Thus, an <i>r</i>-combination is simply a subset of the set with <i>r</i> elements.",CS::DM551::Rosen::Chapter6::3
+c-N@=f[=uY,"What is denoted by \(C(n,r)\) or \(\binom{n}{r}\)?",The number of <i>r</i>-combinations of a set with <i>n</i> distinct elements,CS::DM551::Rosen::Chapter6::3
+L=)LOK4UIo,"The number of r-combinations of a set with n elements, where n is a nonnegative integer and r is an integer with \(0 \leq r \leq n\) equals what?","\(C(n,r) = \frac{n!}{r!(n-r)!}\)",CS::DM551::Rosen::Chapter6::3

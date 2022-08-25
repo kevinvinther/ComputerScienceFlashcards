@@ -1,1 +1,4 @@
 guid,text,extra,tags
+t`UYj88/0P,A {{c1::permutation}} of a set of distinct objects is an ordered arrangement of these objects.,.,CS::DM551::Rosen::Chapter6::3
+wgsP|mK@fN,An ordered arrangement of <i>r</i> elements of a set is called an {{c1::r-permutation}},.,CS::DM551::Rosen::Chapter6::3
+xxM[|/tFNr,"A {{c1::combinatorial proof}} of an identity is a proof that uses counting arguments to prove that both sides of the identity count the same objects but in different ways or a proof that is based on showing that there is a bijection between the sets of objects counted by the two sides of the identity. These two types of proofs are called {{c2::double counting proofs}} and {{c2::bijective proofs}}, respectively.",.,CS::DM551::Rosen::Chapter6::3

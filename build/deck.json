@@ -424,7 +424,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "The following is the definition of which rule? \nSuppose that a procedure can be broken down into a sequence of two tasks. If there are \\(n_1\\) ways to do the first task and for each of these ways of doing the first task, there are \\(n_2\\) ways to do the second task, then there are \\(n_1n_2\\)  ways to do the procedure. ",
+                "The following is the definition of which rule? <br/>\nSuppose that a procedure can be broken down into a sequence of two tasks. If there are \\(n_1\\) ways to do the first task and for each of these ways of doing the first task, there are \\(n_2\\) ways to do the second task, then there are \\(n_1n_2\\)  ways to do the procedure. ",
                 "The Product Rule"
             ],
             "flags": 0,
@@ -438,7 +438,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "The following is the definition of which rule?  \nIf a task can be done either in one of \\(n_1\\) ways or in one of \\(n_2\\) ways, where none of the set of \\(n_1\\) ways is the same as any of the set of \\(n_2\\) ways, then there are \\(n_1 + n_2\\) ways to do the task.",
+                "The following is the definition of which rule?  <br/>\nIf a task can be done either in one of \\(n_1\\) ways or in one of \\(n_2\\) ways, where none of the set of \\(n_1\\) ways is the same as any of the set of \\(n_2\\) ways, then there are \\(n_1 + n_2\\) ways to do the task.",
                 "The Sum Rule"
             ],
             "flags": 0,
@@ -452,7 +452,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "The following is the definition of which rule?   \nIf a task can be done in either  \\(n_1\\) ways or \\(n_2\\) ways, then the number of ways to do the task is \\(n_1+n_2\\) minus the number of ways to do the task that are common to the two different ways.",
+                "The following is the definition of which rule?   <br/>\nIf a task can be done in either  \\(n_1\\) ways or \\(n_2\\) ways, then the number of ways to do the task is \\(n_1+n_2\\) minus the number of ways to do the task that are common to the two different ways.",
                 "The Substraction Rule"
             ],
             "flags": 0,
@@ -480,7 +480,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "The following is the definition of what rule?\nThere are \\(n/d\\) ways to do a task if it can be done using a procedure that can be carried out in \\(n\\) ways, and for every way \\(w\\), exactly \\(d\\) of the \\(n\\) ways correspond to way \\(w\\)",
+                "The following is the definition of what rule?<br/>\nThere are \\(n/d\\) ways to do a task if it can be done using a procedure that can be carried out in \\(n\\) ways, and for every way \\(w\\), exactly \\(d\\) of the \\(n\\) ways correspond to way \\(w\\)",
                 "The Division Rule"
             ],
             "flags": 0,
@@ -508,7 +508,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "The following is the definition of which principle?\nIf \\(k\\) is a positive integer and \\(k + 1\\) or more objects are placed into \\(k\\) boxes, then there is a tleast one box containing two or more objects.",
+                "The following is the definition of which principle?<br/>\nIf \\(k\\) is a positive integer and \\(k + 1\\) or more objects are placed into \\(k\\) boxes, then there is a tleast one box containing two or more objects.",
                 "The Pigeonhole Principle"
             ],
             "flags": 0,
@@ -536,7 +536,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "The following is the definition of which principle?\nIf \\(N\\) objects are placed into \\(k\\) boxes, then there is at least one box containing at least \\([N/k]\\) objects.",
+                "The following is the definition of which principle?<br/>\nIf \\(N\\) objects are placed into \\(k\\) boxes, then there is at least one box containing at least \\([N/k]\\) objects.",
                 "The Generalized Pigeonhole Principle"
             ],
             "flags": 0,
@@ -568,10 +568,122 @@
                 "If each term is smaller than the one that precedes it."
             ],
             "flags": 0,
-            "guid": "GMn)WmQ$P;",
+            "guid": "GMn)WmQ$P",
             "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
             "tags": [
                 "CS::DM551::Rosen::Chapter6::2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is <i>P(n,r)</i>",
+                "The number of <i>r</i>-permutations of a set with <i>n</i> elements"
+            ],
+            "flags": 0,
+            "guid": "gX&uwX=_97",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM551::Rosen::Chapter6::3"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the equation of <i>P(n,r)</i> if <i>n</i> and <i>r</i> are integers with \\(0 \\leq r \\leq n\\)?",
+                "\\(P(n,r) = \\frac{n!}{(n-r)!}\\)"
+            ],
+            "flags": 0,
+            "guid": "M]zM&QY+p7",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM551::Rosen::Chapter6::3"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is an <b>r-combination</b> of elements of a set?",
+                "An unordered selection of <i>r</i> elements from the set. Thus, an <i>r</i>-combination is simply a subset of the set with <i>r</i> elements."
+            ],
+            "flags": 0,
+            "guid": "w]uB.jxD1R",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM551::Rosen::Chapter6::3"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is denoted by \\(C(n,r)\\) or \\(\\binom{n}{r}\\)?",
+                "The number of <i>r</i>-combinations of a set with <i>n</i> distinct elements"
+            ],
+            "flags": 0,
+            "guid": "c-N@=f[=uY",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM551::Rosen::Chapter6::3"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The number of r-combinations of a set with n elements, where n is a nonnegative integer and r is an integer with \\(0 \\leq r \\leq n\\) equals what?",
+                "\\(C(n,r) = \\frac{n!}{r!(n-r)!}\\)"
+            ],
+            "flags": 0,
+            "guid": "L=)LOK4UIo",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM551::Rosen::Chapter6::3"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "A {{c1::permutation}} of a set of distinct objects is an ordered arrangement of these objects.",
+                "."
+            ],
+            "flags": 0,
+            "guid": "t`UYj88/0P",
+            "note_model_uuid": "539d3988-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM551::Rosen::Chapter6::3"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "An ordered arrangement of <i>r</i> elements of a set is called an {{c1::r-permutation}}",
+                "."
+            ],
+            "flags": 0,
+            "guid": "wgsP|mK@fN",
+            "note_model_uuid": "539d3988-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM551::Rosen::Chapter6::3"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "A {{c1::combinatorial proof}} of an identity is a proof that uses counting arguments to prove that both sides of the identity count the same objects but in different ways or a proof that is based on showing that there is a bijection between the sets of objects counted by the two sides of the identity. These two types of proofs are called {{c2::double counting proofs}} and {{c2::bijective proofs}}, respectively.",
+                "."
+            ],
+            "flags": 0,
+            "guid": "xxM[|/tFNr",
+            "note_model_uuid": "539d3988-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM551::Rosen::Chapter6::3"
             ]
         }
     ]
