@@ -1,1 +1,7 @@
 guid,front,back,tags
+,What is a computational model?,An idealized computer,CS::DM565::Sipser::1::1
+,What kind of computers are finite automata good for?,Computers with limited memory,CS::DM565::Sipser::1::1
+,What are the probabilistic counterpart of finite automata?,Markov Chains,CS::DM565::Sipser::1::1
+,Final states are another way of saying what?,Accept states,CS::DM565::Sipser::1::1
+,What language does a machine that takes no strings recognize?,The empty language \(\emptyset\),CS::DM565::Sipser::1::1
+,What does L(M) = A mean?,Machine M recognizes a set of strings A,CS::DM565::Sipser::1::1
