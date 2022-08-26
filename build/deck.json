@@ -685,6 +685,212 @@
             "tags": [
                 "CS::DM551::Rosen::Chapter6::3"
             ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is a computational model?",
+                "An idealized computer"
+            ],
+            "flags": 0,
+            "guid": "wzRBot:Raz",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::1::1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What kind of computers are finite automata good for?",
+                "Computers with limited memory"
+            ],
+            "flags": 0,
+            "guid": "e;{MjqI>W)",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::1::1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are the probabilistic counterpart of finite automata?",
+                "Markov Chains"
+            ],
+            "flags": 0,
+            "guid": "LUefC7iW9U",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::1::1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Final states are another way of saying what?",
+                "Accept states"
+            ],
+            "flags": 0,
+            "guid": "J8JMNoQQct",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::1::1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What language does a machine that takes no strings recognize?",
+                "The empty language \\(\\emptyset\\)"
+            ],
+            "flags": 0,
+            "guid": "iP<+,6_9eO",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::1::1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What does L(M) = A mean?",
+                "Machine M recognizes a set of strings A"
+            ],
+            "flags": 0,
+            "guid": "O+~wri8>>s",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::1::1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "When do we say that a language is a <b>regular language</b>?",
+                "If some finite automaton recognizes it"
+            ],
+            "flags": 0,
+            "guid": "BXY|<TE;md",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::1::1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The regular operation <b>Concatenation</b> is defined as such: \\(A \\circ B = \\{xy | x \\in A and y \\in B\\}\\). <br/> What does this function do in simple terms?",
+                "It attaches a string from A in front of a string from B in all possible ways to get the strings in the new language. "
+            ],
+            "flags": 0,
+            "guid": "x&<V~3oDU-",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::1::1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The regular operation <b>Star</b> is defined as such: \\(A* = \\{x_1x_2...x_k | k \\geq 0 and each x_i \\in A\\}\\). <br/> What does this function do in simple terms?",
+                "The star operation is a unary operation that works by attaching any number of strings in A together to get a string in the new language. "
+            ],
+            "flags": 0,
+            "guid": "tF5;dhih?(",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::1::1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the difference between a unary operation and a binary operation?",
+                "A unary operation performs an action with a single operand. Binary operations perform actions with two operands. "
+            ],
+            "flags": 0,
+            "guid": "qg8gh$LZg-",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::1::1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Which regular operation outputs (some) of the following with A = {good, bad}? <br/> {?, good, bad, goodgood, goodbad, badgood, badbad, goodgoodgood, goodgoodbad, goodbadgood, goodbadbad, . . . }",
+                "The regular operation <b>star</b>."
+            ],
+            "flags": 0,
+            "guid": "nmDPk>_~e3",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::1::1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Let \\(N = \\{1,2,3,...\\}\\) be the set of natural numbers, what does it mean when we say that \\(N\\) is <i>closed under multiplication</i>?",
+                "For any <i>x</i> and <i>y</i> in \\(N\\), the product \\(x \\times y\\) also is in \\(N\\),"
+            ],
+            "flags": 0,
+            "guid": "D,rG*Y6WDI",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What does it mean if a collection of objects is <i>closed</i> under some operation?",
+                "If applying that operation to members of the collection returns an object still in the collection "
+            ],
+            "flags": 0,
+            "guid": "GKq6s+t=%d",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "A<i>finite automaton</i> is a 5-tuple (\\(Q, \\sum , \\delta , q_o, F\\)), where <br/>\n1. \\(Q\\) is a finite set called the {{c1::<b>states</b>}}, <br/>\n2. \\(\\sum \\) is a finite set called the {{c2::<b>alphabe</b>t}}, <br/>\n3. \\(\\delta : Q \\times \\sum \\to Q\\) is the {{c3::<b>transition function</b>}} <br/>\n4. \\(q_0 \\in Q\\) is the {{c4::<b>start state</b>}}, and <br/>\n5. \\(F \\subseteq Q\\) is the {{c5::<b>set of accept states</b>}}",
+                "."
+            ],
+            "flags": 0,
+            "guid": "I*/2/V]/dI",
+            "note_model_uuid": "539d3988-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::1::1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "If A is the set of all strings that machine M accepts, we say that A is the <b>{{c1::language}} of machine M</b>.",
+                "."
+            ],
+            "flags": 0,
+            "guid": "k6237l)h2P",
+            "note_model_uuid": "539d3988-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::1::1"
+            ]
         }
     ]
 }

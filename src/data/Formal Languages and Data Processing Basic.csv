@@ -1,7 +1,14 @@
 guid,front,back,tags
-,What is a computational model?,An idealized computer,CS::DM565::Sipser::1::1
-,What kind of computers are finite automata good for?,Computers with limited memory,CS::DM565::Sipser::1::1
-,What are the probabilistic counterpart of finite automata?,Markov Chains,CS::DM565::Sipser::1::1
-,Final states are another way of saying what?,Accept states,CS::DM565::Sipser::1::1
-,What language does a machine that takes no strings recognize?,The empty language \(\emptyset\),CS::DM565::Sipser::1::1
-,What does L(M) = A mean?,Machine M recognizes a set of strings A,CS::DM565::Sipser::1::1
+wzRBot:Raz,What is a computational model?,An idealized computer,CS::DM565::Sipser::1::1
+e;{MjqI>W),What kind of computers are finite automata good for?,Computers with limited memory,CS::DM565::Sipser::1::1
+LUefC7iW9U,What are the probabilistic counterpart of finite automata?,Markov Chains,CS::DM565::Sipser::1::1
+J8JMNoQQct,Final states are another way of saying what?,Accept states,CS::DM565::Sipser::1::1
+"iP<+,6_9eO",What language does a machine that takes no strings recognize?,The empty language \(\emptyset\),CS::DM565::Sipser::1::1
+O+~wri8>>s,What does L(M) = A mean?,Machine M recognizes a set of strings A,CS::DM565::Sipser::1::1
+BXY|<TE;md,When do we say that a language is a <b>regular language</b>?,If some finite automaton recognizes it,CS::DM565::Sipser::1::1
+x&<V~3oDU-,The regular operation <b>Concatenation</b> is defined as such: \(A \circ B = \{xy | x \in A and y \in B\}\). <br/> What does this function do in simple terms?,It attaches a string from A in front of a string from B in all possible ways to get the strings in the new language. ,CS::DM565::Sipser::1::1
+tF5;dhih?(,The regular operation <b>Star</b> is defined as such: \(A* = \{x_1x_2...x_k | k \geq 0 and each x_i \in A\}\). <br/> What does this function do in simple terms?,The star operation is a unary operation that works by attaching any number of strings in A together to get a string in the new language. ,CS::DM565::Sipser::1::1
+qg8gh$LZg-,What is the difference between a unary operation and a binary operation?,A unary operation performs an action with a single operand. Binary operations perform actions with two operands. ,CS::DM565::Sipser::1::1
+nmDPk>_~e3,"Which regular operation outputs (some) of the following with A = {good, bad}? <br/> {?, good, bad, goodgood, goodbad, badgood, badbad, goodgoodgood, goodgoodbad, goodbadgood, goodbadbad, . . . }",The regular operation <b>star</b>.,CS::DM565::Sipser::1::1
+"D,rG*Y6WDI","Let \(N = \{1,2,3,...\}\) be the set of natural numbers, what does it mean when we say that \(N\) is <i>closed under multiplication</i>?","For any <i>x</i> and <i>y</i> in \(N\), the product \(x \times y\) also is in \(N\),",
+GKq6s+t=%d,What does it mean if a collection of objects is <i>closed</i> under some operation?,If applying that operation to members of the collection returns an object still in the collection ,

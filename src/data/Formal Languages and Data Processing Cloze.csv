@@ -1,8 +1,8 @@
 guid,text,extra,tags
-,"A<i>finite automaton</i> is a 5-tuple (\(Q, \sum , \delta , q_o, F\)), where <br/>
+I*/2/V]/dI,"A<i>finite automaton</i> is a 5-tuple (\(Q, \sum , \delta , q_o, F\)), where <br/>
 1. \(Q\) is a finite set called the {{c1::<b>states</b>}}, <br/>
 2. \(\sum \) is a finite set called the {{c2::<b>alphabe</b>t}}, <br/>
 3. \(\delta : Q \times \sum \to Q\) is the {{c3::<b>transition function</b>}} <br/>
 4. \(q_0 \in Q\) is the {{c4::<b>start state</b>}}, and <br/>
 5. \(F \subseteq Q\) is the {{c5::<b>set of accept states</b>}}",.,CS::DM565::Sipser::1::1
-,"If A is the set of all strings that machine M accepts, we say that A is the <b>{{c1::language}} of machine M</b>.",.,CS::DM565::Sipser::1::1
+k6237l)h2P,"If A is the set of all strings that machine M accepts, we say that A is the <b>{{c1::language}} of machine M</b>.",.,CS::DM565::Sipser::1::1
