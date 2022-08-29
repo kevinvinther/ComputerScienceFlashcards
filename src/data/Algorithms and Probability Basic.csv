@@ -21,3 +21,4 @@ M]zM&QY+p7,"What is the equation of <i>P(n,r)</i> if <i>n</i> and <i>r</i> are i
 w]uB.jxD1R,What is an <b>r-combination</b> of elements of a set?,"An unordered selection of <i>r</i> elements from the set. Thus, an <i>r</i>-combination is simply a subset of the set with <i>r</i> elements.",CS::DM551::Rosen::Chapter6::3
 c-N@=f[=uY,"What is denoted by \(C(n,r)\) or \(\binom{n}{r}\)?",The number of <i>r</i>-combinations of a set with <i>n</i> distinct elements,CS::DM551::Rosen::Chapter6::3
 L=)LOK4UIo,"The number of r-combinations of a set with n elements, where n is a nonnegative integer and r is an integer with \(0 \leq r \leq n\) equals what?","\(C(n,r) = \frac{n!}{r!(n-r)!}\)",CS::DM551::Rosen::Chapter6::3
+,What is the difference between r-permutations and r-combinations?,"While r-permutations do take into account the order, r-combinations are independent of it. Therefore, permutation is considered to be an ordered combination.",CS::DM551::Rosen::Chapter6::3
