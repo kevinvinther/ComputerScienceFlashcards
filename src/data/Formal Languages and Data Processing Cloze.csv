@@ -1,13 +1,13 @@
 guid,text,extra,tags
+B%V8>GmTn.,"A mathematical model of computation called {{c1::<i>finite automaton</i>}} is used in text processing, compilers, and hardware design.",.,"CS::DM565::Sipser::0::1, CS::DM565::optional, CS::formal-languages"
+Qhk_*yic><,A mathematical model of computation called {{c1::<i>context-free grammar</i>}} is used in programming languages and artificial intelligence.,.,"CS::DM565::Sipser::0::1, CS::DM565::optional, CS::formal-languages"
+G`}m<As>#e,{{c1::<b>Definitions</b>}} describe the objects and notions that we use.,.,"CS::DM565::Sipser::0::3, CS::DM565::optional, CS::formal-languages"
+c8#w0zyPQ!,A {{c1::proof}} is a convincing logical argument that a statement is true.,.,"CS::DM565::Sipser::0::3, CS::DM565::optional, CS::formal-languages"
+ei2!aRnw|{,A {{c1::theorem}} is a mathematical statement proved true.,.,"CS::DM565::Sipser::0::3, CS::DM565::optional, CS::formal-languages"
 I*/2/V]/dI,"A<i>finite automaton</i> is a 5-tuple (\(Q, \sum , \delta , q_o, F\)), where <br/>
 1. \(Q\) is a finite set called the {{c1::<b>states</b>}}, <br/>
 2. \(\sum \) is a finite set called the {{c2::<b>alphabe</b>t}}, <br/>
 3. \(\delta : Q \times \sum \to Q\) is the {{c3::<b>transition function</b>}} <br/>
 4. \(q_0 \in Q\) is the {{c4::<b>start state</b>}}, and <br/>
-5. \(F \subseteq Q\) is the {{c5::<b>set of accept states</b>}}",.,CS::DM565::Sipser::1::1
-k6237l)h2P,"If A is the set of all strings that machine M accepts, we say that A is the <b>{{c1::language}} of machine M</b>.",.,CS::DM565::Sipser::1::1
-B%V8>GmTn.,"A mathematical model of computation called {{c1::<i>finite automaton</i>}} is used in text processing, compilers, and hardware design.",.,"CS::DM565::Sipser::0::1, CS::DM565::optional"
-Qhk_*yic><,A mathematical model of computation called {{c1::<i>context-free grammar</i>}} is used in programming languages and artificial intelligence.,.,"CS::DM565::Sipser::0::1, CS::DM565::optional"
-G`}m<As>#e,{{c1::<b>Definitions</b>}} describe the objects and notions that we use.,.,"CS::DM565::Sipser::0::3, CS::DM565::optional"
-c8#w0zyPQ!,A {{c1::proof}} is a convincing logical argument that a statement is true.,,"CS::DM565::Sipser::0::3, CS::DM565::optional"
-ei2!aRnw|{,A {{c1::theorem}} is a mathematical statement proved true.,,"CS::DM565::Sipser::0::3, CS::DM565::optional"
+5. \(F \subseteq Q\) is the {{c5::<b>set of accept states</b>}}",.,"CS::DM565::Sipser::1::1, CS::formal-languages"
+k6237l)h2P,"If A is the set of all strings that machine M accepts, we say that A is the <b>{{c1::language}} of machine M</b>.",.,"CS::DM565::Sipser::1::1, CS::formal-languages"

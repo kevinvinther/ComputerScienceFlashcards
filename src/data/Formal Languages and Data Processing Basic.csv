@@ -1,36 +1,36 @@
 guid,front,back,tags
-wzRBot:Raz,What is a computational model?,An idealized computer,CS::DM565::Sipser::1::1
-e{MjqI>W),What kind of computers are finite automata good for?,Computers with limited memory,CS::DM565::Sipser::1::1
-LUefC7iW9U,What are the probabilistic counterpart of finite automata?,Markov Chains,CS::DM565::Sipser::1::1
-J8JMNoQQct,Final states are another way of saying what?,Accept states,CS::DM565::Sipser::1::1
-"iP<+,6_9eO",What language does a machine that takes no strings recognize?,The empty language \(\emptyset\),CS::DM565::Sipser::1::1
-O+~wri8>>s,What does L(M) = A mean?,Machine M recognizes a set of strings A,CS::DM565::Sipser::1::1
-BXY|<Temd,When do we say that a language is a <b>regular language</b>?,If some finite automaton recognizes it,CS::DM565::Sipser::1::1
-x&<V~3oDU-,The regular operation <b>Concatenation</b> is defined as such: \(A \circ B = \{xy | x \in A and y \in B\}\). <br/> What does this function do in simple terms?,It attaches a string from A in front of a string from B in all possible ways to get the strings in the new language. ,CS::DM565::Sipser::1::1
-tF5dhih?(,The regular operation <b>Star</b> is defined as such: \(A* = \{x_1x_2...x_k | k \geq 0 and each x_i \in A\}\). <br/> What does this function do in simple terms?,The star operation is a unary operation that works by attaching any number of strings in A together to get a string in the new language. ,CS::DM565::Sipser::1::1
-qg8gh$LZg-,What is the difference between a unary operation and a binary operation?,A unary operation performs an action with a single operand. Binary operations perform actions with two operands. ,CS::DM565::Sipser::1::1
-nmDPk>_~e3,"Which regular operation outputs (some) of the following with A = {good, bad}? <br/> {?, good, bad, goodgood, goodbad, badgood, badbad, goodgoodgood, goodgoodbad, goodbadgood, goodbadbad, . . . }",The regular operation <b>star</b>.,CS::DM565::Sipser::1::1
-"D,rG*Y6WDI","Let \(N = \{1,2,3,...\}\) be the set of natural numbers, what does it mean when we say that \(N\) is <i>closed under multiplication</i>?","For any <i>x</i> and <i>y</i> in \(N\), the product \(x \times y\) also is in \(N\),",CS::DM565::Sipser::1::1
-GKq6s+t=%d,What does it mean if a collection of objects is <i>closed</i> under some operation?,If applying that operation to members of the collection returns an object still in the collection ,CS::DM565::Sipser::1::1
-Q_2eYRtMa<,What is the objective in complexity theory?,"To classify problems as easy ones, and hard ones.","CS::DM565::Sipser::0::1, CS::DM565::optional"
-ztAEyk8rB#,What is the objective in computability theory?,To classify problems as solvable and not solvable.,"CS::DM565::Sipser::0::1, CS::DM565::optional"
-dAwyH1eR>R,When is A a <i>proper subset</i> of B?,When A is a subset of B and not equal to B.,"CS::DM565::Sipser::0::2, CS::DM565::optional"
-k./ll:7c(e,What is a <i>multiset</i>?,"A modification of the concept of a set that, unlike a set,  allows for multiple instances for each of its elements. ","CS::DM565::Sipser::0::2, CS::DM565::optional"
-f#wtD/5_k0,What is a sequence of objects?,A list of the objects in some order.,"CS::DM565::Sipser::0::2, CS::DM565::optional"
-M39y^|u%1g,Does repetition matter in a sequence?,No,"CS::DM565::Sipser::0::2, CS::DM565::optional"
-q.OZmyE/|1,What is a 2-tuple also called?,An ordered pair,"CS::DM565::Sipser::0::2, CS::DM565::optional"
-v1LyOi)zr.,What is a power set of A?,The set of all subsets of A,"CS::DM565::Sipser::0::2, CS::DM565::optional"
-Df-`j|P{Uc,What is the set of possible inputs to a function called?,Its <i>domain</i>.,"CS::DM565::Sipser::0::2, CS::DM565::optional"
-g!!}_LSkPg,The outputs of a function come from a set called what?,Its <i>range</i>,"CS::DM565::Sipser::0::2, CS::DM565::optional"
-qD5pq;UyjY,What does <i>D</i> and <i>R</i> signify in \(f: D \to R\)?,Domain and Range,"CS::DM565::Sipser::0::2, CS::DM565::optional"
-Ko3TqY|HkE,What is a <i>predicate</i> or <i>property</i> function?,"A function whose range is \({TRUE,FALSE}\)","CS::DM565::Sipser::0::2, CS::DM565::optional"
-s7hJTyXUQM,What is the string of length zero called?,"The empty string, written \(\epsilon\)","CS::DM565::Sipser::0::2, CS::DM565::optional"
-FX%0:N|3UF,What is an alphabet?,"A finite, nonempty set of objects called symbols","CS::DM565::Sipser::0::2, CS::DM565::optional"
-Oq`d39reCC,What is an argument in an function?,An input to a function,"CS::DM565::Sipser::0::2, CS::DM565::optional"
-"v[l3H_Z,ky",What is a binary relation?,A relation whose domain is a set of pairs,"CS::DM565::Sipser::0::2, CS::DM565::optional"
-vzw~_-`3:D,What is deterministic computation?,"When a machine is in a given state and reads the next input symbol, we know what the next state will be.",CS::DM565::Sipser::1::2
-d#Ci1gjBC{,What is a DFA?,A deterministic finite automaton,CS::DM565::Sipser::1::3
-`IO1*.2Bd,What is an NFA?,A nondeterministic finite automaton,CS::DM565::Sipser::1::3
-nSQC+a]DS:,What does an NFA do if there are multiply paths with the same input?,"Splits into multiple copies of itself and follows all the possibiliites in parallel. If there are more choices, it splits again, if it can’t go further, it is destroyed. If <i>any</i> of these copies of the machine is in an accept state at the end of the input, the NFA accepts the input string.",CS::DM565::Sipser::1::3
-bT$u9+Ed)H,What happens if a state with an \(\epsilon\) symbol on an exiting arrow is encountered?,"Without reading any input, the machine splits into multiple copies, one following each of the exiting \(\epsilon\)-labeled arrows, and one staying at the current state. Then the machine proceeds nondeterministically as before.",CS::DM565::Sipser::1::3
-"i~K,2u9O<:",What is an alphabet containing only one symbol called?,A unary alphabet,CS::DM565::Sipser::1::3
+Q_2eYRtMa<,What is the objective in complexity theory?,"To classify problems as easy ones, and hard ones.","CS::DM565::Sipser::0::1, CS::DM565::optional, CS::formal-languages"
+ztAEyk8rB#,What is the objective in computability theory?,To classify problems as solvable and not solvable.,"CS::DM565::Sipser::0::1, CS::DM565::optional, CS::formal-languages"
+f#wtD/5_k0,What is a sequence of objects?,A list of the objects in some order.,"CS::DM565::Sipser::0::2, CS::DM565::optional, CS::formal-languages"
+"v[l3H_Z,ky",What is a binary relation?,A relation whose domain is a set of pairs,"CS::DM565::Sipser::0::2, CS::DM565::optional, CS::formal-languages"
+Oq`d39reCC,What is an argument in an function?,An input to a function,"CS::DM565::Sipser::0::2, CS::DM565::optional, CS::formal-languages"
+FX%0:N|3UF,What is an alphabet?,"A finite, nonempty set of objects called symbols","CS::DM565::Sipser::0::2, CS::DM565::optional, CS::formal-languages"
+s7hJTyXUQM,What is the string of length zero called?,"The empty string, written \(\epsilon\)","CS::DM565::Sipser::0::2, CS::DM565::optional, CS::formal-languages"
+Ko3TqY|HkE,What is a <i>predicate</i> or <i>property</i> function?,"A function whose range is \({TRUE,FALSE}\)","CS::DM565::Sipser::0::2, CS::DM565::optional, CS::formal-languages"
+qD5pqUyjY,What does <i>D</i> and <i>R</i> signify in \(f: D \to R\)?,Domain and Range,"CS::DM565::Sipser::0::2, CS::DM565::optional, CS::formal-languages"
+g!!}_LSkPg,The outputs of a function come from a set called what?,Its <i>range</i>,"CS::DM565::Sipser::0::2, CS::DM565::optional, CS::formal-languages"
+Df-`j|P{Uc,What is the set of possible inputs to a function called?,Its <i>domain</i>.,"CS::DM565::Sipser::0::2, CS::DM565::optional, CS::formal-languages"
+v1LyOi)zr.,What is a power set of A?,The set of all subsets of A,"CS::DM565::Sipser::0::2, CS::DM565::optional, CS::formal-languages"
+q.OZmyE/|1,What is a 2-tuple also called?,An ordered pair,"CS::DM565::Sipser::0::2, CS::DM565::optional, CS::formal-languages"
+M39y^|u%1g,Does repetition matter in a sequence?,No,"CS::DM565::Sipser::0::2, CS::DM565::optional, CS::formal-languages"
+k./ll:7c(e,What is a <i>multiset</i>?,"A modification of the concept of a set that, unlike a set,  allows for multiple instances for each of its elements. ","CS::DM565::Sipser::0::2, CS::DM565::optional, CS::formal-languages"
+dAwyH1eR>R,When is A a <i>proper subset</i> of B?,When A is a subset of B and not equal to B.,"CS::DM565::Sipser::0::2, CS::DM565::optional, CS::formal-languages"
+wzRBot:Raz,What is a computational model?,An idealized computer,"CS::DM565::Sipser::1::1, CS::formal-languages"
+"iP<+,6_9eO",What language does a machine that takes no strings recognize?,The empty language \(\emptyset\),"CS::DM565::Sipser::1::1, CS::formal-languages"
+"D,rG*Y6WDI","Let \(N = \{1,2,3,...\}\) be the set of natural numbers, what does it mean when we say that \(N\) is <i>closed under multiplication</i>?","For any <i>x</i> and <i>y</i> in \(N\), the product \(x \times y\) also is in \(N\),","CS::DM565::Sipser::1::1, CS::formal-languages"
+nmDPk>_~e3,"Which regular operation outputs (some) of the following with A = {good, bad}? <br/> {?, good, bad, goodgood, goodbad, badgood, badbad, goodgoodgood, goodgoodbad, goodbadgood, goodbadbad, . . . }",The regular operation <b>star</b>.,"CS::DM565::Sipser::1::1, CS::formal-languages"
+qg8gh$LZg-,What is the difference between a unary operation and a binary operation?,A unary operation performs an action with a single operand. Binary operations perform actions with two operands. ,"CS::DM565::Sipser::1::1, CS::formal-languages"
+tF5dhih?(,The regular operation <b>Star</b> is defined as such: \(A* = \{x_1x_2...x_k | k \geq 0 and each x_i \in A\}\). <br/> What does this function do in simple terms?,The star operation is a unary operation that works by attaching any number of strings in A together to get a string in the new language. ,"CS::DM565::Sipser::1::1, CS::formal-languages"
+x&<V~3oDU-,The regular operation <b>Concatenation</b> is defined as such: \(A \circ B = \{xy | x \in A and y \in B\}\). <br/> What does this function do in simple terms?,It attaches a string from A in front of a string from B in all possible ways to get the strings in the new language. ,"CS::DM565::Sipser::1::1, CS::formal-languages"
+BXY|<Temd,When do we say that a language is a <b>regular language</b>?,If some finite automaton recognizes it,"CS::DM565::Sipser::1::1, CS::formal-languages"
+O+~wri8>>s,What does L(M) = A mean?,Machine M recognizes a set of strings A,"CS::DM565::Sipser::1::1, CS::formal-languages"
+GKq6s+t=%d,What does it mean if a collection of objects is <i>closed</i> under some operation?,If applying that operation to members of the collection returns an object still in the collection ,"CS::DM565::Sipser::1::1, CS::formal-languages"
+J8JMNoQQct,Final states are another way of saying what?,Accept states,"CS::DM565::Sipser::1::1, CS::formal-languages"
+LUefC7iW9U,What are the probabilistic counterpart of finite automata?,Markov Chains,"CS::DM565::Sipser::1::1, CS::formal-languages"
+e{MjqI>W),What kind of computers are finite automata good for?,Computers with limited memory,"CS::DM565::Sipser::1::1, CS::formal-languages"
+vzw~_-`3:D,What is deterministic computation?,"When a machine is in a given state and reads the next input symbol, we know what the next state will be.","CS::DM565::Sipser::1::2, CS::formal-languages"
+nSQC+a]DS:,What does an NFA do if there are multiply paths with the same input?,"Splits into multiple copies of itself and follows all the possibiliites in parallel. If there are more choices, it splits again, if it can’t go further, it is destroyed. If <i>any</i> of these copies of the machine is in an accept state at the end of the input, the NFA accepts the input string.","CS::DM565::Sipser::1::3, CS::formal-languages"
+bT$u9+Ed)H,What happens if a state with an \(\epsilon\) symbol on an exiting arrow is encountered?,"Without reading any input, the machine splits into multiple copies, one following each of the exiting \(\epsilon\)-labeled arrows, and one staying at the current state. Then the machine proceeds nondeterministically as before.","CS::DM565::Sipser::1::3, CS::formal-languages"
+d#Ci1gjBC{,What is a DFA?,A deterministic finite automaton,"CS::DM565::Sipser::1::3, CS::formal-languages"
+`IO1*.2Bd,What is an NFA?,A nondeterministic finite automaton,"CS::DM565::Sipser::1::3, CS::formal-languages"
+"i~K,2u9O<:",What is an alphabet containing only one symbol called?,A unary alphabet,"CS::DM565::Sipser::1::3, CS::formal-languages"

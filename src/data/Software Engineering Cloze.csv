@@ -1,4 +1,4 @@
-guid,text,extra,tags,
-$KKJNAwK),"These days most projects follow&nbsp;{{c1::Agile Methodology::method}}, some form of&nbsp;{{c2::Iterative model::model}} or one of the other models depending on their project specific requirement.&nbsp;",Up untill the year 2000 the waterfall model was used significantly.,"CS::DM571::Lecture1, CS::software-engineering",
-CB2?nAsbYE,"Just like the waterfall model, the V-shaped life cycle is a&nbsp;{{c1::sequential}} path of exeuction of processes.","Also like the waterfall model, each phase must be completed before the next phase begins.","CS::DM571::Lecture1, CS::software-engineering",
-kn]PDV+6U=,"In the V-model, testing of the product is planned&nbsp;{{c1::in parallel}} with a corresponding phase of development.",For example Business Requirement Specifications -&gt, Acceptance testing,"CS::DM571::Lecture1, CS::software-engineering"
+guid,text,extra,tags
+$KKJNAwK),"These days most projects follow&nbsp;{{c1::Agile Methodology::method}}, some form of&nbsp;{{c2::Iterative model::model}} or one of the other models depending on their project specific requirement.&nbsp;",Up untill the year 2000 the waterfall model was used significantly.,"CS::DM571::Lecture1, CS::software-engineering"
+CB2?nAsbYE,"Just like the waterfall model, the V-shaped life cycle is a&nbsp;{{c1::sequential}} path of exeuction of processes.","Also like the waterfall model, each phase must be completed before the next phase begins.","CS::DM571::Lecture1, CS::software-engineering"
+kn]PDV+6U=,"In the V-model, testing of the product is planned&nbsp;{{c1::in parallel}} with a corresponding phase of development.",For example Business Requirement Specifications and  Acceptance testing,"CS::DM571::Lecture1, CS::software-engineering"
