@@ -25,3 +25,13 @@ The course codes are:
 * DM565, Formal Languages 
 * DM551, Algorithms and Probability
 
+Cards for optional reading are marked `CS::CC::optional` along with the chapter.
+
+## Example tags
+`CS::DM565::Sipser::1::1`
+
+This tag has cards for Sipser (Introduction to the Theory of Computation) chapter 1, subchapter 1 in the course Formal Languages.
+
+`CS::DM565::Sipser::0::1, CS::DM565::optional`
+
+This tag has cards for the optional reading of chapter 0, subchapter 1.
