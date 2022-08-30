@@ -410,14 +410,14 @@
             "data": "",
             "fields": [
                 "In the V-model, testing of the product is planned&nbsp;{{c1::in parallel}} with a corresponding phase of development.",
-                "For example Business Requirement Specifications -&gt"
+                "For example Business Requirement Specifications and  Acceptance testing"
             ],
             "flags": 0,
             "guid": "kn]PDV+6U=",
             "note_model_uuid": "539d3988-a514-11ec-b44f-acde48001122",
             "tags": [
-                "Acceptance",
-                "testing"
+                "CS::DM571::Lecture1",
+                "CS::software-engineering"
             ]
         },
         {
@@ -431,7 +431,8 @@
             "guid": "gYY?+6dLpm",
             "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
             "tags": [
-                "CS::DM551::Rosen::Chapter6::1"
+                "CS::DM551::Rosen::Chapter6::1",
+                "CS::algorithms-and-probability"
             ]
         },
         {
@@ -445,7 +446,8 @@
             "guid": "c]ivo]sYYN",
             "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
             "tags": [
-                "CS::DM551::Rosen::Chapter6::1"
+                "CS::DM551::Rosen::Chapter6::1",
+                "CS::algorithms-and-probability"
             ]
         },
         {
@@ -459,7 +461,8 @@
             "guid": "EHqr0&RDpn",
             "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
             "tags": [
-                "CS::DM551::Rosen::Chapter6::1"
+                "CS::DM551::Rosen::Chapter6::1",
+                "CS::algorithms-and-probability"
             ]
         },
         {
@@ -473,7 +476,8 @@
             "guid": "tDGa4bO6qI",
             "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
             "tags": [
-                "CS::DM551::Rosen::Chapter6::1"
+                "CS::DM551::Rosen::Chapter6::1",
+                "CS::algorithms-and-probability"
             ]
         },
         {
@@ -487,7 +491,8 @@
             "guid": "G`lP^MRiC)",
             "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
             "tags": [
-                "CS::DM551::Rosen::Chapter6::1"
+                "CS::DM551::Rosen::Chapter6::1",
+                "CS::algorithms-and-probability"
             ]
         },
         {
@@ -501,63 +506,8 @@
             "guid": "h8kY7-30>r",
             "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
             "tags": [
-                "CS::DM551::Rosen::Chapter6::1"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "The following is the definition of which principle?<br/>\nIf \\(k\\) is a positive integer and \\(k + 1\\) or more objects are placed into \\(k\\) boxes, then there is a tleast one box containing two or more objects.",
-                "The Pigeonhole Principle"
-            ],
-            "flags": 0,
-            "guid": "BCY+@a#2X|",
-            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
-            "tags": [
-                "CS::DM551::Rosen::Chapter6::2"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Which principle is also called the Dirichlet drawer principle?",
-                "The Pigeonhole Principle"
-            ],
-            "flags": 0,
-            "guid": "O8(4C%QlC+",
-            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
-            "tags": [
-                "CS::DM551::Rosen::Chapter6::2"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "The following is the definition of which principle?<br/>\nIf \\(N\\) objects are placed into \\(k\\) boxes, then there is at least one box containing at least \\([N/k]\\) objects.",
-                "The Generalized Pigeonhole Principle"
-            ],
-            "flags": 0,
-            "guid": "fIAGGGh_X6",
-            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
-            "tags": [
-                "CS::DM551::Rosen::Chapter6::2"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "When is a sequence called strictly increasing?",
-                "If each term is larger than the one that precedes it"
-            ],
-            "flags": 0,
-            "guid": "Cqa%dB@4qU",
-            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
-            "tags": [
-                "CS::DM551::Rosen::Chapter6::2"
+                "CS::DM551::Rosen::Chapter6::1",
+                "CS::algorithms-and-probability"
             ]
         },
         {
@@ -571,7 +521,68 @@
             "guid": "GMn)WmQ$P",
             "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
             "tags": [
-                "CS::DM551::Rosen::Chapter6::2"
+                "CS::DM551::Rosen::Chapter6::2",
+                "CS::algorithms-and-probability"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "When is a sequence called strictly increasing?",
+                "If each term is larger than the one that precedes it"
+            ],
+            "flags": 0,
+            "guid": "Cqa%dB@4qU",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM551::Rosen::Chapter6::2",
+                "CS::algorithms-and-probability"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The following is the definition of which principle?<br/>\nIf \\(N\\) objects are placed into \\(k\\) boxes, then there is at least one box containing at least \\([N/k]\\) objects.",
+                "The Generalized Pigeonhole Principle"
+            ],
+            "flags": 0,
+            "guid": "fIAGGGh_X6",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM551::Rosen::Chapter6::2",
+                "CS::algorithms-and-probability"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Which principle is also called the Dirichlet drawer principle?",
+                "The Pigeonhole Principle"
+            ],
+            "flags": 0,
+            "guid": "O8(4C%QlC+",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM551::Rosen::Chapter6::2",
+                "CS::algorithms-and-probability"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The following is the definition of which principle?<br/>\nIf \\(k\\) is a positive integer and \\(k + 1\\) or more objects are placed into \\(k\\) boxes, then there is a tleast one box containing two or more objects.",
+                "The Pigeonhole Principle"
+            ],
+            "flags": 0,
+            "guid": "BCY+@a#2X|",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM551::Rosen::Chapter6::2",
+                "CS::algorithms-and-probability"
             ]
         },
         {
@@ -585,7 +596,8 @@
             "guid": "gX&uwX=_97",
             "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
             "tags": [
-                "CS::DM551::Rosen::Chapter6::3"
+                "CS::DM551::Rosen::Chapter6::3",
+                "CS::algorithms-and-probability"
             ]
         },
         {
@@ -599,7 +611,8 @@
             "guid": "M]zM&QY+p7",
             "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
             "tags": [
-                "CS::DM551::Rosen::Chapter6::3"
+                "CS::DM551::Rosen::Chapter6::3",
+                "CS::algorithms-and-probability"
             ]
         },
         {
@@ -613,7 +626,8 @@
             "guid": "w]uB.jxD1R",
             "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
             "tags": [
-                "CS::DM551::Rosen::Chapter6::3"
+                "CS::DM551::Rosen::Chapter6::3",
+                "CS::algorithms-and-probability"
             ]
         },
         {
@@ -627,7 +641,8 @@
             "guid": "c-N@=f[=uY",
             "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
             "tags": [
-                "CS::DM551::Rosen::Chapter6::3"
+                "CS::DM551::Rosen::Chapter6::3",
+                "CS::algorithms-and-probability"
             ]
         },
         {
@@ -641,7 +656,8 @@
             "guid": "L=)LOK4UIo",
             "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
             "tags": [
-                "CS::DM551::Rosen::Chapter6::3"
+                "CS::DM551::Rosen::Chapter6::3",
+                "CS::algorithms-and-probability"
             ]
         },
         {
@@ -655,7 +671,8 @@
             "guid": "Ds+v:r~[ui",
             "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
             "tags": [
-                "CS::DM551::Rosen::Chapter6::3"
+                "CS::DM551::Rosen::Chapter6::3",
+                "CS::algorithms-and-probability"
             ]
         },
         {
@@ -669,7 +686,8 @@
             "guid": "t`UYj88/0P",
             "note_model_uuid": "539d3988-a514-11ec-b44f-acde48001122",
             "tags": [
-                "CS::DM551::Rosen::Chapter6::3"
+                "CS::DM551::Rosen::Chapter6::3",
+                "CS::algorithms-and-probability"
             ]
         },
         {
@@ -683,7 +701,8 @@
             "guid": "wgsP|mK@fN",
             "note_model_uuid": "539d3988-a514-11ec-b44f-acde48001122",
             "tags": [
-                "CS::DM551::Rosen::Chapter6::3"
+                "CS::DM551::Rosen::Chapter6::3",
+                "CS::algorithms-and-probability"
             ]
         },
         {
@@ -697,189 +716,8 @@
             "guid": "xxM[|/tFNr",
             "note_model_uuid": "539d3988-a514-11ec-b44f-acde48001122",
             "tags": [
-                "CS::DM551::Rosen::Chapter6::3"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "What is a computational model?",
-                "An idealized computer"
-            ],
-            "flags": 0,
-            "guid": "wzRBot:Raz",
-            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
-            "tags": [
-                "CS::DM565::Sipser::1::1"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "What kind of computers are finite automata good for?",
-                "Computers with limited memory"
-            ],
-            "flags": 0,
-            "guid": "e{MjqI>W)",
-            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
-            "tags": [
-                "CS::DM565::Sipser::1::1"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "What are the probabilistic counterpart of finite automata?",
-                "Markov Chains"
-            ],
-            "flags": 0,
-            "guid": "LUefC7iW9U",
-            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
-            "tags": [
-                "CS::DM565::Sipser::1::1"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Final states are another way of saying what?",
-                "Accept states"
-            ],
-            "flags": 0,
-            "guid": "J8JMNoQQct",
-            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
-            "tags": [
-                "CS::DM565::Sipser::1::1"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "What language does a machine that takes no strings recognize?",
-                "The empty language \\(\\emptyset\\)"
-            ],
-            "flags": 0,
-            "guid": "iP<+,6_9eO",
-            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
-            "tags": [
-                "CS::DM565::Sipser::1::1"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "What does L(M) = A mean?",
-                "Machine M recognizes a set of strings A"
-            ],
-            "flags": 0,
-            "guid": "O+~wri8>>s",
-            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
-            "tags": [
-                "CS::DM565::Sipser::1::1"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "When do we say that a language is a <b>regular language</b>?",
-                "If some finite automaton recognizes it"
-            ],
-            "flags": 0,
-            "guid": "BXY|<Temd",
-            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
-            "tags": [
-                "CS::DM565::Sipser::1::1"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "The regular operation <b>Concatenation</b> is defined as such: \\(A \\circ B = \\{xy | x \\in A and y \\in B\\}\\). <br/> What does this function do in simple terms?",
-                "It attaches a string from A in front of a string from B in all possible ways to get the strings in the new language. "
-            ],
-            "flags": 0,
-            "guid": "x&<V~3oDU-",
-            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
-            "tags": [
-                "CS::DM565::Sipser::1::1"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "The regular operation <b>Star</b> is defined as such: \\(A* = \\{x_1x_2...x_k | k \\geq 0 and each x_i \\in A\\}\\). <br/> What does this function do in simple terms?",
-                "The star operation is a unary operation that works by attaching any number of strings in A together to get a string in the new language. "
-            ],
-            "flags": 0,
-            "guid": "tF5dhih?(",
-            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
-            "tags": [
-                "CS::DM565::Sipser::1::1"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "What is the difference between a unary operation and a binary operation?",
-                "A unary operation performs an action with a single operand. Binary operations perform actions with two operands. "
-            ],
-            "flags": 0,
-            "guid": "qg8gh$LZg-",
-            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
-            "tags": [
-                "CS::DM565::Sipser::1::1"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Which regular operation outputs (some) of the following with A = {good, bad}? <br/> {?, good, bad, goodgood, goodbad, badgood, badbad, goodgoodgood, goodgoodbad, goodbadgood, goodbadbad, . . . }",
-                "The regular operation <b>star</b>."
-            ],
-            "flags": 0,
-            "guid": "nmDPk>_~e3",
-            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
-            "tags": [
-                "CS::DM565::Sipser::1::1"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Let \\(N = \\{1,2,3,...\\}\\) be the set of natural numbers, what does it mean when we say that \\(N\\) is <i>closed under multiplication</i>?",
-                "For any <i>x</i> and <i>y</i> in \\(N\\), the product \\(x \\times y\\) also is in \\(N\\),"
-            ],
-            "flags": 0,
-            "guid": "D,rG*Y6WDI",
-            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
-            "tags": [
-                "CS::DM565::Sipser::1::1"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "What does it mean if a collection of objects is <i>closed</i> under some operation?",
-                "If applying that operation to members of the collection returns an object still in the collection "
-            ],
-            "flags": 0,
-            "guid": "GKq6s+t=%d",
-            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
-            "tags": [
-                "CS::DM565::Sipser::1::1"
+                "CS::DM551::Rosen::Chapter6::3",
+                "CS::algorithms-and-probability"
             ]
         },
         {
@@ -894,7 +732,8 @@
             "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
             "tags": [
                 "CS::DM565::Sipser::0::1",
-                "CS::DM565::optional"
+                "CS::DM565::optional",
+                "CS::formal-languages"
             ]
         },
         {
@@ -909,37 +748,8 @@
             "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
             "tags": [
                 "CS::DM565::Sipser::0::1",
-                "CS::DM565::optional"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "When is A a <i>proper subset</i> of B?",
-                "When A is a subset of B and not equal to B."
-            ],
-            "flags": 0,
-            "guid": "dAwyH1eR>R",
-            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
-            "tags": [
-                "CS::DM565::Sipser::0::2",
-                "CS::DM565::optional"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "What is a <i>multiset</i>?",
-                "A modification of the concept of a set that, unlike a set,  allows for multiple instances for each of its elements. "
-            ],
-            "flags": 0,
-            "guid": "k./ll:7c(e",
-            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
-            "tags": [
-                "CS::DM565::Sipser::0::2",
-                "CS::DM565::optional"
+                "CS::DM565::optional",
+                "CS::formal-languages"
             ]
         },
         {
@@ -954,157 +764,8 @@
             "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
             "tags": [
                 "CS::DM565::Sipser::0::2",
-                "CS::DM565::optional"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Does repetition matter in a sequence?",
-                "No"
-            ],
-            "flags": 0,
-            "guid": "M39y^|u%1g",
-            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
-            "tags": [
-                "CS::DM565::Sipser::0::2",
-                "CS::DM565::optional"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "What is a 2-tuple also called?",
-                "An ordered pair"
-            ],
-            "flags": 0,
-            "guid": "q.OZmyE/|1",
-            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
-            "tags": [
-                "CS::DM565::Sipser::0::2",
-                "CS::DM565::optional"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "What is a power set of A?",
-                "The set of all subsets of A"
-            ],
-            "flags": 0,
-            "guid": "v1LyOi)zr.",
-            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
-            "tags": [
-                "CS::DM565::Sipser::0::2",
-                "CS::DM565::optional"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "What is the set of possible inputs to a function called?",
-                "Its <i>domain</i>."
-            ],
-            "flags": 0,
-            "guid": "Df-`j|P{Uc",
-            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
-            "tags": [
-                "CS::DM565::Sipser::0::2",
-                "CS::DM565::optional"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "The outputs of a function come from a set called what?",
-                "Its <i>range</i>"
-            ],
-            "flags": 0,
-            "guid": "g!!}_LSkPg",
-            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
-            "tags": [
-                "CS::DM565::Sipser::0::2",
-                "CS::DM565::optional"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "What does <i>D</i> and <i>R</i> signify in \\(f: D \\to R\\)?",
-                "Domain and Range"
-            ],
-            "flags": 0,
-            "guid": "qD5pq;UyjY",
-            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
-            "tags": [
-                "CS::DM565::Sipser::0::2",
-                "CS::DM565::optional"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "What is a <i>predicate</i> or <i>property</i> function?",
-                "A function whose range is \\({TRUE,FALSE}\\)"
-            ],
-            "flags": 0,
-            "guid": "Ko3TqY|HkE",
-            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
-            "tags": [
-                "CS::DM565::Sipser::0::2",
-                "CS::DM565::optional"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "What is the string of length zero called?",
-                "The empty string, written \\(\\epsilon\\)"
-            ],
-            "flags": 0,
-            "guid": "s7hJTyXUQM",
-            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
-            "tags": [
-                "CS::DM565::Sipser::0::2",
-                "CS::DM565::optional"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "What is an alphabet?",
-                "A finite, nonempty set of objects called symbols"
-            ],
-            "flags": 0,
-            "guid": "FX%0:N|3UF",
-            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
-            "tags": [
-                "CS::DM565::Sipser::0::2",
-                "CS::DM565::optional"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "What is an argument in an function?",
-                "An input to a function"
-            ],
-            "flags": 0,
-            "guid": "Oq`d39reCC",
-            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
-            "tags": [
-                "CS::DM565::Sipser::0::2",
-                "CS::DM565::optional"
+                "CS::DM565::optional",
+                "CS::formal-languages"
             ]
         },
         {
@@ -1119,7 +780,395 @@
             "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
             "tags": [
                 "CS::DM565::Sipser::0::2",
-                "CS::DM565::optional"
+                "CS::DM565::optional",
+                "CS::formal-languages"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is an argument in an function?",
+                "An input to a function"
+            ],
+            "flags": 0,
+            "guid": "Oq`d39reCC",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::0::2",
+                "CS::DM565::optional",
+                "CS::formal-languages"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is an alphabet?",
+                "A finite, nonempty set of objects called symbols"
+            ],
+            "flags": 0,
+            "guid": "FX%0:N|3UF",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::0::2",
+                "CS::DM565::optional",
+                "CS::formal-languages"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the string of length zero called?",
+                "The empty string, written \\(\\epsilon\\)"
+            ],
+            "flags": 0,
+            "guid": "s7hJTyXUQM",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::0::2",
+                "CS::DM565::optional",
+                "CS::formal-languages"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is a <i>predicate</i> or <i>property</i> function?",
+                "A function whose range is \\({TRUE,FALSE}\\)"
+            ],
+            "flags": 0,
+            "guid": "Ko3TqY|HkE",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::0::2",
+                "CS::DM565::optional",
+                "CS::formal-languages"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What does <i>D</i> and <i>R</i> signify in \\(f: D \\to R\\)?",
+                "Domain and Range"
+            ],
+            "flags": 0,
+            "guid": "qD5pqUyjY",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::0::2",
+                "CS::DM565::optional",
+                "CS::formal-languages"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The outputs of a function come from a set called what?",
+                "Its <i>range</i>"
+            ],
+            "flags": 0,
+            "guid": "g!!}_LSkPg",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::0::2",
+                "CS::DM565::optional",
+                "CS::formal-languages"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the set of possible inputs to a function called?",
+                "Its <i>domain</i>."
+            ],
+            "flags": 0,
+            "guid": "Df-`j|P{Uc",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::0::2",
+                "CS::DM565::optional",
+                "CS::formal-languages"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is a power set of A?",
+                "The set of all subsets of A"
+            ],
+            "flags": 0,
+            "guid": "v1LyOi)zr.",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::0::2",
+                "CS::DM565::optional",
+                "CS::formal-languages"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is a 2-tuple also called?",
+                "An ordered pair"
+            ],
+            "flags": 0,
+            "guid": "q.OZmyE/|1",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::0::2",
+                "CS::DM565::optional",
+                "CS::formal-languages"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Does repetition matter in a sequence?",
+                "No"
+            ],
+            "flags": 0,
+            "guid": "M39y^|u%1g",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::0::2",
+                "CS::DM565::optional",
+                "CS::formal-languages"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is a <i>multiset</i>?",
+                "A modification of the concept of a set that, unlike a set,  allows for multiple instances for each of its elements. "
+            ],
+            "flags": 0,
+            "guid": "k./ll:7c(e",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::0::2",
+                "CS::DM565::optional",
+                "CS::formal-languages"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "When is A a <i>proper subset</i> of B?",
+                "When A is a subset of B and not equal to B."
+            ],
+            "flags": 0,
+            "guid": "dAwyH1eR>R",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::0::2",
+                "CS::DM565::optional",
+                "CS::formal-languages"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is a computational model?",
+                "An idealized computer"
+            ],
+            "flags": 0,
+            "guid": "wzRBot:Raz",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::1::1",
+                "CS::formal-languages"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What language does a machine that takes no strings recognize?",
+                "The empty language \\(\\emptyset\\)"
+            ],
+            "flags": 0,
+            "guid": "iP<+,6_9eO",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::1::1",
+                "CS::formal-languages"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Let \\(N = \\{1,2,3,...\\}\\) be the set of natural numbers, what does it mean when we say that \\(N\\) is <i>closed under multiplication</i>?",
+                "For any <i>x</i> and <i>y</i> in \\(N\\), the product \\(x \\times y\\) also is in \\(N\\),"
+            ],
+            "flags": 0,
+            "guid": "D,rG*Y6WDI",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::1::1",
+                "CS::formal-languages"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Which regular operation outputs (some) of the following with A = {good, bad}? <br/> {?, good, bad, goodgood, goodbad, badgood, badbad, goodgoodgood, goodgoodbad, goodbadgood, goodbadbad, . . . }",
+                "The regular operation <b>star</b>."
+            ],
+            "flags": 0,
+            "guid": "nmDPk>_~e3",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::1::1",
+                "CS::formal-languages"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the difference between a unary operation and a binary operation?",
+                "A unary operation performs an action with a single operand. Binary operations perform actions with two operands. "
+            ],
+            "flags": 0,
+            "guid": "qg8gh$LZg-",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::1::1",
+                "CS::formal-languages"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The regular operation <b>Star</b> is defined as such: \\(A* = \\{x_1x_2...x_k | k \\geq 0 and each x_i \\in A\\}\\). <br/> What does this function do in simple terms?",
+                "The star operation is a unary operation that works by attaching any number of strings in A together to get a string in the new language. "
+            ],
+            "flags": 0,
+            "guid": "tF5dhih?(",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::1::1",
+                "CS::formal-languages"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The regular operation <b>Concatenation</b> is defined as such: \\(A \\circ B = \\{xy | x \\in A and y \\in B\\}\\). <br/> What does this function do in simple terms?",
+                "It attaches a string from A in front of a string from B in all possible ways to get the strings in the new language. "
+            ],
+            "flags": 0,
+            "guid": "x&<V~3oDU-",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::1::1",
+                "CS::formal-languages"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "When do we say that a language is a <b>regular language</b>?",
+                "If some finite automaton recognizes it"
+            ],
+            "flags": 0,
+            "guid": "BXY|<Temd",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::1::1",
+                "CS::formal-languages"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What does L(M) = A mean?",
+                "Machine M recognizes a set of strings A"
+            ],
+            "flags": 0,
+            "guid": "O+~wri8>>s",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::1::1",
+                "CS::formal-languages"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What does it mean if a collection of objects is <i>closed</i> under some operation?",
+                "If applying that operation to members of the collection returns an object still in the collection "
+            ],
+            "flags": 0,
+            "guid": "GKq6s+t=%d",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::1::1",
+                "CS::formal-languages"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Final states are another way of saying what?",
+                "Accept states"
+            ],
+            "flags": 0,
+            "guid": "J8JMNoQQct",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::1::1",
+                "CS::formal-languages"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are the probabilistic counterpart of finite automata?",
+                "Markov Chains"
+            ],
+            "flags": 0,
+            "guid": "LUefC7iW9U",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::1::1",
+                "CS::formal-languages"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What kind of computers are finite automata good for?",
+                "Computers with limited memory"
+            ],
+            "flags": 0,
+            "guid": "e{MjqI>W)",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::1::1",
+                "CS::formal-languages"
             ]
         },
         {
@@ -1133,35 +1182,8 @@
             "guid": "vzw~_-`3:D",
             "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
             "tags": [
-                "CS::DM565::Sipser::1::2"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "What is a DFA?",
-                "A deterministic finite automaton"
-            ],
-            "flags": 0,
-            "guid": "d#Ci1gjBC{",
-            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
-            "tags": [
-                "CS::DM565::Sipser::1::3"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "What is an NFA?",
-                "A nondeterministic finite automaton"
-            ],
-            "flags": 0,
-            "guid": "`IO1*.2Bd",
-            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
-            "tags": [
-                "CS::DM565::Sipser::1::3"
+                "CS::DM565::Sipser::1::2",
+                "CS::formal-languages"
             ]
         },
         {
@@ -1175,7 +1197,8 @@
             "guid": "nSQC+a]DS:",
             "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
             "tags": [
-                "CS::DM565::Sipser::1::3"
+                "CS::DM565::Sipser::1::2",
+                "CS::formal-languages"
             ]
         },
         {
@@ -1189,7 +1212,38 @@
             "guid": "bT$u9+Ed)H",
             "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
             "tags": [
-                "CS::DM565::Sipser::1::3"
+                "CS::DM565::Sipser::1::2",
+                "CS::formal-languages"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is a DFA?",
+                "A deterministic finite automaton"
+            ],
+            "flags": 0,
+            "guid": "d#Ci1gjBC{",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::1::2",
+                "CS::formal-languages"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is an NFA?",
+                "A nondeterministic finite automaton"
+            ],
+            "flags": 0,
+            "guid": "`IO1*.2Bd",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::1::2",
+                "CS::formal-languages"
             ]
         },
         {
@@ -1203,35 +1257,68 @@
             "guid": "i~K,2u9O<:",
             "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
             "tags": [
-                "CS::DM565::Sipser::1::3"
+                "CS::DM565::Sipser::1::2",
+                "CS::formal-languages"
             ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
-                "A<i>finite automaton</i> is a 5-tuple (\\(Q, \\sum , \\delta , q_o, F\\)), where <br/>\n1. \\(Q\\) is a finite set called the {{c1::<b>states</b>}}, <br/>\n2. \\(\\sum \\) is a finite set called the {{c2::<b>alphabe</b>t}}, <br/>\n3. \\(\\delta : Q \\times \\sum \\to Q\\) is the {{c3::<b>transition function</b>}} <br/>\n4. \\(q_0 \\in Q\\) is the {{c4::<b>start state</b>}}, and <br/>\n5. \\(F \\subseteq Q\\) is the {{c5::<b>set of accept states</b>}}",
-                "."
+                "What is the one essential difference between the formal definition of a deterministic finite automaton and a nondeterministic finite automaton?",
+                "They differ in the type of transifion function. In a DFA, the transition function takes a state and an input symbol and produces the next state. In an NFA, the transition function takes a state and an input symbol <i>or the empty string</i> and produces <i>the set of possible next states</i>"
             ],
             "flags": 0,
-            "guid": "I*/2/V]/dI",
-            "note_model_uuid": "539d3988-a514-11ec-b44f-acde48001122",
+            "guid": "yV*3/UC|)`",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
             "tags": [
-                "CS::DM565::Sipser::1::1"
+                "CS::DM565::Sipser::1::2",
+                "CS::formal-languages"
             ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
-                "If A is the set of all strings that machine M accepts, we say that A is the <b>{{c1::language}} of machine M</b>.",
-                "."
+                "What languages do NFAs recognize, that DFAs do not?",
+                "None, they both recognize the same class of languages."
             ],
             "flags": 0,
-            "guid": "k6237l)h2P",
-            "note_model_uuid": "539d3988-a514-11ec-b44f-acde48001122",
+            "guid": "nj]#sRaGg,",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
             "tags": [
-                "CS::DM565::Sipser::1::1"
+                "CS::DM565::Sipser::1::2",
+                "CS::formal-languages"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Which NFAs can be converted into an equivalent DFA?",
+                "Every NFA can be converted into an equivalent DFA."
+            ],
+            "flags": 0,
+            "guid": "s#nAR6ZR{J",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::1::2",
+                "CS::formal-languages"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "When is a language regular?",
+                "If and only if some nondeterministic finite automaton recognizes it."
+            ],
+            "flags": 0,
+            "guid": "r2q6Me1Bdt",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::1::2",
+                "CS::formal-languages"
             ]
         },
         {
@@ -1246,7 +1333,8 @@
             "note_model_uuid": "539d3988-a514-11ec-b44f-acde48001122",
             "tags": [
                 "CS::DM565::Sipser::0::1",
-                "CS::DM565::optional"
+                "CS::DM565::optional",
+                "CS::formal-languages"
             ]
         },
         {
@@ -1261,7 +1349,8 @@
             "note_model_uuid": "539d3988-a514-11ec-b44f-acde48001122",
             "tags": [
                 "CS::DM565::Sipser::0::1",
-                "CS::DM565::optional"
+                "CS::DM565::optional",
+                "CS::formal-languages"
             ]
         },
         {
@@ -1276,7 +1365,8 @@
             "note_model_uuid": "539d3988-a514-11ec-b44f-acde48001122",
             "tags": [
                 "CS::DM565::Sipser::0::3",
-                "CS::DM565::optional"
+                "CS::DM565::optional",
+                "CS::formal-languages"
             ]
         },
         {
@@ -1284,14 +1374,15 @@
             "data": "",
             "fields": [
                 "A {{c1::proof}} is a convincing logical argument that a statement is true.",
-                ""
+                "."
             ],
             "flags": 0,
             "guid": "c8#w0zyPQ!",
             "note_model_uuid": "539d3988-a514-11ec-b44f-acde48001122",
             "tags": [
                 "CS::DM565::Sipser::0::3",
-                "CS::DM565::optional"
+                "CS::DM565::optional",
+                "CS::formal-languages"
             ]
         },
         {
@@ -1299,14 +1390,45 @@
             "data": "",
             "fields": [
                 "A {{c1::theorem}} is a mathematical statement proved true.",
-                ""
+                "."
             ],
             "flags": 0,
             "guid": "ei2!aRnw|{",
             "note_model_uuid": "539d3988-a514-11ec-b44f-acde48001122",
             "tags": [
                 "CS::DM565::Sipser::0::3",
-                "CS::DM565::optional"
+                "CS::DM565::optional",
+                "CS::formal-languages"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "A<i>finite automaton</i> is a 5-tuple (\\(Q, \\sum , \\delta , q_o, F\\)), where <br/>\n1. \\(Q\\) is a finite set called the {{c1::<b>states</b>}}, <br/>\n2. \\(\\sum \\) is a finite set called the {{c2::<b>alphabe</b>t}}, <br/>\n3. \\(\\delta : Q \\times \\sum \\to Q\\) is the {{c3::<b>transition function</b>}} <br/>\n4. \\(q_0 \\in Q\\) is the {{c4::<b>start state</b>}}, and <br/>\n5. \\(F \\subseteq Q\\) is the {{c5::<b>set of accept states</b>}}",
+                "."
+            ],
+            "flags": 0,
+            "guid": "I*/2/V]/dI",
+            "note_model_uuid": "539d3988-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::1::1",
+                "CS::formal-languages"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "If A is the set of all strings that machine M accepts, we say that A is the <b>{{c1::language}} of machine M</b>.",
+                "."
+            ],
+            "flags": 0,
+            "guid": "k6237l)h2P",
+            "note_model_uuid": "539d3988-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::1::1",
+                "CS::formal-languages"
             ]
         }
     ]
