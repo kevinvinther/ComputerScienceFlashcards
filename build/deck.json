@@ -379,6 +379,96 @@
             "__type__": "Note",
             "data": "",
             "fields": [
+                "Who is credited with having invented the waterfall method?",
+                "Dr Winston W. Royce"
+            ],
+            "flags": 0,
+            "guid": "FPj|>E&2)V",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM571::Lecture1",
+                "CS::software-engineering"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "How deep does the system design phase go in the waterfall method?",
+                "In theory, all the way down to the design of the classes and functions."
+            ],
+            "flags": 0,
+            "guid": "r%Av=;p!<E",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM571::Lecture1",
+                "CS::software-engineering"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is MOSCOW when talking about priority? ",
+                "Must have, should have, could have, won’t have"
+            ],
+            "flags": 0,
+            "guid": "Y~[aCTALf",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM571::Lecture1",
+                "CS::software-engineering"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the difference between a functional requirement and a non-functional requirement?",
+                "A functional requirement is something that the user can do, e.g. login, change name etc., A non-functional requirement is on the entire system, e.g. having 99% uptime, having good enough speed etc."
+            ],
+            "flags": 0,
+            "guid": "M-mI/-e({.",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM571::Lecture1",
+                "CS::software-engineering"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is UAT?",
+                "User acceptance testing, seeing whether the users accept the project or not"
+            ],
+            "flags": 0,
+            "guid": "ns-{2s@2[Y",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM571::Lecture1",
+                "CS::software-engineering"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Did Dr. Winston W. Royce invent the waterfall model?",
+                "No, he made a paper about it, describing what he observed."
+            ],
+            "flags": 0,
+            "guid": "iRS4yhqP}2",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM571::Lecture1",
+                "CS::software-engineering"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
                 "These days most projects follow&nbsp;{{c1::Agile Methodology::method}}, some form of&nbsp;{{c2::Iterative model::model}} or one of the other models depending on their project specific requirement.&nbsp;",
                 "Up untill the year 2000 the waterfall model was used significantly."
             ],
@@ -1320,6 +1410,30 @@
                 "CS::DM565::Sipser::1::2",
                 "CS::formal-languages"
             ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is data discovery?",
+                "The process of finding data on which transformations will be made."
+            ],
+            "flags": 0,
+            "guid": "F!0Hi%2G~x",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is data mapping?",
+                "The process of mapping some data to other."
+            ],
+            "flags": 0,
+            "guid": "NLUlKDcGuV",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": []
         },
         {
             "__type__": "Note",
