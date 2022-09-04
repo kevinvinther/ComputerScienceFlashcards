@@ -38,5 +38,12 @@ yV*3/UC|)`,What is the one essential difference between the formal definition of
 "nj]#sRaGg,","What languages do NFAs recognize, that DFAs do not?","None, they both recognize the same class of languages.","CS::DM565::Sipser::1::2, CS::formal-languages"
 s#nAR6ZR{J,Which NFAs can be converted into an equivalent DFA?,Every NFA can be converted into an equivalent DFA.,"CS::DM565::Sipser::1::2, CS::formal-languages"
 r2q6Me1Bdt,When is a language regular?,If and only if some nondeterministic finite automaton recognizes it.,"CS::DM565::Sipser::1::2, CS::formal-languages"
-F!0Hi%2G~x,What is data discovery?,The process of finding data on which transformations will be made.,
-NLUlKDcGuV,What is data mapping?,The process of mapping some data to other.,
+F!0Hi%2G~x,What is data discovery?,The process of finding data on which transformations will be made.,"CS::DM565::Sipser::1::2, CS::formal-languages"
+NLUlKDcGuV,What is data mapping?,The process of mapping some data to other.,"CS::DM565::Sipser::1::2, CS::formal-languages"
+i)]ZZ@x<z4,What is the resulting language of the regular expression \((0\cup 1)0*\)?,The language consisting of all strings starting with a 0 or a 1 followed by any number of 0s.,"CS::DM565::Sipser::1::3, CS::formal-languages"
+fG+D+Iv#]a,The regular expression \((0\cup 1)0*\) is shorthand for what? ,\((0\cup 1)\circ 0*\),"CS::DM565::Sipser::1::3, CS::formal-languages"
+BF.N5=y8Hr,"Which is more powerful, finite automata or regular expressions?",They are equivalent in their descriptive power.,
+Os4k]=WQV@,Is a language necessarily regular if it is described by a regular expression?,"Yes, a language is regular if and only if some regular expression describes it.",
+"GS8Nq&>b,=",What is GNFA short for?,Generalized nondeterministic finite automaton,
+pjF<33gd}D,"What can GNFAs do, that NFAs and DFAs can’t do?",Use regular expressions in their transitional arrows.,
+BFGNq}$#Xj,Which kind of finite automaton has the transition function \(\delta : (Q - \{q_{accept}\ \times (Q-\{q_{start}\}) \rightarrow R)\)?,NDFAs,

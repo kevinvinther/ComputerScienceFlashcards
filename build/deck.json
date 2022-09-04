@@ -398,7 +398,7 @@
                 "In theory, all the way down to the design of the classes and functions."
             ],
             "flags": 0,
-            "guid": "r%Av=;p!<E",
+            "guid": "r%Av=p!<E",
             "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
             "tags": [
                 "CS::DM571::Lecture1",
@@ -469,6 +469,126 @@
             "__type__": "Note",
             "data": "",
             "fields": [
+                "What are the 5 domains of the Cynefin complexity model?",
+                "Obvious, complicated, complex, chaotic and disorder."
+            ],
+            "flags": 0,
+            "guid": "t]-kd(r#.a",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM571::Lecture2",
+                "CS::software-engineering"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the literal translation of Cynefin?",
+                "'habitat’ or ‘place’, from Welsh. Actual meaning: place of multiple belongings; cultural, religious, geographic, tribal etc."
+            ],
+            "flags": 0,
+            "guid": "fB?UQ)gN=#",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM571::Lecture2",
+                "CS::software-engineering"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Which domain in Cynefin are we in most of the time?",
+                "Disorder, the domain where we do not know which other domain we’re in."
+            ],
+            "flags": 0,
+            "guid": "C6TmX7:+|:",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM571::Lecture2",
+                "CS::software-engineering"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Is Agile development process-based?",
+                "No, it is not. "
+            ],
+            "flags": 0,
+            "guid": "lZGb/6K226",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM571::Lecture2",
+                "CS::software-engineering"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Agile methods derive much of their agility by what?",
+                "Relying on the tacit (implicit) knowledge knowledge embodied in the team, rather than writing the knowledge down in plans."
+            ],
+            "flags": 0,
+            "guid": "oT`N|2Vb>E",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM571::Lecture2",
+                "CS::software-engineering"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What do the requirements have to be for plan-driven methods to work best? ",
+                "Relatively stable, with change rates on the order of one percent per month."
+            ],
+            "flags": 0,
+            "guid": "wo]O(:39/F",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM571::Lecture2",
+                "CS::software-engineering"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "In Cynefin, what are systems on the right side described as? ",
+                "Ordered, meaning cause and effect are predictable."
+            ],
+            "flags": 0,
+            "guid": "QVm,eRFuQ",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM571::Lecture2",
+                "CS::software-engineering"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "In Cynefin, what are systems on the left side described as? ",
+                "Unordered, meaning cause and effect are unpredictable"
+            ],
+            "flags": 0,
+            "guid": "iifV#).`tg",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM571::Lecture2",
+                "CS::software-engineering"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
                 "These days most projects follow&nbsp;{{c1::Agile Methodology::method}}, some form of&nbsp;{{c2::Iterative model::model}} or one of the other models depending on their project specific requirement.&nbsp;",
                 "Up untill the year 2000 the waterfall model was used significantly."
             ],
@@ -509,6 +629,18 @@
                 "CS::DM571::Lecture1",
                 "CS::software-engineering"
             ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The developers of several emerging software development methods, such as Adaptive Software Development (ASD), Agile Modeling, Crystal Methods, Dynamic System Development Methodology (DSDM), Extreme Programming (XP), Feature Driven Development, Lean Development, and Scrum Emphasize the following values: <br/>\n<ul>\n   <li>{{c1::Individuals and interactions}} over processes and tools</li>\n<li>{{c2::Working software}} over comprehensive documentation</li>\n<li>{{c3::Customer collaboration}} over contract negotiation</li>\n<li>{{c4::Responding to change}} over following a plan</li>\n</ul>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "OAmB)]x%Dc",
+            "note_model_uuid": "539d3988-a514-11ec-b44f-acde48001122",
+            "tags": []
         },
         {
             "__type__": "Note",
@@ -762,6 +894,201 @@
             "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
             "tags": [
                 "CS::DM551::Rosen::Chapter6::3",
+                "CS::algorithms-and-probability"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is a <b>binomial expression</b>?",
+                "The sum of two terms, such as \\(x + y\\) (The terms can be products of constants and variable)."
+            ],
+            "flags": 0,
+            "guid": "C9.ZWBowD_",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM551::Rosen::Chapter6::4",
+                "CS::algorithms-and-probability"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the following equation? <br> \\( (x+y)^n ) \\sum_{j=0}^n \\binom{n}{j} x^{n-j}y^j = \\binom{n}{0}x^n + \\binom{n}{1}x^{n-1}+...+\\binom{n}{n-1}xy^{n-1}+\\binom{n}{n}y^n \\)",
+                "The Binomial Theorem"
+            ],
+            "flags": 0,
+            "guid": "rC+j|F>pd:",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM551::Rosen::Chapter6::4",
+                "CS::algorithms-and-probability"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the result of the following equation, when <i>n</i> is a nonnegative integer? <br/> \\( \\sum^n_{k=0} \\binom{n}{k} = ? \\)",
+                " \\( \\sum^n_{k=0} \\binom{n}{k} = 2^n \\)"
+            ],
+            "flags": 0,
+            "guid": "P~%t`m@PVp",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM551::Rosen::Chapter6::4",
+                "CS::algorithms-and-probability"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the result of the following equation, when <i>n</i> is a positive integer? <br/> \\( \\sum^n_{k=0}(-1)^k \\binom{n}{k} = ? \\)",
+                " \\( \\sum^n_{k=0}(-1)^k \\binom{n}{k} = 0 \\)"
+            ],
+            "flags": 0,
+            "guid": "c0./HAvH.}",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM551::Rosen::Chapter6::4",
+                "CS::algorithms-and-probability"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the result of the following equation, when <i>n</i> is a nonnegative integer? <br/> \\( \\sum^n_{k=0}2^k \\binom{n}{k} = ? \\)",
+                " \\( \\sum^n_{k=0}2^k \\binom{n}{k} = 3^n\\)"
+            ],
+            "flags": 0,
+            "guid": "HX4gD5Be(K",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM551::Rosen::Chapter6::4",
+                "CS::algorithms-and-probability"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the following theorem? Let <i>n</i> and <i>k</i> be positive integers with \\(n \\geq k\\). Then <br> \\(\\binom{n+1}{k}=\\binom{n}{k-1}+\\binom{n}{k}\\)",
+                "Pascal’s Identity."
+            ],
+            "flags": 0,
+            "guid": "I<$AQ%)k2c",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM551::Rosen::Chapter6::4",
+                "CS::algorithms-and-probability"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Who is Pascal’s triangle named after?",
+                "The French mathematician Blaise Pascal."
+            ],
+            "flags": 0,
+            "guid": "FS:7PFzOcj",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM551::Rosen::Chapter6::4",
+                "CS::algorithms-and-probability"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the following theorem? Let <i>m, n,</i> and <i>r</i> be nonnegative integers with <i>r</i> not exceeding either <i>m</i> or </i>n</i>. Then <br> \\(\\binom{m+n}{r} = \\sum^r_{k=0} \\binom{m}{r-k} \\binom{n}{k} \\)",
+                "Vandermonde’s Identity."
+            ],
+            "flags": 0,
+            "guid": "ogJ&LTzUS!",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM551::Rosen::Chapter6::4",
+                "CS::algorithms-and-probability"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the number of \\(r\\)-permutations of a set of <i>n</i> objects with repetition allowed?",
+                "\\(n^r\\)"
+            ],
+            "flags": 0,
+            "guid": "whwHcyfeaF",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM551::Rosen::Chapter6::5",
+                "CS::algorithms-and-probability"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "How many r-combinations from a set with <i>n</i> elements are there <i>when repetition of elements is allowed</i>?",
+                "\\( C(n+r-1,r) = (C(n+r-1,n-1) \\) <i>r</i>-combinations"
+            ],
+            "flags": 0,
+            "guid": "i&W`~joJZQ",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM551::Rosen::Chapter6::5",
+                "CS::algorithms-and-probability"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the number of different permutations of <i>n</i> objects, where there are \\(n_1\\) indistinguishable objects of type 1, \\(n_2\\) indistinguishable objects of type 2, …, and \\(n_k\\) indistinguishable objects of type <i>k</i>?",
+                "\\(\\frac{n!}{n_1!n_2!...n_k!}\\)"
+            ],
+            "flags": 0,
+            "guid": "Jc1M9+mZJg",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM551::Rosen::Chapter6::5",
+                "CS::algorithms-and-probability"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is a <b>closed formula</b>?",
+                "An expression that can be evaluated using a finite number of operations and that includes numbers, variables and values of functions, where the operations and functions belong to a generally accepted set that can depend on the context."
+            ],
+            "flags": 0,
+            "guid": "C<AJ3o:._v",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM551::Rosen::Chapter6::5",
+                "CS::algorithms-and-probability"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the number of ways to distribute <i>n</i> distinguishable objects into <i>k</i> distinguishable boxes so that \\(n_i\\) objects are placed into box \\(i, I = 1, 2, …, k\\)?",
+                "\\(\\frac{n!}{n_1!n_2!...n_k!}\\)"
+            ],
+            "flags": 0,
+            "guid": "v>e|v$%9M8",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM551::Rosen::Chapter6::5",
                 "CS::algorithms-and-probability"
             ]
         },
@@ -1421,7 +1748,10 @@
             "flags": 0,
             "guid": "F!0Hi%2G~x",
             "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
-            "tags": []
+            "tags": [
+                "CS::DM565::Sipser::1::2",
+                "CS::formal-languages"
+            ]
         },
         {
             "__type__": "Note",
@@ -1432,6 +1762,99 @@
             ],
             "flags": 0,
             "guid": "NLUlKDcGuV",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::1::2",
+                "CS::formal-languages"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the resulting language of the regular expression \\((0\\cup 1)0*\\)?",
+                "The language consisting of all strings starting with a 0 or a 1 followed by any number of 0s."
+            ],
+            "flags": 0,
+            "guid": "i)]ZZ@x<z4",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::1::3",
+                "CS::formal-languages"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The regular expression \\((0\\cup 1)0*\\) is shorthand for what? ",
+                "\\((0\\cup 1)\\circ 0*\\)"
+            ],
+            "flags": 0,
+            "guid": "fG+D+Iv#]a",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::1::3",
+                "CS::formal-languages"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Which is more powerful, finite automata or regular expressions?",
+                "They are equivalent in their descriptive power."
+            ],
+            "flags": 0,
+            "guid": "BF.N5=y8Hr",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Is a language necessarily regular if it is described by a regular expression?",
+                "Yes, a language is regular if and only if some regular expression describes it."
+            ],
+            "flags": 0,
+            "guid": "Os4k]=WQV@",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is GNFA short for?",
+                "Generalized nondeterministic finite automaton"
+            ],
+            "flags": 0,
+            "guid": "GS8Nq&>b,=",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What can GNFAs do, that NFAs and DFAs can’t do?",
+                "Use regular expressions in their transitional arrows."
+            ],
+            "flags": 0,
+            "guid": "pjF<33gd}D",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Which kind of finite automaton has the transition function \\(\\delta : (Q - \\{q_{accept}\\ \\times (Q-\\{q_{start}\\}) \\rightarrow R)\\)?",
+                "NDFAs"
+            ],
+            "flags": 0,
+            "guid": "BFGNq}$#Xj",
             "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
             "tags": []
         },
@@ -1542,6 +1965,21 @@
             "note_model_uuid": "539d3988-a514-11ec-b44f-acde48001122",
             "tags": [
                 "CS::DM565::Sipser::1::1",
+                "CS::formal-languages"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "We require that GNFAs always have a special form that meets the following conditions <br>\n<ul>\n  <li> {{c1::The start state has transition arrows going to every other state but no arrows coming in from any other state}} </li>\n  <li>  {{c2::The is only a single accept state, and it has arrows coming in from every other state but no arrows going to any other state. Furthermore the accept state is not the same as the start state.}} </li>\n  <li> {{c3::Except for the start and accept states, one arrow goes from every state to every other state and also from each state to itself.}} </li>\n</ul>",
+                "."
+            ],
+            "flags": 0,
+            "guid": "G%uL?{P;@l",
+            "note_model_uuid": "539d3988-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::1::3",
                 "CS::formal-languages"
             ]
         }
