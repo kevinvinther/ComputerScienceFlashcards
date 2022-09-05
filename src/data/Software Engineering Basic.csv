@@ -26,3 +26,6 @@ oT`N|2Vb>E,Agile methods derive much of their agility by what?,"Relying on the t
 wo]O(:39/F,What do the requirements have to be for plan-driven methods to work best? ,"Relatively stable, with change rates on the order of one percent per month.","CS::DM571::Lecture2, CS::software-engineering"
 "QVm,eRFuQ","In Cynefin, what are systems on the right side described as? ","Ordered, meaning cause and effect are predictable.","CS::DM571::Lecture2, CS::software-engineering"
 iifV#).`tg,"In Cynefin, what are systems on the left side described as? ","Unordered, meaning cause and effect are unpredictable","CS::DM571::Lecture2, CS::software-engineering"
+q{[E5RouqG,How many documentation documents does Royce propose to use? ,To quote: “Quite a lot”,"CS::DM571::Lecture2, CS::software-engineering"
+wdF|=Kk*$S,Why is the border between simple and chaotic different than the others?,Believing you’re in the simple zone might lead you to become overconfident and slide into the chaotic zone. This is why it is often described as a cliff or wave.,"CS::DM571::Lecture2, CS::software-engineering"
+o1/$!xsgI=,What is simple also called in other versions of Cynefin?,Obvious or Clear,"CS::DM571::Lecture2, CS::software-engineering"

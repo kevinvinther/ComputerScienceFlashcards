@@ -589,6 +589,51 @@
             "__type__": "Note",
             "data": "",
             "fields": [
+                "How many documentation documents does Royce propose to use? ",
+                "To quote: “Quite a lot”"
+            ],
+            "flags": 0,
+            "guid": "q{[E5RouqG",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM571::Lecture2",
+                "CS::software-engineering"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Why is the border between simple and chaotic different than the others?",
+                "Believing you’re in the simple zone might lead you to become overconfident and slide into the chaotic zone. This is why it is often described as a cliff or wave."
+            ],
+            "flags": 0,
+            "guid": "wdF|=Kk*$S",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM571::Lecture2",
+                "CS::software-engineering"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is simple also called in other versions of Cynefin?",
+                "Obvious or Clear"
+            ],
+            "flags": 0,
+            "guid": "o1/$!xsgI=",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM571::Lecture2",
+                "CS::software-engineering"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
                 "These days most projects follow&nbsp;{{c1::Agile Methodology::method}}, some form of&nbsp;{{c2::Iterative model::model}} or one of the other models depending on their project specific requirement.&nbsp;",
                 "Up untill the year 2000 the waterfall model was used significantly."
             ],
