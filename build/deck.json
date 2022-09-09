@@ -62,6 +62,7 @@
     "extendNew": 0,
     "extendRev": 0,
     "media_files": [
+        "dfa1.png",
         "paste-8e998cac5d6e4b989e6bc335e69a1bbb42cb18e7.jpg"
     ],
     "name": "Computer Science",
@@ -1267,7 +1268,7 @@
             "data": "",
             "fields": [
                 "What is an alphabet?",
-                "A finite, nonempty set of objects called symbols"
+                "A finite, nonempty set of objects called symbols, symbolized by \\(\\Sigma \\)"
             ],
             "flags": 0,
             "guid": "FX%0:N|3UF",
@@ -1563,7 +1564,7 @@
             "data": "",
             "fields": [
                 "What does L(M) = A mean?",
-                "Machine M recognizes a set of strings A"
+                "Machine M recognizes a set of strings A, also called language A"
             ],
             "flags": 0,
             "guid": "O+~wri8>>s",
@@ -1853,7 +1854,10 @@
             "flags": 0,
             "guid": "BF.N5=y8Hr",
             "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
-            "tags": []
+            "tags": [
+                "CS::DM565::Sipser::1",
+                "CS::formal-languages"
+            ]
         },
         {
             "__type__": "Note",
@@ -1865,7 +1869,10 @@
             "flags": 0,
             "guid": "Os4k]=WQV@",
             "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
-            "tags": []
+            "tags": [
+                "CS::DM565::Sipser::1",
+                "CS::formal-languages"
+            ]
         },
         {
             "__type__": "Note",
@@ -1877,7 +1884,10 @@
             "flags": 0,
             "guid": "GS8Nq&>b,=",
             "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
-            "tags": []
+            "tags": [
+                "CS::DM565::Sipser::1",
+                "CS::formal-languages"
+            ]
         },
         {
             "__type__": "Note",
@@ -1889,7 +1899,10 @@
             "flags": 0,
             "guid": "pjF<33gd}D",
             "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
-            "tags": []
+            "tags": [
+                "CS::DM565::Sipser::1",
+                "CS::formal-languages"
+            ]
         },
         {
             "__type__": "Note",
@@ -1901,7 +1914,205 @@
             "flags": 0,
             "guid": "BFGNq}$#Xj",
             "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
-            "tags": []
+            "tags": [
+                "CS::DM565::Sipser::1",
+                "CS::formal-languages"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the formal definition of a <i>finite automaton</i>?",
+                "A 5-tuple \\( (Q, \\Sigma, \\delta, q_0, F) \\)"
+            ],
+            "flags": 0,
+            "guid": "z,T/aL:Jf/",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::1",
+                "CS::formal-languages"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "If two languages A1 and A2 are regular, what can be said of their union A1 \\(\\cup \\) A2?",
+                "Their union is also regular, because regular languages are closed under the union operation"
+            ],
+            "flags": 0,
+            "guid": "lKu/,D8kqe",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::1",
+                "CS::formal-languages"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "When are two machines considered equivalent?",
+                "If they recognize the same language"
+            ],
+            "flags": 0,
+            "guid": "i*L@jnve:2",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::1",
+                "CS::formal-languages"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is a regular expression?",
+                "An expression describing a language that is built using regular operations."
+            ],
+            "flags": 0,
+            "guid": "q`Oz:hG~`-",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::1",
+                "CS::formal-languages"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What does the regular expression \\( (0 \\cup 1) \\) mean?",
+                "Combine the results of {0} and {1} into one set, {0,1}"
+            ],
+            "flags": 0,
+            "guid": "rs[4Hn4dd,",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::1",
+                "CS::formal-languages"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What does the regular expression \\(0 \\cup 1)* \\) mean?",
+                "It is the expression for the language consisting of all possible strings of 0’s and 1’s"
+            ],
+            "flags": 0,
+            "guid": "rLL^bB~XL~",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::1",
+                "CS::formal-languages"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What does the symbol \\(\\Sigma *\\) mean?",
+                "The language consisting of all strings over a given alphabet."
+            ],
+            "flags": 0,
+            "guid": "{#dZkawc/",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::1",
+                "CS::formal-languages"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What does the following regular expression denote? \\((0 \\Sigma *) \\cup (\\Sigma * 1)\\)",
+                "It consists of all possible strings that start with a 0, or end with a 1."
+            ],
+            "flags": 0,
+            "guid": "x(lwQZ>UN=",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::1",
+                "CS::formal-languages"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is R+ shorthand for?",
+                "R+ is the kleene star with at least one element, not \\(\\epsilon\\) (i.e. R+ = RR*)"
+            ],
+            "flags": 0,
+            "guid": "H1pSyI/!$d",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::1",
+                "CS::formal-languages"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "How many acceptance states should a finite automaton have?",
+                "A finite automaton has a set of starting states, which may be any set of states, including the set \\(\\emptyset\\)."
+            ],
+            "flags": 0,
+            "guid": "I5[nnxy=g~",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::1",
+                "CS::formal-languages"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the set of acceptance states for the following DFA? <br/> <img src=\"dfa1.png\">",
+                "{q3}"
+            ],
+            "flags": 0,
+            "guid": "f-(P?nJ3^C",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::1",
+                "CS::formal-languages"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the difference between the <i>empty string</i> and the <i>empty language</i>?",
+                "The empty string \\((\\epsilon )\\) is the string of length 0, while the empty language \\((\\emptyset )\\), is the language which is a set with no strings. "
+            ],
+            "flags": 0,
+            "guid": "f-?jR2Vtu?",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::1",
+                "CS::formal-languages"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Can you use star operation on the empty string (\\(\\epsilon\\))?",
+                "Yes."
+            ],
+            "flags": 0,
+            "guid": "hP@)&gF!zd",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM565::Sipser::1",
+                "CS::formal-languages"
+            ]
         },
         {
             "__type__": "Note",
