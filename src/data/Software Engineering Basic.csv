@@ -29,3 +29,30 @@ iifV#).`tg,"In Cynefin, what are systems on the left side described as? ","Unord
 q{[E5RouqG,How many documentation documents does Royce propose to use? ,To quote: “Quite a lot”,"CS::DM571::Lecture2, CS::software-engineering"
 wdF|=Kk*$S,Why is the border between simple and chaotic different than the others?,Believing you’re in the simple zone might lead you to become overconfident and slide into the chaotic zone. This is why it is often described as a cliff or wave.,"CS::DM571::Lecture2, CS::software-engineering"
 o1/$!xsgI=,What is simple also called in other versions of Cynefin?,Obvious or Clear,"CS::DM571::Lecture2, CS::software-engineering"
+K^5lCu79Yc,"Scrum is founded on <i>empiricism</i>, which asserts what?",That knowledge comes from experience and making decisions based on what is observed.,"CS::DM571::Lecture3, CS::software-engineering"
+dP$8B<v)lE,"Scrum is founded on <i>lean thinking</i>, which does what?",Reduces waste and focuses on the essentials.,"CS::DM571::Lecture3, CS::software-engineering"
+D#Rg<|k]jN,Successful use of Scrum depends on people becoming more proficient in living which five values?,"Commitment, focus, openness, respect and courage. ","CS::DM571::Lecture3, CS::software-engineering"
+Oh/wqM/3P(,Who manages the scrum team?,"Themselves, they internally decide who does what, when and how.","CS::DM571::Lecture3, CS::software-engineering"
+mDUv6Tefy%,What is a sprint in scrum?,"A period where you do not hold meetings, but work. At the meetings you decide what to do at the next sprint.","CS::DM571::Lecture3, CS::software-engineering"
+rL5l_(4x+(,How large is a scrum team generally?,"3-9 people, but can be larger or smaller.","CS::DM571::Lecture3, CS::software-engineering"
+Ld@(DN)jn.,What should scrum teams do if they become too big?,"Reorganizing into multiple cohesive Scrum Teams, each focused on the same product.","CS::DM571::Lecture3, CS::software-engineering"
+nr!TJgC{s^,"In Scrum, who is responsible for all product-related activies?","The Scrum team. This includes stakeholder collaboration, verification, maintenance, operation, experimentation, research and development. ","CS::DM571::Lecture3, CS::software-engineering"
+t_Us{r}#<r,"In Scrum, who is responsible for the following? <br/> <ul> 
+<li>Creating a plan for the Sprint, the Sprint Backlog</li>
+<li>Instilling quality by adhering to a Definition of Done</li>  
+<li>Adapting their plan each day toward the Sprint Goal, and</li>   
+<li>Holding each other accountable as professionals. </li>
+</ul>",The developers.,"CS::DM571::Lecture3, CS::software-engineering"
+J>$pw=DY[2,Who is accountable for maximizing the value of the product resulting from the work of the Scrum Team?,The product owner.,"CS::DM571::Lecture3, CS::software-engineering"
+ujZkt*I*#J,Who establishes scrum as defined in the scrum guide?,The scrum master.,"CS::DM571::Lecture3, CS::software-engineering"
+"wnPQsGGc,t","In scrum, who is responsible for leading, training and coaching the organization in its Scrum adoption?",The scrum master.,"CS::DM571::Lecture3, CS::software-engineering"
+C{.TOx]*o8,"In scrum, who is responsible for helping the scrum team understand the need for clear and concise product backlog items?",The scrum master.,"CS::DM571::Lecture3, CS::software-engineering"
+icTYQ%fZIS,How long are sprints in Scrum?,Fixed length of one month or less.,"CS::DM571::Lecture3, CS::software-engineering"
+n1:]q33{2J,When does a new sprint begin in Scrum?,Immediately after the conclusion of the previous sprint.,"CS::DM571::Lecture3, CS::software-engineering"
+o<Vhq^zUeL,"In Scrum, which topics are addressed during sprint planning?","Why the Sprint is valuable, what can be Done this Sprint and How will the chosen work get done?","CS::DM571::Lecture3, CS::software-engineering"
+L`fM!P=txZ,What is Daily Scrum?,"A 15-minute event for the Developers of the Scrum team, which focuses on progress toward the Sprint Goal and produces and actionable plan for the next day of work.","CS::DM571::Lecture3, CS::software-engineering"
+kGg;X<.E<Z,What is the purpose of the Sprint Retrospective in Scrum?,To plan ways to increase quality and effectiveness.,"CS::DM571::Lecture3, CS::software-engineering"
+s^ogIro`cd,What is the product backlog in Scrum?,"An emergent, ordered list of what is needed to improve the product.","CS::DM571::Lecture3, CS::software-engineering"
+KORIE<]*KW,What is the Sprint Backlog composed of in Scrum?,"The Sprint Goal (why), the set of Product Backlog items selected for the Sprint (what), as well as an actionable plan for delivering the Increment (how)","CS::DM571::Lecture3, CS::software-engineering"
+dI}fx%Tuv=,What is an Increment in Scrum?,A concrete stepping stone toward the Product Goal.,"CS::DM571::Lecture3, CS::software-engineering"
+o01rjR#&9{,What happens when a Product Backlog item meets the definition of Done in Scrum?,An Increment is born.,"CS::DM571::Lecture3, CS::software-engineering"
