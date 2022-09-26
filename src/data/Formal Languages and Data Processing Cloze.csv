@@ -11,10 +11,4 @@ I*/2/V]/dI,"A<i>finite automaton</i> is a 5-tuple (\(Q, \sum , \delta , q_o, F\)
 4. \(q_0 \in Q\) is the {{c4::<b>start state</b>}}, and <br/>
 5. \(F \subseteq Q\) is the {{c5::<b>set of accept states</b>}}",.,"CS::DM565::Sipser::1::1, CS::formal-languages"
 k6237l)h2P,"If A is the set of all strings that machine M accepts, we say that A is the <b>{{c1::language}} of machine M</b>.",.,"CS::DM565::Sipser::1::1, CS::formal-languages"
-G%uL?{P;@l,"We require that GNFAs always have a special form that meets the following conditions <br>
-<ul>
-  <li> {{c1::The start state has transition arrows going to every other state but no arrows coming in from any other state}} </li>
-  <li>  {{c2::The is only a single accept state, and it has arrows coming in from every other state but no arrows going to any other state. Furthermore the accept state is not the same as the start state.}} </li>
-  <li> {{c3::Except for the start and accept states, one arrow goes from every state to every other state and also from each state to itself.}} </li>
-</ul>",.,"CS::DM565::Sipser::1::3, CS::formal-languages"
 w_^I=PHtJ6,The natural steps in a data transformation process are {{c1::data discovery}} -> {{c2::data mapping}}  -> {{c3::code generation}} -> {{c4::code execution}} -> -> {{c5::data review}}.,.,CS::DM565::Slides::4

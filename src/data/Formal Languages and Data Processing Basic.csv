@@ -60,8 +60,19 @@ I5[nnxy=g~,How many acceptance states should a finite automaton have?,"A finite 
 f-(P?nJ3^C,"What is the set of acceptance states for the following DFA? <br/> <img src=""dfa1.png"">",{q3},"CS::DM565::Sipser::1, CS::formal-languages"
 f-?jR2Vtu?,What is the difference between the <i>empty string</i> and the <i>empty language</i>?,"The empty string \((\epsilon )\) is the string of length 0, while the empty language \((\emptyset )\), is the language which is a set with no strings. ","CS::DM565::Sipser::1, CS::formal-languages"
 hP@)&gF!zd,Can you use star operation on the empty string (\(\epsilon\))?,Yes.,"CS::DM565::Sipser::1, CS::formal-languages"
-Q#ACA)rg^B,What is tabular data?,Data that can be encoded as text files using a designated seperator character between fields and newline between two records.,CS::DM565::Slides::4
-p-_d<{*@~`,"Header records may be found in tabular data formats, what are they?",A first line specifying the names of the different fields,CS::DM565::Slides::4
-nW<l1PiZ]`,Where can you find information about different command-line tools?,"Via the man-pages, e.g. man grep. Many tools also have online manuals or tutorials and books.",CS::DM565::Slides::4
-q9>SED@u9u,What is grep short for?,Global regular expression print,CS::DM565::Slides::4
-E@+r~y_Z3J,What does the -E option in grep do?,"With -E basically all characters that have special meaning are unescaped, meaning when using -E regular expressions are often more readable.",CS::DM565::Slides::4
+Q#ACA)rg^B,What is tabular data?,Data that can be encoded as text files using a designated seperator character between fields and newline between two records.,"CS::DM565::Slides::4, CS::formal-languages"
+p-_d<{*@~`,"Header records may be found in tabular data formats, what are they?",A first line specifying the names of the different fields,"CS::DM565::Slides::4, CS::formal-languages"
+nW<l1PiZ]`,Where can you find information about different command-line tools?,"Via the man-pages, e.g. man grep. Many tools also have online manuals or tutorials and books.","CS::DM565::Slides::4, CS::formal-languages"
+q9>SED@u9u,What is grep short for?,Global regular expression print,"CS::DM565::Slides::4, CS::formal-languages"
+E@+r~y_Z3J,What does the -E option in grep do?,"With -E basically all characters that have special meaning are unescaped, meaning when using -E regular expressions are often more readable.","CS::DM565::Slides::4, CS::formal-languages"
+trh{G5|)[%,What does the <i>sort</i> tool do?,Sort input,"CS::DM565::Slides::5, CS::formal-languages"
+rOQB_LQ=a=,What does the <i>uniq</i> command do?,"Filter out adjacent matching lines, often used after sort","CS::DM565::Slides::5, CS::formal-languages"
+tH$8A&&5Rw,What does the <i>tr</i> tool do?,Translate or delete characters.,"CS::DM565::Slides::5, CS::formal-languages"
+hCX>.!RBCK,What does the <i>cut</i> tool do?,Remove sections from each line of files,"CS::DM565::Slides::5, CS::formal-languages"
+O@QlFm;S9:,What does the <i>paste</i> tool do?,Merge lines of files,"CS::DM565::Slides::5, CS::formal-languages"
+uJUeb>U_Wr,What does the <i>join</i> tool do?,Join lines of two files on a common (sorted) field,"CS::DM565::Slides::5, CS::formal-languages"
+Vd%|Hi2(w,What does the <i>head/tail</i> command do?,Output the first/last part of files,"CS::DM565::Slides::5, CS::formal-languages"
+P+iQftWh@M,The front end of the compiler phases (Scanner -> Parser -> Symbol Collection -> Type Checking) ensure what? ,That the input program is correct,"CS::DM565::Slides::6, CS::formal-languages"
+"B,}WcjI(mv",What does the back end of the compiler phases (Code Generation -> Emit) do?,Generate the code for the correct input program (i.e. target code),"CS::DM565::Slides::6, CS::formal-languages"
+isoLG/o14C,When can optimization phases be inserted in the compiler phases?,Before or after the code generation (the back end),"CS::DM565::Slides::6, CS::formal-languages"
+G7C9zp+PaH,What is the input and output of the lexical analysis scanners?,"The input is a stream of characters (the user program), the output is a stream of tokens.","CS::DM565::Slides::6, CS::formal-languages"
