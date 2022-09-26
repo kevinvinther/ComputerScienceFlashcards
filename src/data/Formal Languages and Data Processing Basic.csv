@@ -52,7 +52,7 @@ BFGNq}$#Xj,Which kind of finite automaton has the transition function \(\delta :
 i*L@jnve:2,When are two machines considered equivalent?,If they recognize the same language,"CS::DM565::Sipser::1, CS::formal-languages"
 q`Oz:hG~`-,What is a regular expression?,An expression describing a language that is built using regular operations.,"CS::DM565::Sipser::1, CS::formal-languages"
 "rs[4Hn4dd,",What does the regular expression \( (0 \cup 1) \) mean?,"Combine the results of {0} and {1} into one set, {0,1}","CS::DM565::Sipser::1, CS::formal-languages"
-rLL^bB~XL~,What does the regular expression \(0 \cup 1)* \) mean?,It is the expression for the language consisting of all possible strings of 0’s and 1’s,"CS::DM565::Sipser::1, CS::formal-languages"
+rLL^bB~XL~,What does the regular expression \( (0 \cup 1)* \) mean?,It is the expression for the language consisting of all possible strings of 0’s and 1’s,"CS::DM565::Sipser::1, CS::formal-languages"
 {#dZkawc/,What does the symbol \(\Sigma *\) mean?,The language consisting of all strings over a given alphabet.,"CS::DM565::Sipser::1, CS::formal-languages"
 x(lwQZ>UN=,What does the following regular expression denote? \((0 \Sigma *) \cup (\Sigma * 1)\),"It consists of all possible strings that start with a 0, or end with a 1.","CS::DM565::Sipser::1, CS::formal-languages"
 H1pSyI/!$d,What is R+ shorthand for?,"R+ is the kleene star with at least one element, not \(\epsilon\) (i.e. R+ = RR*)","CS::DM565::Sipser::1, CS::formal-languages"

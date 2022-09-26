@@ -2406,7 +2406,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "What does the regular expression \\(0 \\cup 1)* \\) mean?",
+                "What does the regular expression \\( (0 \\cup 1)* \\) mean?",
                 "It is the expression for the language consisting of all possible strings of 0’s and 1’s"
             ],
             "flags": 0,
