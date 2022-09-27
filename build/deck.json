@@ -1025,6 +1025,171 @@
             "__type__": "Note",
             "data": "",
             "fields": [
+                "In Scrum, when are the following topics addressed? \"Why is this Sprint valuable?\", \"What can be done this Sprint?\" and \"How will the chosen work get done?\"",
+                "During Sprint planning."
+            ],
+            "flags": 0,
+            "guid": "Oo9baPjx6Y",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM571::Lecture3",
+                "CS::software-engineering"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the purpose of the Sprint Review?",
+                "To inspect the outcome of the Sprint and determine future adaptions."
+            ],
+            "flags": 0,
+            "guid": "KA+<XO2a_I",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM571::Lecture3",
+                "CS::software-engineering"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "In Scrum, can developers only adjust their plan during the Daily Scrum?",
+                "No, they often meet throughout the day for more detaqiled discussions about adapting or re-planning the rest of the Sprint's work."
+            ],
+            "flags": 0,
+            "guid": "d2K$lcrgve",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM571::Lecture3",
+                "CS::software-engineering"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the purpose of the Sprint Retrospective?",
+                "To plan ways to increase quality and effectiveness"
+            ],
+            "flags": 0,
+            "guid": "w0dNk|bj,0",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM571::Lecture3",
+                "CS::software-engineering"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Which Scrum Event concludes the Sprint?",
+                "The Sprint Retrospective"
+            ],
+            "flags": 0,
+            "guid": "PIJ7Yx~}Rs",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM571::Lecture3",
+                "CS::software-engineering"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "In Scrum, why do the artifact commitments exist?",
+                "To reinforce empiricism and the Scrum values for the Scrum Team and their stakeholders."
+            ],
+            "flags": 0,
+            "guid": "r&Dfa?!3fh",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM571::Lecture3",
+                "CS::software-engineering"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the single source of work undertaken by the Scrum team?",
+                "The Product Backlog"
+            ],
+            "flags": 0,
+            "guid": ">vZAuh*kp",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM571::Lecture3",
+                "CS::software-engineering"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the highly visible, real-time picture of the work that the Developers plan to accomplish during the Sprint in order to achieve the Sprint Goal?",
+                "The Sprint Backlog"
+            ],
+            "flags": 0,
+            "guid": "mf;r1+)rg7",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM571::Lecture3",
+                "CS::software-engineering"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "In Scrum, when are the topics of why the sprint is valuable, what can be done this sprint, and how will the chosen work get done addressed?",
+                "During sprint planning"
+            ],
+            "flags": 0,
+            "guid": "pp)D,BwI_3",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM571::Lecture3",
+                "CS::software-engineering"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Commitment, focus, openness, respect and courage are the 5 values of which framework?",
+                "Scrum"
+            ],
+            "flags": 0,
+            "guid": "o[V>LB8?Is",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM571::Lecture3",
+                "CS::software-engineering"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "In Scrum, when does all the work necessary to achieve the Product Goal, including Sprint Planning, Daily Scrums, Sprint Review and Sprint Retrospective happen?",
+                "Within Sprints themselves."
+            ],
+            "flags": 0,
+            "guid": "y)9k/=?C`;",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM571::Lecture3",
+                "CS::software-engineering"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
                 "These days most projects follow&nbsp;{{c1::Agile Methodology::method}}, some form of&nbsp;{{c2::Iterative model::model}} or one of the other models depending on their project specific requirement.&nbsp;",
                 "Up untill the year 2000 the waterfall model was used significantly."
             ],
@@ -1543,6 +1708,66 @@
             "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
             "tags": [
                 "CS::DM551::Rosen::Chapter6::5",
+                "CS::algorithms-and-probability"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Given \\(P(A|B)\\), what is Bayes Theorem?",
+                "\\(P(A|B) = \\frac{P(B|A) \\cdot P(A)}{P(B)}\\)"
+            ],
+            "flags": 0,
+            "guid": "Q2PltPTj|/",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM551::Rosen::Chapter7::3",
+                "CS::algorithms-and-probability"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "How can we calculate \\(p(A | B)\\) if we don't know the items in the set?",
+                "\\(p(A \\cap B)/p(B)\\)"
+            ],
+            "flags": 0,
+            "guid": "H]>~wSTkp3",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM551::Rosen::Chapter7::3",
+                "CS::algorithms-and-probability"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the definition of conditional probability?",
+                "\\(P(A|B) = \\frac{P(A \\cap b)}{P(B)}\\)"
+            ],
+            "flags": 0,
+            "guid": "b`;P$>Yu[7",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM551::Rosen::Chapter7::3",
+                "CS::algorithms-and-probability"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What does \\(P(F|E)\\) mean?",
+                "The probability that F occurs given that E occurs."
+            ],
+            "flags": 0,
+            "guid": "g{JS.Q%8,k",
+            "note_model_uuid": "539ca89c-a514-11ec-b44f-acde48001122",
+            "tags": [
+                "CS::DM551::Rosen::Chapter7::3",
                 "CS::algorithms-and-probability"
             ]
         },
