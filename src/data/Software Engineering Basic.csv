@@ -71,3 +71,8 @@ mf;r1+)rg7,"What is the highly visible, real-time picture of the work that the D
 "pp)D,BwI_3","In Scrum, when are the topics of why the sprint is valuable, what can be done this sprint, and how will the chosen work get done addressed?",During sprint planning,"CS::DM571::Lecture3, CS::software-engineering"
 o[V>LB8?Is,"Commitment, focus, openness, respect and courage are the 5 values of which framework?",Scrum,"CS::DM571::Lecture3, CS::software-engineering"
 y)9k/=?C`;,"In Scrum, when does all the work necessary to achieve the Product Goal, including Sprint Planning, Daily Scrums, Sprint Review and Sprint Retrospective happen?",Within Sprints themselves.,"CS::DM571::Lecture3, CS::software-engineering"
+,What are large user stories generally known as? ,Stories that cover large amounts of functionality are usually called epics.,"CS::DM571::Lecture5, CS::software-engineering"
+,Is an epic agile user story generally large or small?,Too large for an agile team to complete in one iteration.,"CS::DM571::Lecture5, CS::software-engineering"
+,What can we do to make epic agile user stories more digistible?,Split them up.,"CS::DM571::Lecture5, CS::software-engineering"
+,What are non-functional requirements? ,"A requirement that specifies criteria that can be used to judge the operation of a system, rather than specific behaviours. For example reliability, avilability, portability etc. ","CS::DM571::Lecture5, CS::software-engineering"
+,What are Job Stories great for?,"Epics. They are however, difficult to split.","CS::DM571::Lecture5, CS::software-engineering"
